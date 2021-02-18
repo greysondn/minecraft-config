@@ -1,3 +1,5 @@
+*.bak
+*.swp
 .mixin.out
 1.16.5.json
 crash-reports
