@@ -1,0 +1,11 @@
++----------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| ID                                                       | Tagged objects                                                                                       |
++----------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| appliedenergistics2:blacklisted/fluid_annihilation_plane |                                                                                                      |
+| forge:steam                                              | biggerreactors:fluid_irradiated_steam                                                                |
+| minecraft:lava                                           | minecraft:lava, securitycraft:fake_lava, minecraft:flowing_lava, securitycraft:flowing_fake_lava     |
+| minecraft:water                                          | securitycraft:flowing_fake_water, minecraft:flowing_water, securitycraft:fake_water, minecraft:water |
+| mubble:freezable/ice                                     | minecraft:water                                                                                      |
++----------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| ID                                                       | Tagged objects                                                                                       |
++----------------------------------------------------------+------------------------------------------------------------------------------------------------------+

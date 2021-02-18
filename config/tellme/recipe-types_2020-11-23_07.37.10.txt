@@ -1,0 +1,37 @@
++-------------------------------+
+| Registry name                 |
++-------------------------------+
+| appliedenergistics2:grinder   |
+| appliedenergistics2:inscriber |
+| cfm:grill_cooking             |
+| crafttweaker:scripts          |
+| create:conversion             |
+| create:crushing               |
+| create:cutting                |
+| create:mechanical_crafting    |
+| create:milling                |
+| create:mixing                 |
+| create:pressing               |
+| create:sandpaper_polishing    |
+| create:splashing              |
+| createintegration:rolling     |
+| indreb:crushing               |
+| indreb:electric_furnace       |
+| minecraft:blasting            |
+| minecraft:campfire_cooking    |
+| minecraft:crafting            |
+| minecraft:crop                |
+| minecraft:fertilizer          |
+| minecraft:smelting            |
+| minecraft:smithing            |
+| minecraft:smoking             |
+| minecraft:soil                |
+| minecraft:stonecutting        |
+| morered:gatecrafting          |
+| titanium:test_serializer      |
+| vehicle:crafting              |
+| vehicle:fluid_extractor       |
+| vehicle:fluid_mixer           |
++-------------------------------+
+| Registry name                 |
++-------------------------------+

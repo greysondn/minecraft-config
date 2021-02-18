@@ -1,0 +1,13 @@
+[
+  {
+    "mob": ["minecraft:creeper", "minecraft:skeleton"],
+    "result": "default"
+  },
+  {
+    "passive": true,
+    "result": "default"
+  },
+  {
+    "result": "deny"
+  }
+]

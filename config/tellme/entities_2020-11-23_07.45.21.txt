@@ -1,0 +1,473 @@
++----------------------------+--------------------------------------------------+-----+
+| Mod name                   | Registry name                                    |  ID |
++----------------------------+--------------------------------------------------+-----+
+| Abnormals Core             | abnormals_core:boat                              | 328 |
+| Applied Energistics 2      | appliedenergistics2:charged_quartz               | 335 |
+| Applied Energistics 2      | appliedenergistics2:growing_crystal              | 336 |
+| Applied Energistics 2      | appliedenergistics2:singularity                  | 334 |
+| Applied Energistics 2      | appliedenergistics2:tiny_tnt_primed              | 333 |
+| Artifacts                  | artifacts:mimic                                  | 337 |
+| Azuredooms Doom Mod        | doomweapon:arachnotron                           | 407 |
+| Azuredooms Doom Mod        | doomweapon:archvile                              | 404 |
+| Azuredooms Doom Mod        | doomweapon:argent_bolt                           | 391 |
+| Azuredooms Doom Mod        | doomweapon:barenblast                            | 397 |
+| Azuredooms Doom Mod        | doomweapon:baron                                 | 405 |
+| Azuredooms Doom Mod        | doomweapon:barrel                                | 389 |
+| Azuredooms Doom Mod        | doomweapon:bfg_cell                              | 394 |
+| Azuredooms Doom Mod        | doomweapon:bullets                               | 398 |
+| Azuredooms Doom Mod        | doomweapon:cacodemon                             | 403 |
+| Azuredooms Doom Mod        | doomweapon:chaingunbullets                       | 399 |
+| Azuredooms Doom Mod        | doomweapon:chaingunner                           | 412 |
+| Azuredooms Doom Mod        | doomweapon:cyberdemon                            | 417 |
+| Azuredooms Doom Mod        | doomweapon:cyberdemon2016                        | 418 |
+| Azuredooms Doom Mod        | doomweapon:energy_cell                           | 393 |
+| Azuredooms Doom Mod        | doomweapon:energy_cell_mob                       | 425 |
+| Azuredooms Doom Mod        | doomweapon:gore_nest                             | 421 |
+| Azuredooms Doom Mod        | doomweapon:hellknight                            | 416 |
+| Azuredooms Doom Mod        | doomweapon:iconofsin                             | 424 |
+| Azuredooms Doom Mod        | doomweapon:imp                                   | 400 |
+| Azuredooms Doom Mod        | doomweapon:imp2016                               | 411 |
+| Azuredooms Doom Mod        | doomweapon:lost_soul                             | 396 |
+| Azuredooms Doom Mod        | doomweapon:mancubus                              | 406 |
+| Azuredooms Doom Mod        | doomweapon:marauder                              | 413 |
+| Azuredooms Doom Mod        | doomweapon:mechazombie                           | 423 |
+| Azuredooms Doom Mod        | doomweapon:nightmare_imp                         | 401 |
+| Azuredooms Doom Mod        | doomweapon:painelemental                         | 415 |
+| Azuredooms Doom Mod        | doomweapon:pinky                                 | 402 |
+| Azuredooms Doom Mod        | doomweapon:possessed_scientist                   | 422 |
+| Azuredooms Doom Mod        | doomweapon:possessed_soldier                     | 420 |
+| Azuredooms Doom Mod        | doomweapon:revenant                              | 410 |
+| Azuredooms Doom Mod        | doomweapon:rocket                                | 395 |
+| Azuredooms Doom Mod        | doomweapon:rocket_mob                            | 426 |
+| Azuredooms Doom Mod        | doomweapon:shotgun_shell                         | 390 |
+| Azuredooms Doom Mod        | doomweapon:shotgunguy                            | 414 |
+| Azuredooms Doom Mod        | doomweapon:spiderdemon                           | 408 |
+| Azuredooms Doom Mod        | doomweapon:unmaykr_bolt                          | 392 |
+| Azuredooms Doom Mod        | doomweapon:unwilling                             | 419 |
+| Azuredooms Doom Mod        | doomweapon:zombieman                             | 409 |
+| Better Animals Plus        | betteranimalsplus:badger                         | 358 |
+| Better Animals Plus        | betteranimalsplus:badgerdirt                     | 339 |
+| Better Animals Plus        | betteranimalsplus:barracuda                      | 374 |
+| Better Animals Plus        | betteranimalsplus:blackbear                      | 345 |
+| Better Animals Plus        | betteranimalsplus:boar                           | 355 |
+| Better Animals Plus        | betteranimalsplus:bobbit_worm                    | 366 |
+| Better Animals Plus        | betteranimalsplus:brownbear                      | 344 |
+| Better Animals Plus        | betteranimalsplus:butterfly                      | 372 |
+| Better Animals Plus        | betteranimalsplus:coyote                         | 349 |
+| Better Animals Plus        | betteranimalsplus:crab                           | 361 |
+| Better Animals Plus        | betteranimalsplus:deer                           | 346 |
+| Better Animals Plus        | betteranimalsplus:dragonfly                      | 373 |
+| Better Animals Plus        | betteranimalsplus:eel_freshwater                 | 368 |
+| Better Animals Plus        | betteranimalsplus:eel_saltwater                  | 369 |
+| Better Animals Plus        | betteranimalsplus:feralwolf                      | 348 |
+| Better Animals Plus        | betteranimalsplus:flying_fish                    | 375 |
+| Better Animals Plus        | betteranimalsplus:goat                           | 351 |
+| Better Animals Plus        | betteranimalsplus:golden_goose_egg               | 343 |
+| Better Animals Plus        | betteranimalsplus:goose                          | 367 |
+| Better Animals Plus        | betteranimalsplus:goose_egg                      | 342 |
+| Better Animals Plus        | betteranimalsplus:horseshoecrab                  | 362 |
+| Better Animals Plus        | betteranimalsplus:jellyfish                      | 352 |
+| Better Animals Plus        | betteranimalsplus:lammergeier                    | 347 |
+| Better Animals Plus        | betteranimalsplus:lamprey                        | 359 |
+| Better Animals Plus        | betteranimalsplus:moose                          | 364 |
+| Better Animals Plus        | betteranimalsplus:nautilus                       | 360 |
+| Better Animals Plus        | betteranimalsplus:octopus                        | 379 |
+| Better Animals Plus        | betteranimalsplus:pheasant                       | 353 |
+| Better Animals Plus        | betteranimalsplus:pheasant_egg                   | 340 |
+| Better Animals Plus        | betteranimalsplus:piranha                        | 378 |
+| Better Animals Plus        | betteranimalsplus:reindeer                       | 354 |
+| Better Animals Plus        | betteranimalsplus:shark                          | 363 |
+| Better Animals Plus        | betteranimalsplus:songbird                       | 357 |
+| Better Animals Plus        | betteranimalsplus:squid_colossal                 | 376 |
+| Better Animals Plus        | betteranimalsplus:squid_giant                    | 377 |
+| Better Animals Plus        | betteranimalsplus:squirrel                       | 356 |
+| Better Animals Plus        | betteranimalsplus:tarantula                      | 350 |
+| Better Animals Plus        | betteranimalsplus:tarantulahair                  | 338 |
+| Better Animals Plus        | betteranimalsplus:turkey                         | 365 |
+| Better Animals Plus        | betteranimalsplus:turkey_egg                     | 341 |
+| Better Animals Plus        | betteranimalsplus:walrus                         | 371 |
+| Better Animals Plus        | betteranimalsplus:whale                          | 370 |
+| Charm                      | charm:endermite_powder                           | 439 |
+| Clumps                     | clumps:xp_orb_big                                | 332 |
+| Create                     | create:contraption                               | 330 |
+| Create                     | create:stationary_contraption                    | 331 |
+| Create                     | create:super_glue                                | 329 |
+| Dungeons Gear              | dungeons_gear:ice_cloud                          | 327 |
+| Explorercraft              | explorercraft:brush_stooge                       | 381 |
+| Explorercraft              | explorercraft:enderghast                         | 382 |
+| Explorercraft              | explorercraft:enderreeper                        | 383 |
+| Explorercraft              | explorercraft:infected_creeper                   | 384 |
+| Explorercraft              | explorercraft:infected_skeleton                  | 385 |
+| Explorercraft              | explorercraft:infected_zombie                    | 386 |
+| Explorercraft              | explorercraft:skeletaur                          | 387 |
+| Explorercraft              | explorercraft:wizard                             | 388 |
+| Extended Nether Backport   | extendednether:hoglin                            | 462 |
+| Extended Nether Backport   | extendednether:piglin                            | 463 |
+| Extended Nether Backport   | extendednether:strider                           | 464 |
+| Extended Nether Backport   | extendednether:zoglin                            | 465 |
+| Extended Nether Backport   | extendednether:zombified_piglin                  | 466 |
+| Fairy Lights               | fairylights:fastener                             | 113 |
+| Farming for Blockheads     | farmingforblockheads:merchant                    | 380 |
+| Flux Networks              | fluxnetworks:fireitem                            | 445 |
+| Joy of Painting            | xercapaint:canvas                                | 114 |
+| Minecraft                  | minecraft:area_effect_cloud                      |   0 |
+| Minecraft                  | minecraft:armor_stand                            |   1 |
+| Minecraft                  | minecraft:arrow                                  |   2 |
+| Minecraft                  | minecraft:bat                                    |   3 |
+| Minecraft                  | minecraft:bee                                    |   4 |
+| Minecraft                  | minecraft:blaze                                  |   5 |
+| Minecraft                  | minecraft:boat                                   |   6 |
+| Minecraft                  | minecraft:cat                                    |   7 |
+| Minecraft                  | minecraft:cave_spider                            |   8 |
+| Minecraft                  | minecraft:chest_minecart                         |  43 |
+| Minecraft                  | minecraft:chicken                                |   9 |
+| Minecraft                  | minecraft:cod                                    |  10 |
+| Minecraft                  | minecraft:command_block_minecart                 |  44 |
+| Minecraft                  | minecraft:cow                                    |  11 |
+| Minecraft                  | minecraft:creeper                                |  12 |
+| Minecraft                  | minecraft:dolphin                                |  14 |
+| Minecraft                  | minecraft:donkey                                 |  13 |
+| Minecraft                  | minecraft:dragon_fireball                        |  15 |
+| Minecraft                  | minecraft:drowned                                |  16 |
+| Minecraft                  | minecraft:egg                                    |  79 |
+| Minecraft                  | minecraft:elder_guardian                         |  17 |
+| Minecraft                  | minecraft:end_crystal                            |  18 |
+| Minecraft                  | minecraft:ender_dragon                           |  19 |
+| Minecraft                  | minecraft:ender_pearl                            |  80 |
+| Minecraft                  | minecraft:enderman                               |  20 |
+| Minecraft                  | minecraft:endermite                              |  21 |
+| Minecraft                  | minecraft:evoker                                 |  23 |
+| Minecraft                  | minecraft:evoker_fangs                           |  22 |
+| Minecraft                  | minecraft:experience_bottle                      |  81 |
+| Minecraft                  | minecraft:experience_orb                         |  24 |
+| Minecraft                  | minecraft:eye_of_ender                           |  25 |
+| Minecraft                  | minecraft:falling_block                          |  26 |
+| Minecraft                  | minecraft:fireball                               |  37 |
+| Minecraft                  | minecraft:firework_rocket                        |  27 |
+| Minecraft                  | minecraft:fishing_bobber                         | 102 |
+| Minecraft                  | minecraft:fox                                    |  28 |
+| Minecraft                  | minecraft:furnace_minecart                       |  45 |
+| Minecraft                  | minecraft:ghast                                  |  29 |
+| Minecraft                  | minecraft:giant                                  |  30 |
+| Minecraft                  | minecraft:guardian                               |  31 |
+| Minecraft                  | minecraft:hopper_minecart                        |  46 |
+| Minecraft                  | minecraft:horse                                  |  32 |
+| Minecraft                  | minecraft:husk                                   |  33 |
+| Minecraft                  | minecraft:illusioner                             |  34 |
+| Minecraft                  | minecraft:iron_golem                             |  86 |
+| Minecraft                  | minecraft:item                                   |  35 |
+| Minecraft                  | minecraft:item_frame                             |  36 |
+| Minecraft                  | minecraft:leash_knot                             |  38 |
+| Minecraft                  | minecraft:lightning_bolt                         | 100 |
+| Minecraft                  | minecraft:llama                                  |  39 |
+| Minecraft                  | minecraft:llama_spit                             |  40 |
+| Minecraft                  | minecraft:magma_cube                             |  41 |
+| Minecraft                  | minecraft:minecart                               |  42 |
+| Minecraft                  | minecraft:mooshroom                              |  50 |
+| Minecraft                  | minecraft:mule                                   |  49 |
+| Minecraft                  | minecraft:ocelot                                 |  51 |
+| Minecraft                  | minecraft:painting                               |  52 |
+| Minecraft                  | minecraft:panda                                  |  53 |
+| Minecraft                  | minecraft:parrot                                 |  54 |
+| Minecraft                  | minecraft:phantom                                |  98 |
+| Minecraft                  | minecraft:pig                                    |  55 |
+| Minecraft                  | minecraft:pillager                               |  88 |
+| Minecraft                  | minecraft:player                                 | 101 |
+| Minecraft                  | minecraft:polar_bear                             |  58 |
+| Minecraft                  | minecraft:potion                                 |  82 |
+| Minecraft                  | minecraft:pufferfish                             |  56 |
+| Minecraft                  | minecraft:rabbit                                 |  60 |
+| Minecraft                  | minecraft:ravager                                |  99 |
+| Minecraft                  | minecraft:salmon                                 |  61 |
+| Minecraft                  | minecraft:sheep                                  |  62 |
+| Minecraft                  | minecraft:shulker                                |  63 |
+| Minecraft                  | minecraft:shulker_bullet                         |  64 |
+| Minecraft                  | minecraft:silverfish                             |  65 |
+| Minecraft                  | minecraft:skeleton                               |  66 |
+| Minecraft                  | minecraft:skeleton_horse                         |  67 |
+| Minecraft                  | minecraft:slime                                  |  68 |
+| Minecraft                  | minecraft:small_fireball                         |  69 |
+| Minecraft                  | minecraft:snow_golem                             |  70 |
+| Minecraft                  | minecraft:snowball                               |  71 |
+| Minecraft                  | minecraft:spawner_minecart                       |  47 |
+| Minecraft                  | minecraft:spectral_arrow                         |  72 |
+| Minecraft                  | minecraft:spider                                 |  73 |
+| Minecraft                  | minecraft:squid                                  |  74 |
+| Minecraft                  | minecraft:stray                                  |  75 |
+| Minecraft                  | minecraft:tnt                                    |  59 |
+| Minecraft                  | minecraft:tnt_minecart                           |  48 |
+| Minecraft                  | minecraft:trader_llama                           |  76 |
+| Minecraft                  | minecraft:trident                                |  83 |
+| Minecraft                  | minecraft:tropical_fish                          |  77 |
+| Minecraft                  | minecraft:turtle                                 |  78 |
+| Minecraft                  | minecraft:vex                                    |  84 |
+| Minecraft                  | minecraft:villager                               |  85 |
+| Minecraft                  | minecraft:vindicator                             |  87 |
+| Minecraft                  | minecraft:wandering_trader                       |  89 |
+| Minecraft                  | minecraft:witch                                  |  90 |
+| Minecraft                  | minecraft:wither                                 |  91 |
+| Minecraft                  | minecraft:wither_skeleton                        |  92 |
+| Minecraft                  | minecraft:wither_skull                           |  93 |
+| Minecraft                  | minecraft:wolf                                   |  94 |
+| Minecraft                  | minecraft:zombie                                 |  95 |
+| Minecraft                  | minecraft:zombie_horse                           |  96 |
+| Minecraft                  | minecraft:zombie_pigman                          |  57 |
+| Minecraft                  | minecraft:zombie_villager                        |  97 |
+| MrCrayfish's Furniture Mod | cfm:seat                                         | 279 |
+| MrCrayfish's Vehicle Mod   | vehicle:aluminum_boat                            | 123 |
+| MrCrayfish's Vehicle Mod   | vehicle:atv                                      | 115 |
+| MrCrayfish's Vehicle Mod   | vehicle:bath                                     | 139 |
+| MrCrayfish's Vehicle Mod   | vehicle:bumper_car                               | 120 |
+| MrCrayfish's Vehicle Mod   | vehicle:couch                                    | 138 |
+| MrCrayfish's Vehicle Mod   | vehicle:dirt_bike                                | 132 |
+| MrCrayfish's Vehicle Mod   | vehicle:dune_buggy                               | 116 |
+| MrCrayfish's Vehicle Mod   | vehicle:fertilizer                               | 137 |
+| MrCrayfish's Vehicle Mod   | vehicle:fluid_trailer                            | 135 |
+| MrCrayfish's Vehicle Mod   | vehicle:go_kart                                  | 117 |
+| MrCrayfish's Vehicle Mod   | vehicle:golf_cart                                | 128 |
+| MrCrayfish's Vehicle Mod   | vehicle:jack                                     | 141 |
+| MrCrayfish's Vehicle Mod   | vehicle:jet_ski                                  | 121 |
+| MrCrayfish's Vehicle Mod   | vehicle:lawn_mower                               | 125 |
+| MrCrayfish's Vehicle Mod   | vehicle:mini_bike                                | 119 |
+| MrCrayfish's Vehicle Mod   | vehicle:mini_bus                                 | 131 |
+| MrCrayfish's Vehicle Mod   | vehicle:moped                                    | 126 |
+| MrCrayfish's Vehicle Mod   | vehicle:off_roader                               | 129 |
+| MrCrayfish's Vehicle Mod   | vehicle:seeder                                   | 136 |
+| MrCrayfish's Vehicle Mod   | vehicle:shopping_cart                            | 118 |
+| MrCrayfish's Vehicle Mod   | vehicle:smart_car                                | 124 |
+| MrCrayfish's Vehicle Mod   | vehicle:sofacopter                               | 140 |
+| MrCrayfish's Vehicle Mod   | vehicle:speed_boat                               | 122 |
+| MrCrayfish's Vehicle Mod   | vehicle:sports_plane                             | 127 |
+| MrCrayfish's Vehicle Mod   | vehicle:storage_trailer                          | 134 |
+| MrCrayfish's Vehicle Mod   | vehicle:tractor                                  | 130 |
+| MrCrayfish's Vehicle Mod   | vehicle:vehicle_trailer                          | 133 |
+| Mubble                     | mubble:chincho                                   | 456 |
+| Mubble                     | mubble:custom_tnt                                | 454 |
+| Mubble                     | mubble:duck                                      | 452 |
+| Mubble                     | mubble:fireball                                  | 459 |
+| Mubble                     | mubble:flying_block                              | 455 |
+| Mubble                     | mubble:goomba                                    | 457 |
+| Mubble                     | mubble:iceball                                   | 460 |
+| Mubble                     | mubble:kirby_ball                                | 461 |
+| Mubble                     | mubble:toad                                      | 458 |
+| Mubble                     | mubble:zombie_cowman                             | 453 |
+| NetherEx                   | netherex:coolmar_spider                          | 326 |
+| NetherEx                   | netherex:mogus                                   | 320 |
+| NetherEx                   | netherex:salamander                              | 321 |
+| NetherEx                   | netherex:spinout                                 | 322 |
+| NetherEx                   | netherex:spore                                   | 323 |
+| NetherEx                   | netherex:spore_creeper                           | 324 |
+| NetherEx                   | netherex:wight                                   | 325 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:aeromancer                   | 177 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:alien                        | 255 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ancient_vampire              | 236 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ant                          | 148 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:aquarachnid                  | 161 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:beetle                       | 163 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bionic                       | 241 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:biter                        | 268 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:black_ant                    | 230 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:black_knight                 | 164 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:black_widow_spider           | 264 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blazer                       | 222 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blighted                     | 186 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blooded                      | 211 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blueback_spider              | 263 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bluecoat                     | 209 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bograchnid                   | 144 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bonerachnid                  | 145 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bull                         | 142 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:buried                       | 173 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:candy_corn                   | 245 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cave_scorpion                | 199 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:caverachnid                  | 147 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cavesquatch                  | 193 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:charred                      | 150 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:chomper                      | 227 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:clown                        | 221 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:commander_candy_corn         | 246 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:copperoid                    | 143 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:crimson_knight               | 231 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cruncher                     | 244 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cursed                       | 179 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:darkrachnid                  | 249 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:darksquatch                  | 248 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:decayer                      | 250 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:deepur                       | 172 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:desert_knight                | 168 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dionic                       | 243 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:diseased_rat                 | 183 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:drakula                      | 234 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:draugr                       | 204 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dreadlich_boss               | 153 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dust_mummy                   | 251 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dweller                      | 162 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletaeromancer       | 178 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletair_staff        | 176 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletmusket           | 206 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletninja            | 201 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletredcoat          | 208 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletshuriken_shooter | 202 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybullettower_guardian   | 175 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:fleshrachnid                 | 212 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:frost_husk                   | 225 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:frost_scorpion               | 218 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:frostrachnid                 | 237 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:geode                        | 197 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ghost                        | 247 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:glowboar                     | 235 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:goblin                       | 187 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:golden_knight                | 258 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:gorgon                       | 260 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:haunted_armor                | 146 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hell_rat                     | 265 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hell_scorpion                | 220 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hermit_creep                 | 210 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hobgoblin                    | 215 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hobgoblin_chief              | 216 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hollow                       | 203 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:houndeye                     | 253 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:iceman                       | 159 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:illager_knight               | 184 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:illager_rebel                | 158 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:infected_husk                | 229 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ionic                        | 239 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:jungle_woodrachnid           | 151 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:knight                       | 166 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:martian                      | 256 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:mawrachnid                   | 196 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:monolith_guard               | 198 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:mummy                        | 167 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:muncher                      | 223 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:neon_rat                     | 181 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:neonic                       | 240 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:nether_beast                 | 152 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:netherracknid                | 228 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ninja                        | 200 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:phantorachnid                | 269 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:pharoah                      | 170 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:piglien                      | 257 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:plague_mummy                 | 267 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:platinum_knight              | 266 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:poprachnid                   | 205 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:psionic                      | 242 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:rainbow_rat                  | 182 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:rainbowrachnid               | 232 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:rat                          | 180 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:red_scorpion                 | 217 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:redcoat                      | 207 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:robot                        | 188 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:royal_illager_knight         | 185 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sand_rat                     | 224 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sandsquatch                  | 169 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sasquatch                    | 160 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:scarecrow                    | 213 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:scorpion                     | 154 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:silver_knight                | 195 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sky_knight                   | 261 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:special_goblin_skullripper   | 252 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:spider_broodfather           | 214 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:spider_broodmother_boss      | 156 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:spriggan                     | 189 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:squidman                     | 155 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:stone_statue                 | 259 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:swampsquatch                 | 194 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:tarantula                    | 191 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:termite                      | 192 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:the_white_pumpkin            | 262 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:tower_guardian               | 174 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:tower_sentinel               | 254 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:toxic_scorpion               | 219 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:vampire                      | 233 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:werewolf_den                 | 226 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:white_knight                 | 165 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:wight                        | 171 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:wildfire_spriggan            | 190 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:wood_elf                     | 238 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:woodrachnid                  | 149 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:yeti                         | 157 |
+| Oh The Biomes You'll Go    | byg:boat                                         | 446 |
+| Playing Cards              | playingcards:card                                | 447 |
+| Playing Cards              | playingcards:card_deck                           | 448 |
+| Playing Cards              | playingcards:dice                                | 450 |
+| Playing Cards              | playingcards:poker_chip                          | 449 |
+| Playing Cards              | playingcards:seat                                | 451 |
+| ProjectE                   | projecte:fire_projectile                         | 110 |
+| ProjectE                   | projecte:homing_arrow                            | 109 |
+| ProjectE                   | projecte:lava_projectile                         | 104 |
+| ProjectE                   | projecte:lens_projectile                         | 106 |
+| ProjectE                   | projecte:mob_randomizer                          | 105 |
+| ProjectE                   | projecte:nova_cataclysm_primed                   | 108 |
+| ProjectE                   | projecte:nova_catalyst_primed                    | 107 |
+| ProjectE                   | projecte:swrg_projectile                         | 111 |
+| ProjectE                   | projecte:water_projectile                        | 103 |
+| Quark                      | quark:chest_passenger                            | 429 |
+| Quark                      | quark:colored_frame                              | 437 |
+| Quark                      | quark:crab                                       | 432 |
+| Quark                      | quark:foxhound                                   | 438 |
+| Quark                      | quark:frog                                       | 433 |
+| Quark                      | quark:glass_frame                                | 436 |
+| Quark                      | quark:gravisand                                  | 427 |
+| Quark                      | quark:pickarang                                  | 431 |
+| Quark                      | quark:stoneling                                  | 435 |
+| Quark                      | quark:toretoise                                  | 434 |
+| Quark                      | quark:totem                                      | 428 |
+| Quark                      | quark:wrapped                                    | 430 |
+| SecurityCraft              | securitycraft:bouncingbetty                      | 440 |
+| SecurityCraft              | securitycraft:bullet                             | 444 |
+| SecurityCraft              | securitycraft:imsbomb                            | 441 |
+| SecurityCraft              | securitycraft:securitycamera                     | 442 |
+| SecurityCraft              | securitycraft:sentry                             | 443 |
+| Snail Mail                 | snailmail:snail_man                              | 112 |
+| Spartan Weaponry           | spartanweaponry:arrow                            | 270 |
+| Spartan Weaponry           | spartanweaponry:arrow_explosive                  | 271 |
+| Spartan Weaponry           | spartanweaponry:bolt                             | 272 |
+| Spartan Weaponry           | spartanweaponry:bolt_spectral                    | 273 |
+| Spartan Weaponry           | spartanweaponry:boomerang                        | 277 |
+| Spartan Weaponry           | spartanweaponry:dynamite                         | 278 |
+| Spartan Weaponry           | spartanweaponry:javelin                          | 276 |
+| Spartan Weaponry           | spartanweaponry:throwing_weapon                  | 274 |
+| Spartan Weaponry           | spartanweaponry:tomahawk                         | 275 |
+| Switch-Bow                 | switchbow:entityarrowair                         | 283 |
+| Switch-Bow                 | switchbow:entityarrowairupgrade                  | 314 |
+| Switch-Bow                 | switchbow:entityarrowbone                        | 293 |
+| Switch-Bow                 | switchbow:entityarrowboneaoe                     | 309 |
+| Switch-Bow                 | switchbow:entityarrowbouncy                      | 305 |
+| Switch-Bow                 | switchbow:entityarrowburial                      | 298 |
+| Switch-Bow                 | switchbow:entityarrowburialaoe                   | 311 |
+| Switch-Bow                 | switchbow:entityarrowchorus                      | 299 |
+| Switch-Bow                 | switchbow:entityarrowdiamond                     | 290 |
+| Switch-Bow                 | switchbow:entityarrowdragonbreath                | 301 |
+| Switch-Bow                 | switchbow:entityarrowenderperle                  | 284 |
+| Switch-Bow                 | switchbow:entityarrowfire                        | 292 |
+| Switch-Bow                 | switchbow:entityarrowfireupgrade                 | 312 |
+| Switch-Bow                 | switchbow:entityarrowfirework                    | 294 |
+| Switch-Bow                 | switchbow:entityarrowflytomoon                   | 316 |
+| Switch-Bow                 | switchbow:entityarrowfrost                       | 282 |
+| Switch-Bow                 | switchbow:entityarrowknockback                   | 304 |
+| Switch-Bow                 | switchbow:entityarrowlightningbolt               | 280 |
+| Switch-Bow                 | switchbow:entityarrowlightningboltstorm          | 308 |
+| Switch-Bow                 | switchbow:entityarrowlove                        | 291 |
+| Switch-Bow                 | switchbow:entityarrowluck                        | 296 |
+| Switch-Bow                 | switchbow:entityarrowluckupgrade                 | 313 |
+| Switch-Bow                 | switchbow:entityarrowofthesearcher               | 306 |
+| Switch-Bow                 | switchbow:entityarrowpiercing                    | 307 |
+| Switch-Bow                 | switchbow:entityarrowprotector                   | 303 |
+| Switch-Bow                 | switchbow:entityarrowredstone                    | 297 |
+| Switch-Bow                 | switchbow:entityarrowsplit                       | 288 |
+| Switch-Bow                 | switchbow:entityarrowsplitlove                   | 295 |
+| Switch-Bow                 | switchbow:entityarrowsplitloveupgrade            | 315 |
+| Switch-Bow                 | switchbow:entityarrowsplitupgrade                | 310 |
+| Switch-Bow                 | switchbow:entityarrowsprinkler                   | 300 |
+| Switch-Bow                 | switchbow:entityarrowtnt                         | 281 |
+| Switch-Bow                 | switchbow:entityarrowtorch                       | 287 |
+| Switch-Bow                 | switchbow:entityarrowtriple                      | 302 |
+| Switch-Bow                 | switchbow:entityarrowunderwater                  | 289 |
+| Switch-Bow                 | switchbow:entityarrowvampier                     | 285 |
+| Switch-Bow                 | switchbow:entityarrowwither                      | 286 |
+| Switch-Bow                 | switchbow:entityburial                           | 318 |
+| Switch-Bow                 | switchbow:entityfire                             | 317 |
+| Switch-Bow                 | switchbow:entitylittleirongolem                  | 319 |
++----------------------------+--------------------------------------------------+-----+
+| Mod name                   | Registry name                                    |  ID |
++----------------------------+--------------------------------------------------+-----+

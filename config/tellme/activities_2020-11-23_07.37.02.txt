@@ -1,0 +1,21 @@
++----------------------------+-------------+
+| Registry name              | Key         |
++----------------------------+-------------+
+| extendednether:admire_item | admire_item |
+| extendednether:avoid       | avoid       |
+| extendednether:celebrate   | celebrate   |
+| extendednether:fight       | fight       |
+| extendednether:ride        | ride        |
+| minecraft:core             | core        |
+| minecraft:hide             | hide        |
+| minecraft:idle             | idle        |
+| minecraft:meet             | meet        |
+| minecraft:panic            | panic       |
+| minecraft:play             | play        |
+| minecraft:pre_raid         | pre_raid    |
+| minecraft:raid             | raid        |
+| minecraft:rest             | rest        |
+| minecraft:work             | work        |
++----------------------------+-------------+
+| Registry name              | Key         |
++----------------------------+-------------+

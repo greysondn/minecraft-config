@@ -1,0 +1,129 @@
++-------------------------+-------------------------------+
+| Mod ID                  | Mod name                      |
++-------------------------+-------------------------------+
+| abnormals_core          | Abnormals Core                |
+| ageingspawners          | Ageing Spawners               |
+| aiimprovements          | AI-Improvements               |
+| akashictome             | Akashic Tome                  |
+| appliedenergistics2     | Applied Energistics 2         |
+| areas                   | Areas                         |
+| artifacts               | Artifacts                     |
+| attributefix            | AttributeFix                  |
+| autoreglib              | AutoRegLib                    |
+| behgameon               | Behgameon                     |
+| betteranimalsplus       | Better Animals Plus           |
+| betterburning           | BetterBurning                 |
+| bettercaves             | YUNG's Better Caves           |
+| bettermineshafts        | YUNG's Better Mineshafts      |
+| betterthanmending       | BetterThanMending             |
+| biggerreactors          | Bigger Reactors               |
+| bookshelf               | Bookshelf                     |
+| botanypots              | BotanyPots                    |
+| bountifulbaubles        | Bountiful Baubles             |
+| bowinfinityfix          | Bow Infinity Fix              |
+| byg                     | Oh The Biomes You'll Go       |
+| cfm                     | MrCrayfish's Furniture Mod    |
+| charm                   | Charm                         |
+| chickenchunks           | ChickenChunks                 |
+| cleancut                | Clean Cut                     |
+| clef                    | Clef                          |
+| clickmachine            | Click Machine                 |
+| clumps                  | Clumps                        |
+| codechickenlib          | CodeChicken Lib               |
+| coffeemod               | Coffee mod                    |
+| collective              | Collective                    |
+| crafttweaker            | CraftTweaker                  |
+| create                  | Create                        |
+| createintegration       | Create Integration            |
+| creeperfix              | CreeperFix                    |
+| ctm                     | ConnectedTexturesMod          |
+| curios                  | Curios API                    |
+| deathcounter            | Death Counter                 |
+| dimensionteleport       | Dimension Teleport            |
+| doomweapon              | Azuredooms Doom Mod           |
+| doubleslabs             | Double Slabs                  |
+| dungeoncrawl            | Dungeon Crawl                 |
+| dungeons_gear           | Dungeons Gear                 |
+| ears                    | Ears                          |
+| exp_bottling            | EXP Bottling                  |
+| explorercraft           | Explorercraft                 |
+| extendednether          | Extended Nether Backport      |
+| fairylights             | Fairy Lights                  |
+| farmingforblockheads    | Farming for Blockheads        |
+| fastleafdecay           | FastLeafDecay                 |
+| ffs                     | Fancy Fluid Storage           |
+| flatbedrock             | Flat Bedrock                  |
+| fluxnetworks            | Flux Networks                 |
+| foamdome                | Foam Dome                     |
+| forge                   | Forge                         |
+| forgeendertech          | Forge Endertech               |
+| futureversions          | Future Versions               |
+| gameoflife3d            | Game of Life 3D               |
+| geckolib3               | GeckoLib                      |
+| ht                      | Happy Trails Mod              |
+| ichunutil               | iChunUtil                     |
+| incontrol               | InControl                     |
+| indreb                  | Industrial Reborn             |
+| instantlava             | InstantLava                   |
+| islands                 | Islands                       |
+| libraryex               | LibraryEx                     |
+| mapperbase              | Mapper Base                   |
+| mcjtylib                | McJtyLib                      |
+| mcwbridges              | Macaw's Bridges               |
+| minecraft               | Minecraft                     |
+| minecraft2discord       | Minecraft2Discord             |
+| mob_statues             | Mob Statues                   |
+| morered                 | More Red                      |
+| morphtool               | Morph-o-Tool                  |
+| movingelevators         | Moving Elevators              |
+| mubble                  | Mubble                        |
+| naturescompass          | Nature's Compass              |
+| netherex                | NetherEx                      |
+| nomadictents            | Nomadic Tents                 |
+| nomoresleeping          | No More Sleeping              |
+| nonevaporation          | NonEvaporation                |
+| nuggets_dungeons_ii     | Nugget's Dungeons II          |
+| obfuscate               | Obfuscate                     |
+| oplock                  | Oplock                        |
+| performant              | Performant                    |
+| phosphophyllite         | Phosphophyllite               |
+| phosphor                | Phosphor                      |
+| ping                    | Ping                          |
+| placebo                 | Placebo                       |
+| playingcards            | Playing Cards                 |
+| portality               | Portality                     |
+| pretentious_grey_mod    | Pretentious Grey Mod          |
+| projecte                | ProjectE                      |
+| quark                   | Quark                         |
+| rftoolsbase             | RFToolsBase                   |
+| roadstuff               | Road Stuff                    |
+| rsgauges                | Gauges and Switches           |
+| scannable               | Scannable                     |
+| securitycraft           | SecurityCraft                 |
+| simplybackpacks         | Simply Backpacks              |
+| snailmail               | Snail Mail                    |
+| snowundertrees          | Snow Under Trees              |
+| spartanshields          | Spartan Shields               |
+| spartanweaponry         | Spartan Weaponry              |
+| switchbow               | Switch-Bow                    |
+| tellme                  | TellMe                        |
+| titanium                | Titanium                      |
+| tombstone               | Corail Tombstone              |
+| towers_of_the_wild      | Towers Of the Wild            |
+| uteamcore               | U Team Core                   |
+| vehicle                 | MrCrayfish's Vehicle Mod      |
+| voyage                  | Voyage                        |
+| w2w                     | w2w                           |
+| wailaharvestability     | Waila Harvestability          |
+| walljump                | Wall-Jump!                    |
+| waystones               | Waystones                     |
+| world_pre_generator     | World Pre Generator           |
+| worldeditcuife3         | WorldEdit CUI Forge Edition 3 |
+| worldgenerationprofiler | World Generation Profiler     |
+| xaerominimap            | Xaero's Minimap               |
+| xaeroworldmap           | Xaero's World Map             |
+| xercapaint              | Joy of Painting               |
+| xnet                    | XNet                          |
++-------------------------+-------------------------------+
+| Mod ID                  | Mod name                      |
++-------------------------+-------------------------------+

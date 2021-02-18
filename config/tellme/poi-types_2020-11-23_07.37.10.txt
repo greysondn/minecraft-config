@@ -1,0 +1,26 @@
++-------------------------+---------------+
+| Registry name           | Name          |
++-------------------------+---------------+
+| minecraft:armorer       | armorer       |
+| minecraft:bee_nest      | bee_nest      |
+| minecraft:beehive       | beehive       |
+| minecraft:butcher       | butcher       |
+| minecraft:cartographer  | cartographer  |
+| minecraft:cleric        | cleric        |
+| minecraft:farmer        | farmer        |
+| minecraft:fisherman     | fisherman     |
+| minecraft:fletcher      | fletcher      |
+| minecraft:home          | home          |
+| minecraft:leatherworker | leatherworker |
+| minecraft:librarian     | librarian     |
+| minecraft:mason         | mason         |
+| minecraft:meeting       | meeting       |
+| minecraft:nether_portal | nether_portal |
+| minecraft:nitwit        | nitwit        |
+| minecraft:shepherd      | shepherd      |
+| minecraft:toolsmith     | toolsmith     |
+| minecraft:unemployed    | unemployed    |
+| minecraft:weaponsmith   | weaponsmith   |
++-------------------------+---------------+
+| Registry name           | Name          |
++-------------------------+---------------+

@@ -1,0 +1,25 @@
+
+[Islands]
+	#Determines how rare islands will generate 
+	#10 by default
+	#Range: 5 ~ 10000
+	Rarity = 5
+	#List of banned biomes used for island generation, formated as resource keys <mod>:<biome> if <mod> is left out the system will treat them as vanilla biomes
+	#Note: If all the biomes are removed the Forest biome will be used as a default for all islands!
+	"Banned Island Biomes" = ["minecraft:the_end", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:small_end_islands", "minecraft:the_end", "minecraft:nether"]
+	#List of banned biomes used for ocean generation, formated as resource keys <mod>:<biome> if <mod> is left out the system will treat them as vanilla biomes
+	#Note 1: While any biome can be added here if the biome is not an ocean it will have no effect on the ocean generation!
+	#Note 2: If all oceans are removed then the Deep Ocean biome will be used as a default!
+	"Banned Ocean Biomes" = []
+	#Determines if the spawn island is the only island spawned in the world 
+	#false by default
+	"Survival Island" = false
+	#The maximum size an island can be 
+	#5 by default
+	#Range: 1 ~ 10
+	"Maximum Size" = 5
+	#The minimum size an island can be 
+	#2 by default
+	#Range: 1 ~ 10
+	"Minimum Size" = 1
+

@@ -1,0 +1,262 @@
++-----+--------------------------------------------+-----------------------------------------+-------+-----------+----------+----------+
+|  ID | Registry name                              | Biome name                              | Temp. | Temp Cat. | RainType | Downfall |
++-----+--------------------------------------------+-----------------------------------------+-------+-----------+----------+----------+
+|   0 | minecraft:ocean                            | Ocean                                   |  0.50 | OCEAN     |     rain |     0.50 |
+|   1 | minecraft:plains                           | Plains                                  |  0.80 | MEDIUM    |     rain |     0.40 |
+|   2 | minecraft:desert                           | Desert                                  |  2.00 | WARM      |        - |     0.00 |
+|   3 | minecraft:mountains                        | Mountains                               |  0.20 | MEDIUM    |     rain |     0.30 |
+|   4 | minecraft:forest                           | Forest                                  |  0.70 | MEDIUM    |     rain |     0.80 |
+|   5 | minecraft:taiga                            | Taiga                                   |  0.25 | MEDIUM    |     rain |     0.80 |
+|   6 | minecraft:swamp                            | Swamp                                   |  0.80 | MEDIUM    |     rain |     0.90 |
+|   7 | minecraft:river                            | River                                   |  0.50 | MEDIUM    |     rain |     0.50 |
+|   8 | minecraft:nether                           | Nether                                  |  2.00 | WARM      |        - |     0.00 |
+|   9 | minecraft:the_end                          | The End                                 |  0.50 | MEDIUM    |        - |     0.50 |
+|  10 | minecraft:frozen_ocean                     | Frozen Ocean                            |  0.00 | OCEAN     |     snow |     0.50 |
+|  11 | minecraft:frozen_river                     | Frozen River                            |  0.00 | COLD      |     snow |     0.50 |
+|  12 | minecraft:snowy_tundra                     | Snowy Tundra                            |  0.00 | COLD      |     snow |     0.50 |
+|  13 | minecraft:snowy_mountains                  | Snowy Mountains                         |  0.00 | COLD      |     snow |     0.50 |
+|  14 | minecraft:mushroom_fields                  | Mushroom Fields                         |  0.90 | MEDIUM    |     rain |     1.00 |
+|  15 | minecraft:mushroom_field_shore             | Mushroom Field Shore                    |  0.90 | MEDIUM    |     rain |     1.00 |
+|  16 | minecraft:beach                            | Beach                                   |  0.80 | MEDIUM    |     rain |     0.40 |
+|  17 | minecraft:desert_hills                     | Desert Hills                            |  2.00 | WARM      |        - |     0.00 |
+|  18 | minecraft:wooded_hills                     | Wooded Hills                            |  0.70 | MEDIUM    |     rain |     0.80 |
+|  19 | minecraft:taiga_hills                      | Taiga Hills                             |  0.25 | MEDIUM    |     rain |     0.80 |
+|  20 | minecraft:mountain_edge                    | Mountain Edge                           |  0.20 | MEDIUM    |     rain |     0.30 |
+|  21 | minecraft:jungle                           | Jungle                                  |  0.95 | MEDIUM    |     rain |     0.90 |
+|  22 | minecraft:jungle_hills                     | Jungle Hills                            |  0.95 | MEDIUM    |     rain |     0.90 |
+|  23 | minecraft:jungle_edge                      | Jungle Edge                             |  0.95 | MEDIUM    |     rain |     0.80 |
+|  24 | minecraft:deep_ocean                       | Deep Ocean                              |  0.50 | OCEAN     |     rain |     0.50 |
+|  25 | minecraft:stone_shore                      | Stone Shore                             |  0.20 | MEDIUM    |     rain |     0.30 |
+|  26 | minecraft:snowy_beach                      | Snowy Beach                             |  0.05 | COLD      |     snow |     0.30 |
+|  27 | minecraft:birch_forest                     | Birch Forest                            |  0.60 | MEDIUM    |     rain |     0.60 |
+|  28 | minecraft:birch_forest_hills               | Birch Forest Hills                      |  0.60 | MEDIUM    |     rain |     0.60 |
+|  29 | minecraft:dark_forest                      | Dark Forest                             |  0.70 | MEDIUM    |     rain |     0.80 |
+|  30 | minecraft:snowy_taiga                      | Snowy Taiga                             | -0.50 | COLD      |     snow |     0.40 |
+|  31 | minecraft:snowy_taiga_hills                | Snowy Taiga Hills                       | -0.50 | COLD      |     snow |     0.40 |
+|  32 | minecraft:giant_tree_taiga                 | Giant Tree Taiga                        |  0.30 | MEDIUM    |     rain |     0.80 |
+|  33 | minecraft:giant_tree_taiga_hills           | Giant Tree Taiga Hills                  |  0.30 | MEDIUM    |     rain |     0.80 |
+|  34 | minecraft:wooded_mountains                 | Wooded Mountains                        |  0.20 | MEDIUM    |     rain |     0.30 |
+|  35 | minecraft:savanna                          | Savanna                                 |  1.20 | WARM      |        - |     0.00 |
+|  36 | minecraft:savanna_plateau                  | Savanna Plateau                         |  1.00 | WARM      |        - |     0.00 |
+|  37 | minecraft:badlands                         | Badlands                                |  2.00 | WARM      |        - |     0.00 |
+|  38 | minecraft:wooded_badlands_plateau          | Wooded Badlands Plateau                 |  2.00 | WARM      |        - |     0.00 |
+|  39 | minecraft:badlands_plateau                 | Badlands Plateau                        |  2.00 | WARM      |        - |     0.00 |
+|  40 | minecraft:small_end_islands                | Small End Islands                       |  0.50 | MEDIUM    |        - |     0.50 |
+|  41 | minecraft:end_midlands                     | End Midlands                            |  0.50 | MEDIUM    |        - |     0.50 |
+|  42 | minecraft:end_highlands                    | End Highlands                           |  0.50 | MEDIUM    |        - |     0.50 |
+|  43 | minecraft:end_barrens                      | End Barrens                             |  0.50 | MEDIUM    |        - |     0.50 |
+|  44 | minecraft:warm_ocean                       | Warm Ocean                              |  0.50 | OCEAN     |     rain |     0.50 |
+|  45 | minecraft:lukewarm_ocean                   | Lukewarm Ocean                          |  0.50 | OCEAN     |     rain |     0.50 |
+|  46 | minecraft:cold_ocean                       | Cold Ocean                              |  0.50 | OCEAN     |     rain |     0.50 |
+|  47 | minecraft:deep_warm_ocean                  | Deep Warm Ocean                         |  0.50 | OCEAN     |     rain |     0.50 |
+|  48 | minecraft:deep_lukewarm_ocean              | Deep Lukewarm Ocean                     |  0.50 | OCEAN     |     rain |     0.50 |
+|  49 | minecraft:deep_cold_ocean                  | Deep Cold Ocean                         |  0.50 | OCEAN     |     rain |     0.50 |
+|  50 | minecraft:deep_frozen_ocean                | Deep Frozen Ocean                       |  0.50 | OCEAN     |     rain |     0.50 |
+|  51 | nomadictents:tent_biome                    | biome.nomadictents.tent_biome           |  0.50 | MEDIUM    |     rain |     0.50 |
+|  52 | nuggets_dungeons_ii:pumpkin_patch          | biome.nuggets_dungeons_ii.pumpkin_patch |  0.50 | MEDIUM    |     rain |     0.50 |
+|  53 | netherex:ruthless_sands                    | Ruthless Sands                          |  2.00 | WARM      |        - |     0.00 |
+|  54 | netherex:fungi_forest                      | Fungi Forest                            |  2.00 | WARM      |        - |     0.00 |
+|  55 | netherex:torrid_wasteland                  | Torrid Wasteland                        |  2.00 | WARM      |        - |     0.00 |
+|  56 | netherex:arctic_abyss                      | Arctic Abyss                            |  2.00 | WARM      |        - |     0.00 |
+|  57 | appliedenergistics2:storage                | biome.appliedenergistics2.storage       |  0.50 | MEDIUM    |        - |     0.50 |
+|  58 | voyage:mount                               | biome.voyage.mount                      |  0.20 | MEDIUM    |     rain |     0.30 |
+|  59 | voyage:bog                                 | biome.voyage.bog                        |  0.80 | MEDIUM    |     rain |     0.90 |
+|  60 | voyage:lagoon_warm                         | biome.voyage.lagoon_warm                |  0.50 | MEDIUM    |     rain |     0.50 |
+|  61 | voyage:lagoon_lukewarm                     | biome.voyage.lagoon_lukewarm            |  0.50 | MEDIUM    |     rain |     0.50 |
+|  62 | voyage:lagoon_cold                         | biome.voyage.lagoon_cold                |  0.50 | MEDIUM    |     rain |     0.50 |
+|  63 | voyage:steppe                              | biome.voyage.steppe                     |  1.20 | WARM      |     rain |     0.00 |
+|  64 | voyage:rocky_peaks                         | biome.voyage.rocky_peaks                |  0.70 | MEDIUM    |     rain |     0.80 |
+|  65 | voyage:desert_mixed                        | biome.voyage.desert_mixed               |  2.00 | WARM      |        - |     0.00 |
+|  66 | voyage:desert_mixed_hills                  | biome.voyage.desert_mixed_hills         |  2.00 | WARM      |        - |     0.00 |
+|  67 | voyage:flower_plains                       | biome.voyage.flower_plains              |  0.70 | MEDIUM    |     rain |     0.80 |
+|  68 | voyage:desert_mountains                    | biome.voyage.desert_mountains           |  2.00 | WARM      |        - |     0.00 |
+|  69 | voyage:desert_polar                        | biome.voyage.desert_polar               |  0.00 | COLD      |     snow |     0.00 |
+|  70 | voyage:forest_lush                         | biome.voyage.forest_lush                |  0.70 | MEDIUM    |     rain |     0.80 |
+|  71 | voyage:rock_field                          | biome.voyage.rock_field                 |  2.00 | WARM      |     rain |     0.00 |
+|  72 | explorercraft:forested_mountain            | Forested Mountains                      |  0.70 | MEDIUM    |     rain |     0.80 |
+|  73 | explorercraft:bamboo_grove                 | Bamboo Grove                            |  0.95 | MEDIUM    |     rain |     0.90 |
+|  74 | explorercraft:snowdonia                    | Snowdonia                               |  0.70 | MEDIUM    |     rain |     0.80 |
+|  75 | explorercraft:fungal_forest                | Fungal Forest                           |  0.80 | MEDIUM    |     rain |     0.90 |
+|  76 | explorercraft:cherry_grove                 | biome.explorercraft.cherry_grove        |  0.95 | MEDIUM    |     rain |     0.90 |
+|  77 | byg:alliumfields                           | Allium Fields                           |  0.80 | MEDIUM    |     rain |     0.40 |
+|  78 | byg:alps                                   | Alps                                    | -0.50 | COLD      |     snow |     0.90 |
+|  79 | byg:amaranthfields                         | Amaranth Fields                         |  0.80 | MEDIUM    |     rain |     0.40 |
+|  80 | byg:ancient_forest                         | Ancient Forest                          |  0.80 | MEDIUM    |     rain |     0.80 |
+|  81 | byg:aspenforest                            | Aspen Forest                            |  0.70 | MEDIUM    |     rain |     0.60 |
+|  82 | byg:autumnal_valley                        | Autumnal Valley                         |  0.35 | MEDIUM    |     rain |     0.80 |
+|  83 | byg:baobabsavanna                          | Baobab Savanna                          |  1.20 | WARM      |        - |     0.00 |
+|  84 | byg:bayou                                  | Bayou                                   |  0.80 | MEDIUM    |     rain |     0.80 |
+|  85 | byg:bluetaiga                              | Blue Taiga                              |  0.25 | MEDIUM    |     rain |     0.80 |
+|  86 | byg:bluffsteeps                            | Bluff Steeps                            |  0.25 | MEDIUM    |     snow |     0.50 |
+|  87 | byg:borealforest                           | Boreal Forest                           |  0.25 | MEDIUM    |     rain |     0.80 |
+|  88 | byg:coldswamplands                         | Cold Swamplands                         |  0.25 | MEDIUM    |     rain |     0.80 |
+|  89 | byg:crag_gardens                           | Crag Gardens                            |  1.00 | WARM      |     rain |     0.80 |
+|  90 | byg:cika_woods                             | Cika Woods                              |  0.35 | MEDIUM    |     rain |     0.50 |
+|  91 | byg:cherry_blossom_forest                  | Cherry Blossom Forest                   |  0.70 | MEDIUM    |     rain |     0.80 |
+|  92 | byg:redwood_tropics                        | Redwood Tropics                         |  0.90 | MEDIUM    |     rain |     0.90 |
+|  93 | byg:coniferousforest                       | Coniferous Forest                       |  0.25 | MEDIUM    |     rain |     0.80 |
+|  94 | byg:cypress_swamplands                     | Cypress Swamplands                      |  0.25 | MEDIUM    |     rain |     0.80 |
+|  95 | byg:dovermountains                         | Dover Mountains                         |  0.25 | MEDIUM    |     rain |     0.80 |
+|  96 | byg:deadsea                                | Dead Sea                                |  2.00 | OCEAN     |        - |     0.00 |
+|  97 | byg:deciduousforest                        | Deciduous Forest                        |  0.70 | MEDIUM    |     rain |     0.50 |
+|  98 | byg:dunes                                  | Dunes                                   |  2.00 | WARM      |        - |     0.00 |
+|  99 | byg:ebony_woods                            | Ebony Woods                             |  0.80 | MEDIUM    |     rain |     0.80 |
+| 100 | byg:enchanted_forest                       | Enchanted Forest                        |  0.75 | MEDIUM    |     rain |     0.80 |
+| 101 | byg:evergreen_taiga                        | Evergreen Taiga                         |  0.25 | MEDIUM    |     rain |     0.80 |
+| 102 | byg:glowshroombayou                        | Glowshroom Bayou                        |  0.80 | MEDIUM    |     rain |     0.80 |
+| 103 | byg:grasslandplateau                       | Grassland Plateau                       |  0.70 | MEDIUM    |     rain |     0.40 |
+| 104 | byg:greatlakes                             | Great Lakes                             |  0.25 | MEDIUM    |     rain |     0.80 |
+| 105 | byg:grove                                  | Grove                                   |  0.75 | MEDIUM    |     rain |     0.80 |
+| 106 | byg:enchanted_grove                        | Enchanted Grove                         |  0.75 | MEDIUM    |     rain |     0.80 |
+| 107 | byg:guianashield                           | Guiana Shield                           |  0.95 | MEDIUM    |     rain |     0.90 |
+| 108 | byg:jacarandaforest                        | Jacaranda Forest                        |  0.95 | MEDIUM    |     rain |     0.50 |
+| 109 | byg:mangrove_marshes                       | Mangrove Marshes                        |  0.80 | MEDIUM    |     rain |     0.80 |
+| 110 | byg:maple_taiga                            | Maple Taiga                             |  0.25 | MEDIUM    |     rain |     0.80 |
+| 111 | byg:meadow                                 | Meadow                                  |  0.80 | MEDIUM    |     rain |     0.80 |
+| 112 | byg:mojave_desert                          | Mojave Desert                           |  2.00 | WARM      |        - |     0.00 |
+| 113 | byg:lush_tundra                            | Lush Tundra                             |  0.35 | MEDIUM    |     snow |     0.40 |
+| 114 | byg:orchard                                | Orchard                                 |  0.80 | MEDIUM    |     rain |     0.80 |
+| 115 | byg:prairie                                | Prairie                                 |  0.80 | MEDIUM    |     rain |     0.20 |
+| 116 | byg:reddesert                              | Red Desert                              |  2.00 | WARM      |        - |     0.00 |
+| 117 | byg:reddesertdunes                         | Red Dunes                               |  2.00 | WARM      |        - |     0.00 |
+| 118 | byg:redoakforest                           | Red Oak Forest                          |  0.80 | MEDIUM    |     rain |     0.90 |
+| 119 | byg:red_rock_mountains                     | Red Rock Mountains                      |  1.20 | WARM      |     rain |     0.10 |
+| 120 | byg:seasonalbirchforest                    | Seasonal Birch Forest                   |  0.25 | MEDIUM    |     rain |     0.90 |
+| 121 | byg:seasonaldeciduousforest                | Seasonal Deciduous Forest               |  0.80 | MEDIUM    |     rain |     0.50 |
+| 122 | byg:seasonalforest                         | Seasonal Forest                         |  0.25 | MEDIUM    |     rain |     0.90 |
+| 123 | byg:seasonaltaiga                          | Seasonal Taiga                          |  0.25 | MEDIUM    |     rain |     0.80 |
+| 124 | byg:shatteredglacier                       | Shattered Glacier                       | -0.50 | COLD      |     snow |     0.90 |
+| 125 | byg:shrublands                             | Shrublands                              |  2.00 | WARM      |     rain |     0.40 |
+| 126 | byg:skyrishighlands                        | Skyris Highlands                        |  0.25 | MEDIUM    |     rain |     0.80 |
+| 127 | minecraft:the_void                         | The Void                                |  0.50 | MEDIUM    |        - |     0.50 |
+| 128 | byg:snowybluetaiga                         | Snowy Blue Taiga                        | -0.50 | COLD      |     snow |     0.80 |
+| 129 | minecraft:sunflower_plains                 | Sunflower Plains                        |  0.80 | MEDIUM    |     rain |     0.40 |
+| 130 | minecraft:desert_lakes                     | Desert Lakes                            |  2.00 | WARM      |        - |     0.00 |
+| 131 | minecraft:gravelly_mountains               | Gravelly Mountains                      |  0.20 | MEDIUM    |     rain |     0.30 |
+| 132 | minecraft:flower_forest                    | Flower Forest                           |  0.70 | MEDIUM    |     rain |     0.80 |
+| 133 | minecraft:taiga_mountains                  | Taiga Mountains                         |  0.25 | MEDIUM    |     rain |     0.80 |
+| 134 | minecraft:swamp_hills                      | Swamp Hills                             |  0.80 | MEDIUM    |     rain |     0.90 |
+| 135 | byg:snowyconiferousforest                  | Snowy Coniferous Forest                 | -0.50 | COLD      |     snow |     0.80 |
+| 136 | byg:snowydeciduousforest                   | Snowy Deciduous Forest                  | -0.50 | COLD      |     snow |     0.80 |
+| 137 | byg:snowy_evergreen_taiga                  | Snowy Evergreen Taiga                   | -0.50 | COLD      |     snow |     0.80 |
+| 138 | byg:the_black_forest                       | The Black Forest                        |  0.25 | MEDIUM    |     rain |     0.80 |
+| 139 | byg:tropicalfungalforest                   | Tropical Fungal Rainforest              |  0.95 | MEDIUM    |     rain |     0.90 |
+| 140 | minecraft:ice_spikes                       | Ice Spikes                              |  0.00 | COLD      |     snow |     0.50 |
+| 141 | byg:tropicalrainforest                     | Tropical Rainforest                     |  0.95 | MEDIUM    |     rain |     0.90 |
+| 142 | byg:vibrantswamplands                      | Vibrant Swamplands                      |  0.80 | MEDIUM    |     rain |     0.80 |
+| 143 | byg:sierravalley                           | Sierra Valley                           |  1.20 | WARM      |     rain |     0.10 |
+| 144 | byg:weeping_witch_forest                   | Weeping Witch Forest                    |  0.25 | MEDIUM    |     rain |     0.80 |
+| 145 | byg:woodlands                              | Woodlands                               |  0.80 | MEDIUM    |     rain |     0.80 |
+| 146 | byg:zelkovaforest                          | Zelkova Forest                          |  0.25 | MEDIUM    |     rain |     0.80 |
+| 147 | byg:redwood_clearing                       | Redwood Clearing                        |  0.90 | MEDIUM    |     rain |     0.90 |
+| 148 | byg:redwood_mountains                      | Redwood Mountains                       |  0.90 | MEDIUM    |     rain |     0.90 |
+| 149 | minecraft:modified_jungle                  | Modified Jungle                         |  0.95 | MEDIUM    |     rain |     0.90 |
+| 150 | byg:coral_mangroves                        | Coral Mangroves                         |  0.80 | MEDIUM    |     rain |     0.80 |
+| 151 | minecraft:modified_jungle_edge             | Modified Jungle Edge                    |  0.95 | MEDIUM    |     rain |     0.80 |
+| 152 | byg:cika_mountains                         | Cika Mountains                          |  0.35 | MEDIUM    |     rain |     0.50 |
+| 153 | byg:glowing_ancient_forest                 | Glowing Ancient Forest                  |  0.80 | MEDIUM    |     rain |     0.80 |
+| 154 | byg:flowering_ancient_forest               | Flowering Ancient Forest                |  0.80 | MEDIUM    |     rain |     0.80 |
+| 155 | minecraft:tall_birch_forest                | Tall Birch Forest                       |  0.60 | MEDIUM    |     rain |     0.60 |
+| 156 | minecraft:tall_birch_hills                 | Tall Birch Hills                        |  0.60 | MEDIUM    |     rain |     0.60 |
+| 157 | minecraft:dark_forest_hills                | Dark Forest Hills                       |  0.70 | MEDIUM    |     rain |     0.80 |
+| 158 | minecraft:snowy_taiga_mountains            | Snowy Taiga Mountains                   | -0.50 | COLD      |     snow |     0.40 |
+| 159 | byg:snowy_evergreen_clearing               | Snowy Evergreen Clearing                | -0.50 | COLD      |     snow |     0.80 |
+| 160 | minecraft:giant_spruce_taiga               | Giant Spruce Taiga                      |  0.25 | MEDIUM    |     rain |     0.80 |
+| 161 | minecraft:giant_spruce_taiga_hills         | Giant Spruce Taiga Hills                |  0.25 | MEDIUM    |     rain |     0.80 |
+| 162 | minecraft:modified_gravelly_mountains      | Gravelly Mountains+                     |  0.20 | MEDIUM    |     rain |     0.30 |
+| 163 | minecraft:shattered_savanna                | Shattered Savanna                       |  1.10 | WARM      |        - |     0.00 |
+| 164 | minecraft:shattered_savanna_plateau        | Shattered Savanna Plateau               |  1.00 | WARM      |        - |     0.00 |
+| 165 | minecraft:eroded_badlands                  | Eroded Badlands                         |  2.00 | WARM      |        - |     0.00 |
+| 166 | minecraft:modified_wooded_badlands_plateau | Modified Wooded Badlands Plateau        |  2.00 | WARM      |        - |     0.00 |
+| 167 | minecraft:modified_badlands_plateau        | Modified Badlands Plateau               |  2.00 | WARM      |        - |     0.00 |
+| 168 | minecraft:bamboo_jungle                    | Bamboo Jungle                           |  0.95 | MEDIUM    |     rain |     0.90 |
+| 169 | minecraft:bamboo_jungle_hills              | Bamboo Jungle Hills                     |  0.95 | MEDIUM    |     rain |     0.90 |
+| 170 | byg:snowy_evergreen_hills                  | Snowy Evergreen Hills                   | -0.50 | COLD      |     snow |     0.80 |
+| 171 | byg:enchanted_forest_hills                 | Enchanted Forest Hills                  |  0.75 | MEDIUM    |     rain |     0.80 |
+| 172 | byg:ebony_hills                            | Ebony Hills                             |  0.80 | MEDIUM    |     rain |     0.80 |
+| 173 | byg:evergreen_clearing                     | Evergreen Clearing                      |  0.25 | MEDIUM    |     rain |     0.80 |
+| 174 | byg:evergreen_hills                        | Evergreen Hills                         |  0.25 | MEDIUM    |     rain |     0.80 |
+| 175 | byg:fungal_patch                           | Fungal Patch                            |  0.95 | MEDIUM    |     rain |     0.90 |
+| 176 | byg:weeping_witch_clearing                 | Weeping Witch Clearing                  |  0.25 | MEDIUM    |     rain |     0.80 |
+| 177 | byg:pumpkin_forest                         | Pumpkin Forest                          |  0.25 | MEDIUM    |     rain |     0.80 |
+| 178 | byg:bamboo_forest                          | Bamboo Forest                           |  0.70 | MEDIUM    |     rain |     0.80 |
+| 179 | byg:cherry_blossom_clearing                | Cherry Blossom Clearing                 |  0.70 | MEDIUM    |     rain |     0.80 |
+| 180 | byg:coniferous_clearing                    | Coniferous Clearing                     |  0.25 | MEDIUM    |     rain |     0.80 |
+| 181 | byg:zelkova_clearing                       | Zelkova Clearing                        |  0.25 | MEDIUM    |     rain |     0.80 |
+| 182 | byg:aspen_clearing                         | Aspen Clearing                          |  0.70 | MEDIUM    |     rain |     0.60 |
+| 183 | byg:boreal_clearing                        | Boreal Clearing                         |  0.25 | MEDIUM    |     rain |     0.80 |
+| 184 | byg:deciduous_clearing                     | Decidous Clearing                       |  0.70 | MEDIUM    |     rain |     0.50 |
+| 185 | byg:seasonal_deciduous_clearing            | Seasonal Deciduous Clearing             |  0.80 | MEDIUM    |     rain |     0.50 |
+| 186 | byg:guiana_clearing                        | Guiana Clearing                         |  0.95 | MEDIUM    |     rain |     0.90 |
+| 187 | byg:jacaranda_clearing                     | Jacaranda Clearing                      |  0.95 | MEDIUM    |     rain |     0.50 |
+| 188 | byg:snowy_coniferous_clearing              | Snowy Coniferous Clearing               | -0.50 | COLD      |     snow |     0.80 |
+| 189 | byg:snowy_deciduous_clearing               | Snowy Deciduous Clearing                | -0.50 | COLD      |     snow |     0.80 |
+| 190 | byg:maple_hills                            | Maple Hills                             |  0.25 | MEDIUM    |     rain |     0.80 |
+| 191 | byg:black_forest_clearing                  | Black Forest Clearing                   |  0.25 | MEDIUM    |     rain |     0.80 |
+| 192 | byg:black_forest_hills                     | Black Forest Hills                      |  0.25 | MEDIUM    |     rain |     0.80 |
+| 193 | byg:forest_fault                           | Forest Fault                            |  0.25 | MEDIUM    |     rain |     0.80 |
+| 194 | byg:flowering_grove                        | Flowering Grove                         |  0.75 | MEDIUM    |     rain |     0.80 |
+| 195 | byg:flowering_enchanted_grove              | Flowering Enchanted Grove               |  0.75 | MEDIUM    |     rain |     0.80 |
+| 196 | byg:northern_forest                        | Northern Forest                         | -0.15 | COLD      |     snow |     0.40 |
+| 197 | byg:lushreddesert                          | Lush Red Desert                         |  2.00 | WARM      |        - |     0.00 |
+| 198 | byg:sierrarange                            | Sierra Range                            |  1.20 | WARM      |     rain |     0.10 |
+| 199 | byg:alpinefoothills                        | Alpine Foothills                        | -0.25 | COLD      |     snow |     0.60 |
+| 200 | byg:aspenforesthills                       | Aspen Forest Hills                      |  0.70 | MEDIUM    |     rain |     0.60 |
+| 201 | byg:bluetaigahills                         | Blue Taiga Hills                        |  0.25 | MEDIUM    |     rain |     0.80 |
+| 202 | byg:giantbluesprucetaiga                   | Giant Blue Taiga                        |  0.25 | MEDIUM    |     rain |     0.80 |
+| 203 | byg:bluffpeaks                             | Bluff Peaks                             |  0.25 | MEDIUM    |     snow |     0.50 |
+| 204 | byg:borealforesthills                      | Boreal Forest Hills                     |  0.25 | MEDIUM    |     rain |     0.80 |
+| 205 | byg:bog                                    | Bog                                     |  0.25 | MEDIUM    |     rain |     0.80 |
+| 206 | byg:deciduousforesthills                   | Deciduous Forest Hills                  |  0.70 | MEDIUM    |     rain |     0.50 |
+| 207 | byg:coniferousforesthills                  | Coniferous Forest Hills                 |  0.25 | MEDIUM    |     rain |     0.80 |
+| 208 | byg:freshwaterlake                         | Fresh Water Lake                        |  0.80 | MEDIUM    |     rain |     0.80 |
+| 209 | byg:frozenlake                             | Frozen Lake                             |  0.00 | COLD      |     rain |     0.80 |
+| 210 | byg:greatlakeisles                         | Great Lake Isles                        |  0.80 | MEDIUM    |     rain |     0.20 |
+| 211 | byg:jacarandaforesthills                   | Jacaranda Forest Hills                  |  0.95 | MEDIUM    |     rain |     0.50 |
+| 212 | byg:marshlands                             | Marshlands                              |  0.80 | MEDIUM    |     rain |     0.80 |
+| 213 | byg:oasis                                  | Oasis                                   |  0.80 | MEDIUM    |     rain |     0.80 |
+| 214 | byg:pollutedlake                           | Polluted Lake                           |  0.80 | MEDIUM    |     rain |     0.80 |
+| 215 | byg:prairieclearing                        | Prairie Clearing                        |  0.80 | MEDIUM    |     rain |     0.20 |
+| 216 | byg:redoakforesthills                      | Red Oak Forest Hills                    |  0.80 | MEDIUM    |     rain |     0.90 |
+| 217 | byg:red_rock_lowlands                      | Red Rock Lowlands                       |  1.20 | WARM      |     rain |     0.10 |
+| 218 | byg:red_rock_highlands                     | Red Rock Highlands                      |  1.20 | WARM      |     rain |     0.10 |
+| 219 | byg:wooded_red_rock_mountains              | Wooded Red Rock Mountains               |  1.20 | WARM      |     rain |     0.10 |
+| 220 | byg:seasonalbirchforesthills               | Seasonal Birch Forest Hills             |  0.25 | MEDIUM    |     rain |     0.90 |
+| 221 | byg:seasonaldeciduousforesthills           | Seasonal Deciduous Forest Hills         |  0.80 | MEDIUM    |     rain |     0.50 |
+| 222 | byg:seasonalforesthills                    | Seasonal Forest Hills                   |  0.25 | MEDIUM    |     rain |     0.90 |
+| 223 | byg:giantseasonalsprucetaiga               | Giant Seasonal Taiga                    |  0.25 | MEDIUM    |     rain |     0.80 |
+| 224 | byg:seasonaltaigahills                     | Seasonal Taiga Hills                    |  0.25 | MEDIUM    |     rain |     0.80 |
+| 225 | byg:snowygiantbluetaiga                    | Giant Snowy Blue Taiga                  | -0.50 | COLD      |     snow |     0.80 |
+| 226 | byg:snowybluetaigahills                    | Snowy Blue Taiga                        | -0.50 | COLD      |     snow |     0.80 |
+| 227 | byg:snowyconiferousforesthills             | Snowy Coniferous Hills                  | -0.50 | COLD      |     snow |     0.80 |
+| 228 | byg:snowydeciduousforesthills              | Snowy Deciduous Forest Hills            | -0.50 | COLD      |     snow |     0.80 |
+| 229 | byg:tropicalfungalrainforesthills          | Tropical Fungal Rainforest Hills        |  0.95 | MEDIUM    |     rain |     0.90 |
+| 230 | byg:tropicalrainforesthills                | Tropical Rainforest Hills               |  0.95 | MEDIUM    |     rain |     0.90 |
+| 231 | byg:woodedgrasslandplateau                 | Wooded Grassland Plateau                |  0.70 | MEDIUM    |     rain |     0.40 |
+| 232 | byg:zelkovaforesthills                     | Zelkova Forest Hills                    |  0.25 | MEDIUM    |     rain |     0.80 |
+| 233 | byg:floweringmeadow                        | Flowering Meadow                        |  0.80 | MEDIUM    |     rain |     0.80 |
+| 234 | byg:woodedmeadow                           | Wooded Meadow                           |  0.80 | MEDIUM    |     rain |     0.80 |
+| 235 | byg:rockybeach                             | Rocky Beach                             |  0.25 | MEDIUM    |     rain |     0.40 |
+| 236 | byg:snowyrockyblackbeach                   | Snowy Rocky Black Beach                 |  0.00 | COLD      |     snow |     0.40 |
+| 237 | byg:snowyblackbeach                        | Snowy Black Beach                       |  0.00 | COLD      |     snow |     0.40 |
+| 238 | byg:whitebeach                             | White Beach                             |  0.25 | MEDIUM    |     rain |     0.40 |
+| 239 | byg:rainbowbeach                           | Rainbow Beach                           |  0.85 | MEDIUM    |     rain |     0.75 |
+| 240 | byg:tropicalisland                         | Tropical Island                         |  0.95 | OCEAN     |     rain |     0.90 |
+| 241 | byg:warpeddesert                           | Warped Desert                           |  0.80 | MEDIUM    |     rain |     0.40 |
+| 242 | byg:sythiantorrids                         | Sythian Torrids                         |  0.80 | MEDIUM    |     rain |     0.40 |
+| 243 | byg:glowstonegardens                       | Glowstone Gardens                       |  0.80 | MEDIUM    |     rain |     0.40 |
+| 244 | byg:embur_bog                              | Embur Bog                               |  0.80 | MEDIUM    |     rain |     0.40 |
+| 245 | byg:ivis_fields                            | Ivis Fields                             |  0.80 | MEDIUM    |        - |     0.80 |
+| 246 | mubble:pumpkin_pastures                    | Pumpkin Pastures                        |  0.80 | MEDIUM    |     rain |     0.90 |
+| 247 | mubble:pink_cherry_oak_forest              | Pink Cherry Oak Forest                  |  0.60 | MEDIUM    |     rain |     0.40 |
+| 248 | mubble:white_cherry_oak_forest             | White Cherry Oak Forest                 |  0.60 | MEDIUM    |     rain |     0.40 |
+| 249 | mubble:smw_desert                          | biome.mubble.smw_desert                 |  2.00 | WARM      |     rain |     0.60 |
+| 250 | mubble:press_garden                        | Press Garden                            | -0.60 | COLD      |     snow |     0.40 |
+| 251 | mubble:scarlet_forest                      | Scarlet Forest                          |  0.70 | MEDIUM    |     rain |     0.80 |
+| 252 | extendednether:basalt_deltas               | Basalt Deltas                           |  2.00 | WARM      |        - |     0.00 |
+| 253 | extendednether:crimson_forest              | Crimson Forest                          |  2.00 | WARM      |        - |     0.00 |
+| 254 | extendednether:soul_sand_valley            | Soul Sand Valley                        |  2.00 | WARM      |        - |     0.00 |
+| 255 | extendednether:warped_forest               | Warped Forest                           |  2.00 | WARM      |        - |     0.00 |
++-----+--------------------------------------------+-----------------------------------------+-------+-----------+----------+----------+
+|  ID | Registry name                              | Biome name                              | Temp. | Temp Cat. | RainType | Downfall |
++-----+--------------------------------------------+-----------------------------------------+-------+-----------+----------+----------+

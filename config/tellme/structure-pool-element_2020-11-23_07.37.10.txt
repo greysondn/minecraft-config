@@ -1,0 +1,10 @@
++--------------------------------+
+| Registry name                  |
++--------------------------------+
+| minecraft:empty_pool_element   |
+| minecraft:feature_pool_element |
+| minecraft:list_pool_element    |
+| minecraft:single_pool_element  |
++--------------------------------+
+| Registry name                  |
++--------------------------------+

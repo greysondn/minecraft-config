@@ -1,0 +1,15 @@
++------------------------+-----------+---------+----------+
+| Name                   | Versioned | Version | ID (GUI) |
++------------------------+-----------+---------+----------+
+| amplified              |     false |       0 |        3 |
+| buffet                 |     false |       0 |        5 |
+| customized             |     false |       0 |        4 |
+| debug_all_block_states |     false |       0 |        6 |
+| default                |      true |       1 |        0 |
+| default_1_1            |     false |       0 |        8 |
+| flat                   |     false |       0 |        1 |
+| islands                |     false |       0 |        7 |
+| largeBiomes            |     false |       0 |        2 |
++------------------------+-----------+---------+----------+
+| Name                   | Versioned | Version | ID (GUI) |
++------------------------+-----------+---------+----------+

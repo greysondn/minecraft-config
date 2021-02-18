@@ -1,0 +1,25 @@
++-----------------------------------------------+---------+-------------+-----------+------------+--------+-----------+---------------------------------------------+
+| Name                                          | Density | Temperature | Viscosity | Luminosity | Rarity | isGaseous | Block                                       |
++-----------------------------------------------+---------+-------------+-----------+------------+--------+-----------+---------------------------------------------+
+| biggerreactors:fluid_irradiated_steam         |       1 |         300 |      1000 |          0 | COMMON |     false | biggerreactors:fluid_irradiated_steam_block |
+| biggerreactors:fluid_irradiated_steam_flowing |       1 |         300 |      1000 |          0 | COMMON |     false | biggerreactors:fluid_irradiated_steam_block |
+| biggerreactors:fluid_yellorium                |       1 |         300 |      1000 |          0 | COMMON |     false | biggerreactors:fluid_yellorium_block        |
+| biggerreactors:fluid_yellorium_flowing        |       1 |         300 |      1000 |          0 | COMMON |     false | biggerreactors:fluid_yellorium_block        |
+| minecraft:empty                               |       0 |           0 |         0 |          0 | COMMON |     false | -                                           |
+| minecraft:flowing_lava                        |    3000 |        1300 |      6000 |         15 | COMMON |     false | minecraft:lava                              |
+| minecraft:flowing_water                       |    1000 |         300 |      1000 |          0 | COMMON |     false | minecraft:water                             |
+| minecraft:lava                                |    3000 |        1300 |      6000 |         15 | COMMON |     false | minecraft:lava                              |
+| minecraft:water                               |    1000 |         300 |      1000 |          0 | COMMON |     false | minecraft:water                             |
+| securitycraft:fake_lava                       |    3000 |        1300 |      6000 |         15 | COMMON |     false | securitycraft:fake_lava_block               |
+| securitycraft:fake_water                      |    1000 |         300 |      1000 |          0 | COMMON |     false | securitycraft:fake_water_block              |
+| securitycraft:flowing_fake_lava               |    3000 |        1300 |      6000 |         15 | COMMON |     false | securitycraft:fake_lava_block               |
+| securitycraft:flowing_fake_water              |    1000 |         300 |      1000 |          0 | COMMON |     false | securitycraft:fake_water_block              |
+| vehicle:blaze_juice                           |    1000 |         300 |       800 |          0 | COMMON |     false | vehicle:blaze_juice                         |
+| vehicle:ender_sap                             |    1000 |         300 |      3000 |          0 | COMMON |     false | vehicle:ender_sap                           |
+| vehicle:flowing_blaze_juice                   |    1000 |         300 |       800 |          0 | COMMON |     false | vehicle:blaze_juice                         |
+| vehicle:flowing_ender_sap                     |    1000 |         300 |      3000 |          0 | COMMON |     false | vehicle:ender_sap                           |
+| vehicle:flowing_fuelium                       |     900 |         300 |       900 |          0 | COMMON |     false | vehicle:fuelium                             |
+| vehicle:fuelium                               |     900 |         300 |       900 |          0 | COMMON |     false | vehicle:fuelium                             |
++-----------------------------------------------+---------+-------------+-----------+------------+--------+-----------+---------------------------------------------+
+| Name                                          | Density | Temperature | Viscosity | Luminosity | Rarity | isGaseous | Block                                       |
++-----------------------------------------------+---------+-------------+-----------+------------+--------+-----------+---------------------------------------------+

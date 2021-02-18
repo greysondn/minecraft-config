@@ -1,0 +1,473 @@
++----------------------------+--------------------------------------------------+--------------------------------------------------------------------------------------------+-----+
+| Mod name                   | Registry name                                    | Entity class name                                                                          |  ID |
++----------------------------+--------------------------------------------------+--------------------------------------------------------------------------------------------+-----+
+| Abnormals Core             | abnormals_core:boat                              | com.teamabnormals.abnormals_core.common.entity.AbnormalsBoatEntity                         | 328 |
+| Applied Energistics 2      | appliedenergistics2:charged_quartz               | appeng.entity.ChargedQuartzEntity                                                          | 335 |
+| Applied Energistics 2      | appliedenergistics2:growing_crystal              | appeng.entity.GrowingCrystalEntity                                                         | 336 |
+| Applied Energistics 2      | appliedenergistics2:singularity                  | appeng.entity.SingularityEntity                                                            | 334 |
+| Applied Energistics 2      | appliedenergistics2:tiny_tnt_primed              | appeng.entity.TinyTNTPrimedEntity                                                          | 333 |
+| Artifacts                  | artifacts:mimic                                  | artifacts.common.entity.MimicEntity                                                        | 337 |
+| Azuredooms Doom Mod        | doomweapon:arachnotron                           | mod.azure.doom.entity.ArachnotronEntity                                                    | 407 |
+| Azuredooms Doom Mod        | doomweapon:archvile                              | mod.azure.doom.entity.ArchvileEntity                                                       | 404 |
+| Azuredooms Doom Mod        | doomweapon:argent_bolt                           | mod.azure.doom.entity.projectiles.ArgentBoltEntity                                         | 391 |
+| Azuredooms Doom Mod        | doomweapon:barenblast                            | mod.azure.doom.entity.projectiles.entity.BarenBlastEntity                                  | 397 |
+| Azuredooms Doom Mod        | doomweapon:baron                                 | mod.azure.doom.entity.BaronEntity                                                          | 405 |
+| Azuredooms Doom Mod        | doomweapon:barrel                                | mod.azure.doom.entity.projectiles.BarrelEntity                                             | 389 |
+| Azuredooms Doom Mod        | doomweapon:bfg_cell                              | mod.azure.doom.entity.projectiles.BFGEntity                                                | 394 |
+| Azuredooms Doom Mod        | doomweapon:bullets                               | mod.azure.doom.entity.projectiles.BulletEntity                                             | 398 |
+| Azuredooms Doom Mod        | doomweapon:cacodemon                             | mod.azure.doom.entity.CacodemonEntity                                                      | 403 |
+| Azuredooms Doom Mod        | doomweapon:chaingunbullets                       | mod.azure.doom.entity.projectiles.ChaingunBulletEntity                                     | 399 |
+| Azuredooms Doom Mod        | doomweapon:chaingunner                           | mod.azure.doom.entity.ChaingunnerEntity                                                    | 412 |
+| Azuredooms Doom Mod        | doomweapon:cyberdemon                            | mod.azure.doom.entity.CyberdemonEntity                                                     | 417 |
+| Azuredooms Doom Mod        | doomweapon:cyberdemon2016                        | mod.azure.doom.entity.Cyberdemon2016Entity                                                 | 418 |
+| Azuredooms Doom Mod        | doomweapon:energy_cell                           | mod.azure.doom.entity.projectiles.EnergyCellEntity                                         | 393 |
+| Azuredooms Doom Mod        | doomweapon:energy_cell_mob                       | mod.azure.doom.entity.projectiles.entity.EnergyCellMobEntity                               | 425 |
+| Azuredooms Doom Mod        | doomweapon:gore_nest                             | mod.azure.doom.entity.GoreNestEntity                                                       | 421 |
+| Azuredooms Doom Mod        | doomweapon:hellknight                            | mod.azure.doom.entity.HellknightEntity                                                     | 416 |
+| Azuredooms Doom Mod        | doomweapon:iconofsin                             | mod.azure.doom.entity.IconofsinEntity                                                      | 424 |
+| Azuredooms Doom Mod        | doomweapon:imp                                   | mod.azure.doom.entity.ImpEntity                                                            | 400 |
+| Azuredooms Doom Mod        | doomweapon:imp2016                               | mod.azure.doom.entity.Imp2016Entity                                                        | 411 |
+| Azuredooms Doom Mod        | doomweapon:lost_soul                             | mod.azure.doom.entity.LostSoulEntity                                                       | 396 |
+| Azuredooms Doom Mod        | doomweapon:mancubus                              | mod.azure.doom.entity.MancubusEntity                                                       | 406 |
+| Azuredooms Doom Mod        | doomweapon:marauder                              | mod.azure.doom.entity.MarauderEntity                                                       | 413 |
+| Azuredooms Doom Mod        | doomweapon:mechazombie                           | mod.azure.doom.entity.MechaZombieEntity                                                    | 423 |
+| Azuredooms Doom Mod        | doomweapon:nightmare_imp                         | mod.azure.doom.entity.NightmareImpEntity                                                   | 401 |
+| Azuredooms Doom Mod        | doomweapon:painelemental                         | mod.azure.doom.entity.PainEntity                                                           | 415 |
+| Azuredooms Doom Mod        | doomweapon:pinky                                 | mod.azure.doom.entity.PinkyEntity                                                          | 402 |
+| Azuredooms Doom Mod        | doomweapon:possessed_scientist                   | mod.azure.doom.entity.PossessedScientistEntity                                             | 422 |
+| Azuredooms Doom Mod        | doomweapon:possessed_soldier                     | mod.azure.doom.entity.PossessedSoldierEntity                                               | 420 |
+| Azuredooms Doom Mod        | doomweapon:revenant                              | mod.azure.doom.entity.RevenantEntity                                                       | 410 |
+| Azuredooms Doom Mod        | doomweapon:rocket                                | mod.azure.doom.entity.projectiles.RocketEntity                                             | 395 |
+| Azuredooms Doom Mod        | doomweapon:rocket_mob                            | mod.azure.doom.entity.projectiles.entity.RocketMobEntity                                   | 426 |
+| Azuredooms Doom Mod        | doomweapon:shotgun_shell                         | mod.azure.doom.entity.projectiles.ShotgunShellEntity                                       | 390 |
+| Azuredooms Doom Mod        | doomweapon:shotgunguy                            | mod.azure.doom.entity.ShotgunguyEntity                                                     | 414 |
+| Azuredooms Doom Mod        | doomweapon:spiderdemon                           | mod.azure.doom.entity.SpiderdemonEntity                                                    | 408 |
+| Azuredooms Doom Mod        | doomweapon:unmaykr_bolt                          | mod.azure.doom.entity.projectiles.UnmaykrBoltEntity                                        | 392 |
+| Azuredooms Doom Mod        | doomweapon:unwilling                             | mod.azure.doom.entity.UnwillingEntity                                                      | 419 |
+| Azuredooms Doom Mod        | doomweapon:zombieman                             | mod.azure.doom.entity.ZombiemanEntity                                                      | 409 |
+| Better Animals Plus        | betteranimalsplus:badger                         | its_meow.betteranimalsplus.common.entity.EntityBadger                                      | 358 |
+| Better Animals Plus        | betteranimalsplus:badgerdirt                     | its_meow.betteranimalsplus.common.entity.projectile.EntityBadgerDirt                       | 339 |
+| Better Animals Plus        | betteranimalsplus:barracuda                      | its_meow.betteranimalsplus.common.entity.EntityBarracuda                                   | 374 |
+| Better Animals Plus        | betteranimalsplus:blackbear                      | its_meow.betteranimalsplus.common.entity.EntityBearNeutral                                 | 345 |
+| Better Animals Plus        | betteranimalsplus:boar                           | its_meow.betteranimalsplus.common.entity.EntityBoar                                        | 355 |
+| Better Animals Plus        | betteranimalsplus:bobbit_worm                    | its_meow.betteranimalsplus.common.entity.EntityBobbitWorm                                  | 366 |
+| Better Animals Plus        | betteranimalsplus:brownbear                      | its_meow.betteranimalsplus.common.entity.EntityBear                                        | 344 |
+| Better Animals Plus        | betteranimalsplus:butterfly                      | its_meow.betteranimalsplus.common.entity.EntityButterfly                                   | 372 |
+| Better Animals Plus        | betteranimalsplus:coyote                         | its_meow.betteranimalsplus.common.entity.EntityCoyote                                      | 349 |
+| Better Animals Plus        | betteranimalsplus:crab                           | its_meow.betteranimalsplus.common.entity.EntityCrab                                        | 361 |
+| Better Animals Plus        | betteranimalsplus:deer                           | its_meow.betteranimalsplus.common.entity.EntityDeer                                        | 346 |
+| Better Animals Plus        | betteranimalsplus:dragonfly                      | its_meow.betteranimalsplus.common.entity.EntityDragonfly                                   | 373 |
+| Better Animals Plus        | betteranimalsplus:eel_freshwater                 | its_meow.betteranimalsplus.common.entity.EntityFreshwaterEel                               | 368 |
+| Better Animals Plus        | betteranimalsplus:eel_saltwater                  | its_meow.betteranimalsplus.common.entity.EntitySaltwaterEel                                | 369 |
+| Better Animals Plus        | betteranimalsplus:feralwolf                      | its_meow.betteranimalsplus.common.entity.EntityFeralWolf                                   | 348 |
+| Better Animals Plus        | betteranimalsplus:flying_fish                    | its_meow.betteranimalsplus.common.entity.EntityFlyingFish                                  | 375 |
+| Better Animals Plus        | betteranimalsplus:goat                           | its_meow.betteranimalsplus.common.entity.EntityGoat                                        | 351 |
+| Better Animals Plus        | betteranimalsplus:golden_goose_egg               | its_meow.betteranimalsplus.common.entity.projectile.EntityGoldenGooseEgg                   | 343 |
+| Better Animals Plus        | betteranimalsplus:goose                          | its_meow.betteranimalsplus.common.entity.EntityGoose                                       | 367 |
+| Better Animals Plus        | betteranimalsplus:goose_egg                      | its_meow.betteranimalsplus.common.entity.projectile.EntityGooseEgg                         | 342 |
+| Better Animals Plus        | betteranimalsplus:horseshoecrab                  | its_meow.betteranimalsplus.common.entity.EntityHorseshoeCrab                               | 362 |
+| Better Animals Plus        | betteranimalsplus:jellyfish                      | its_meow.betteranimalsplus.common.entity.EntityJellyfish                                   | 352 |
+| Better Animals Plus        | betteranimalsplus:lammergeier                    | its_meow.betteranimalsplus.common.entity.EntityLammergeier                                 | 347 |
+| Better Animals Plus        | betteranimalsplus:lamprey                        | its_meow.betteranimalsplus.common.entity.EntityLamprey                                     | 359 |
+| Better Animals Plus        | betteranimalsplus:moose                          | its_meow.betteranimalsplus.common.entity.EntityMoose                                       | 364 |
+| Better Animals Plus        | betteranimalsplus:nautilus                       | its_meow.betteranimalsplus.common.entity.EntityNautilus                                    | 360 |
+| Better Animals Plus        | betteranimalsplus:octopus                        | its_meow.betteranimalsplus.common.entity.EntityOctopus                                     | 379 |
+| Better Animals Plus        | betteranimalsplus:pheasant                       | its_meow.betteranimalsplus.common.entity.EntityPheasant                                    | 353 |
+| Better Animals Plus        | betteranimalsplus:pheasant_egg                   | its_meow.betteranimalsplus.common.entity.projectile.EntityPheasantEgg                      | 340 |
+| Better Animals Plus        | betteranimalsplus:piranha                        | its_meow.betteranimalsplus.common.entity.EntityPiranha                                     | 378 |
+| Better Animals Plus        | betteranimalsplus:reindeer                       | its_meow.betteranimalsplus.common.entity.EntityReindeer                                    | 354 |
+| Better Animals Plus        | betteranimalsplus:shark                          | its_meow.betteranimalsplus.common.entity.EntityShark                                       | 363 |
+| Better Animals Plus        | betteranimalsplus:songbird                       | its_meow.betteranimalsplus.common.entity.EntitySongbird                                    | 357 |
+| Better Animals Plus        | betteranimalsplus:squid_colossal                 | its_meow.betteranimalsplus.common.entity.EntityColossalSquid                               | 376 |
+| Better Animals Plus        | betteranimalsplus:squid_giant                    | its_meow.betteranimalsplus.common.entity.EntityGiantSquid                                  | 377 |
+| Better Animals Plus        | betteranimalsplus:squirrel                       | its_meow.betteranimalsplus.common.entity.EntitySquirrel                                    | 356 |
+| Better Animals Plus        | betteranimalsplus:tarantula                      | its_meow.betteranimalsplus.common.entity.EntityTarantula                                   | 350 |
+| Better Animals Plus        | betteranimalsplus:tarantulahair                  | its_meow.betteranimalsplus.common.entity.projectile.EntityTarantulaHair                    | 338 |
+| Better Animals Plus        | betteranimalsplus:turkey                         | its_meow.betteranimalsplus.common.entity.EntityTurkey                                      | 365 |
+| Better Animals Plus        | betteranimalsplus:turkey_egg                     | its_meow.betteranimalsplus.common.entity.projectile.EntityTurkeyEgg                        | 341 |
+| Better Animals Plus        | betteranimalsplus:walrus                         | its_meow.betteranimalsplus.common.entity.EntityWalrus                                      | 371 |
+| Better Animals Plus        | betteranimalsplus:whale                          | its_meow.betteranimalsplus.common.entity.EntityWhale                                       | 370 |
+| Charm                      | charm:endermite_powder                           | svenhjol.charm.world.entity.EndermitePowderEntity                                          | 439 |
+| Clumps                     | clumps:xp_orb_big                                | ?                                                                                          | 332 |
+| Create                     | create:contraption                               | com.simibubi.create.content.contraptions.components.structureMovement.ContraptionEntity    | 330 |
+| Create                     | create:stationary_contraption                    | com.simibubi.create.content.contraptions.components.structureMovement.ContraptionEntity    | 331 |
+| Create                     | create:super_glue                                | com.simibubi.create.content.contraptions.components.structureMovement.glue.SuperGlueEntity | 329 |
+| Dungeons Gear              | dungeons_gear:ice_cloud                          | com.infamous.dungeons_gear.entities.IceCloudEntity                                         | 327 |
+| Explorercraft              | explorercraft:brush_stooge                       | com.zathrox.explorercraft.common.entity.BrushStoogeEntity                                  | 381 |
+| Explorercraft              | explorercraft:enderghast                         | com.zathrox.explorercraft.common.entity.EnderGhastEntity                                   | 382 |
+| Explorercraft              | explorercraft:enderreeper                        | com.zathrox.explorercraft.common.entity.EnderreeperEntity                                  | 383 |
+| Explorercraft              | explorercraft:infected_creeper                   | com.zathrox.explorercraft.common.entity.InfectedCreeperEntity                              | 384 |
+| Explorercraft              | explorercraft:infected_skeleton                  | com.zathrox.explorercraft.common.entity.InfectedSkeletonEntity                             | 385 |
+| Explorercraft              | explorercraft:infected_zombie                    | com.zathrox.explorercraft.common.entity.InfectedZombieEntity                               | 386 |
+| Explorercraft              | explorercraft:skeletaur                          | com.zathrox.explorercraft.common.entity.SkeletaurEntity                                    | 387 |
+| Explorercraft              | explorercraft:wizard                             | com.zathrox.explorercraft.common.entity.WizardEntity                                       | 388 |
+| Extended Nether Backport   | extendednether:hoglin                            | com.blackgear.nether.common.entity.HoglinEntity                                            | 462 |
+| Extended Nether Backport   | extendednether:piglin                            | com.blackgear.nether.common.entity.PiglinEntity                                            | 463 |
+| Extended Nether Backport   | extendednether:strider                           | com.blackgear.nether.common.entity.StriderEntity                                           | 464 |
+| Extended Nether Backport   | extendednether:zoglin                            | com.blackgear.nether.common.entity.ZoglinEntity                                            | 465 |
+| Extended Nether Backport   | extendednether:zombified_piglin                  | com.blackgear.nether.common.entity.ZombifiedPiglinEntity                                   | 466 |
+| Fairy Lights               | fairylights:fastener                             | me.paulf.fairylights.server.entity.FenceFastenerEntity                                     | 113 |
+| Farming for Blockheads     | farmingforblockheads:merchant                    | net.blay09.mods.farmingforblockheads.entity.MerchantEntity                                 | 380 |
+| Flux Networks              | fluxnetworks:fireitem                            | sonar.fluxnetworks.common.core.FireItemEntity                                              | 445 |
+| Joy of Painting            | xercapaint:canvas                                | xerca.xercapaint.common.entity.EntityCanvas                                                | 114 |
+| Minecraft                  | minecraft:area_effect_cloud                      | net.minecraft.entity.AreaEffectCloudEntity                                                 |   0 |
+| Minecraft                  | minecraft:armor_stand                            | net.minecraft.entity.item.ArmorStandEntity                                                 |   1 |
+| Minecraft                  | minecraft:arrow                                  | net.minecraft.entity.projectile.ArrowEntity                                                |   2 |
+| Minecraft                  | minecraft:bat                                    | net.minecraft.entity.passive.BatEntity                                                     |   3 |
+| Minecraft                  | minecraft:bee                                    | net.minecraft.entity.passive.BeeEntity                                                     |   4 |
+| Minecraft                  | minecraft:blaze                                  | net.minecraft.entity.monster.BlazeEntity                                                   |   5 |
+| Minecraft                  | minecraft:boat                                   | net.minecraft.entity.item.BoatEntity                                                       |   6 |
+| Minecraft                  | minecraft:cat                                    | net.minecraft.entity.passive.CatEntity                                                     |   7 |
+| Minecraft                  | minecraft:cave_spider                            | net.minecraft.entity.monster.CaveSpiderEntity                                              |   8 |
+| Minecraft                  | minecraft:chest_minecart                         | net.minecraft.entity.item.minecart.ChestMinecartEntity                                     |  43 |
+| Minecraft                  | minecraft:chicken                                | net.minecraft.entity.passive.ChickenEntity                                                 |   9 |
+| Minecraft                  | minecraft:cod                                    | net.minecraft.entity.passive.fish.CodEntity                                                |  10 |
+| Minecraft                  | minecraft:command_block_minecart                 | net.minecraft.entity.item.minecart.MinecartCommandBlockEntity                              |  44 |
+| Minecraft                  | minecraft:cow                                    | net.minecraft.entity.passive.CowEntity                                                     |  11 |
+| Minecraft                  | minecraft:creeper                                | net.minecraft.entity.monster.CreeperEntity                                                 |  12 |
+| Minecraft                  | minecraft:dolphin                                | net.minecraft.entity.passive.DolphinEntity                                                 |  14 |
+| Minecraft                  | minecraft:donkey                                 | net.minecraft.entity.passive.horse.DonkeyEntity                                            |  13 |
+| Minecraft                  | minecraft:dragon_fireball                        | net.minecraft.entity.projectile.DragonFireballEntity                                       |  15 |
+| Minecraft                  | minecraft:drowned                                | net.minecraft.entity.monster.DrownedEntity                                                 |  16 |
+| Minecraft                  | minecraft:egg                                    | net.minecraft.entity.projectile.EggEntity                                                  |  79 |
+| Minecraft                  | minecraft:elder_guardian                         | net.minecraft.entity.monster.ElderGuardianEntity                                           |  17 |
+| Minecraft                  | minecraft:end_crystal                            | net.minecraft.entity.item.EnderCrystalEntity                                               |  18 |
+| Minecraft                  | minecraft:ender_dragon                           | net.minecraft.entity.boss.dragon.EnderDragonEntity                                         |  19 |
+| Minecraft                  | minecraft:ender_pearl                            | net.minecraft.entity.item.EnderPearlEntity                                                 |  80 |
+| Minecraft                  | minecraft:enderman                               | net.minecraft.entity.monster.EndermanEntity                                                |  20 |
+| Minecraft                  | minecraft:endermite                              | net.minecraft.entity.monster.EndermiteEntity                                               |  21 |
+| Minecraft                  | minecraft:evoker                                 | net.minecraft.entity.monster.EvokerEntity                                                  |  23 |
+| Minecraft                  | minecraft:evoker_fangs                           | net.minecraft.entity.projectile.EvokerFangsEntity                                          |  22 |
+| Minecraft                  | minecraft:experience_bottle                      | net.minecraft.entity.item.ExperienceBottleEntity                                           |  81 |
+| Minecraft                  | minecraft:experience_orb                         | net.minecraft.entity.item.ExperienceOrbEntity                                              |  24 |
+| Minecraft                  | minecraft:eye_of_ender                           | net.minecraft.entity.item.EyeOfEnderEntity                                                 |  25 |
+| Minecraft                  | minecraft:falling_block                          | net.minecraft.entity.item.FallingBlockEntity                                               |  26 |
+| Minecraft                  | minecraft:fireball                               | net.minecraft.entity.projectile.FireballEntity                                             |  37 |
+| Minecraft                  | minecraft:firework_rocket                        | net.minecraft.entity.item.FireworkRocketEntity                                             |  27 |
+| Minecraft                  | minecraft:fishing_bobber                         | ?                                                                                          | 102 |
+| Minecraft                  | minecraft:fox                                    | net.minecraft.entity.passive.FoxEntity                                                     |  28 |
+| Minecraft                  | minecraft:furnace_minecart                       | net.minecraft.entity.item.minecart.FurnaceMinecartEntity                                   |  45 |
+| Minecraft                  | minecraft:ghast                                  | net.minecraft.entity.monster.GhastEntity                                                   |  29 |
+| Minecraft                  | minecraft:giant                                  | net.minecraft.entity.monster.GiantEntity                                                   |  30 |
+| Minecraft                  | minecraft:guardian                               | net.minecraft.entity.monster.GuardianEntity                                                |  31 |
+| Minecraft                  | minecraft:hopper_minecart                        | net.minecraft.entity.item.minecart.HopperMinecartEntity                                    |  46 |
+| Minecraft                  | minecraft:horse                                  | net.minecraft.entity.passive.horse.HorseEntity                                             |  32 |
+| Minecraft                  | minecraft:husk                                   | net.minecraft.entity.monster.HuskEntity                                                    |  33 |
+| Minecraft                  | minecraft:illusioner                             | net.minecraft.entity.monster.IllusionerEntity                                              |  34 |
+| Minecraft                  | minecraft:iron_golem                             | net.minecraft.entity.passive.IronGolemEntity                                               |  86 |
+| Minecraft                  | minecraft:item                                   | net.minecraft.entity.item.ItemEntity                                                       |  35 |
+| Minecraft                  | minecraft:item_frame                             | net.minecraft.entity.item.ItemFrameEntity                                                  |  36 |
+| Minecraft                  | minecraft:leash_knot                             | net.minecraft.entity.item.LeashKnotEntity                                                  |  38 |
+| Minecraft                  | minecraft:lightning_bolt                         | ?                                                                                          | 100 |
+| Minecraft                  | minecraft:llama                                  | net.minecraft.entity.passive.horse.LlamaEntity                                             |  39 |
+| Minecraft                  | minecraft:llama_spit                             | net.minecraft.entity.projectile.LlamaSpitEntity                                            |  40 |
+| Minecraft                  | minecraft:magma_cube                             | net.minecraft.entity.monster.MagmaCubeEntity                                               |  41 |
+| Minecraft                  | minecraft:minecart                               | net.minecraft.entity.item.minecart.MinecartEntity                                          |  42 |
+| Minecraft                  | minecraft:mooshroom                              | net.minecraft.entity.passive.MooshroomEntity                                               |  50 |
+| Minecraft                  | minecraft:mule                                   | net.minecraft.entity.passive.horse.MuleEntity                                              |  49 |
+| Minecraft                  | minecraft:ocelot                                 | net.minecraft.entity.passive.OcelotEntity                                                  |  51 |
+| Minecraft                  | minecraft:painting                               | net.minecraft.entity.item.PaintingEntity                                                   |  52 |
+| Minecraft                  | minecraft:panda                                  | net.minecraft.entity.passive.PandaEntity                                                   |  53 |
+| Minecraft                  | minecraft:parrot                                 | net.minecraft.entity.passive.ParrotEntity                                                  |  54 |
+| Minecraft                  | minecraft:phantom                                | net.minecraft.entity.monster.PhantomEntity                                                 |  98 |
+| Minecraft                  | minecraft:pig                                    | net.minecraft.entity.passive.PigEntity                                                     |  55 |
+| Minecraft                  | minecraft:pillager                               | net.minecraft.entity.monster.PillagerEntity                                                |  88 |
+| Minecraft                  | minecraft:player                                 | ?                                                                                          | 101 |
+| Minecraft                  | minecraft:polar_bear                             | net.minecraft.entity.passive.PolarBearEntity                                               |  58 |
+| Minecraft                  | minecraft:potion                                 | net.minecraft.entity.projectile.PotionEntity                                               |  82 |
+| Minecraft                  | minecraft:pufferfish                             | net.minecraft.entity.passive.fish.PufferfishEntity                                         |  56 |
+| Minecraft                  | minecraft:rabbit                                 | net.minecraft.entity.passive.RabbitEntity                                                  |  60 |
+| Minecraft                  | minecraft:ravager                                | net.minecraft.entity.monster.RavagerEntity                                                 |  99 |
+| Minecraft                  | minecraft:salmon                                 | net.minecraft.entity.passive.fish.SalmonEntity                                             |  61 |
+| Minecraft                  | minecraft:sheep                                  | net.minecraft.entity.passive.SheepEntity                                                   |  62 |
+| Minecraft                  | minecraft:shulker                                | net.minecraft.entity.monster.ShulkerEntity                                                 |  63 |
+| Minecraft                  | minecraft:shulker_bullet                         | net.minecraft.entity.projectile.ShulkerBulletEntity                                        |  64 |
+| Minecraft                  | minecraft:silverfish                             | net.minecraft.entity.monster.SilverfishEntity                                              |  65 |
+| Minecraft                  | minecraft:skeleton                               | net.minecraft.entity.monster.SkeletonEntity                                                |  66 |
+| Minecraft                  | minecraft:skeleton_horse                         | net.minecraft.entity.passive.horse.SkeletonHorseEntity                                     |  67 |
+| Minecraft                  | minecraft:slime                                  | net.minecraft.entity.monster.SlimeEntity                                                   |  68 |
+| Minecraft                  | minecraft:small_fireball                         | net.minecraft.entity.projectile.SmallFireballEntity                                        |  69 |
+| Minecraft                  | minecraft:snow_golem                             | net.minecraft.entity.passive.SnowGolemEntity                                               |  70 |
+| Minecraft                  | minecraft:snowball                               | net.minecraft.entity.projectile.SnowballEntity                                             |  71 |
+| Minecraft                  | minecraft:spawner_minecart                       | net.minecraft.entity.item.minecart.SpawnerMinecartEntity                                   |  47 |
+| Minecraft                  | minecraft:spectral_arrow                         | net.minecraft.entity.projectile.SpectralArrowEntity                                        |  72 |
+| Minecraft                  | minecraft:spider                                 | net.minecraft.entity.monster.SpiderEntity                                                  |  73 |
+| Minecraft                  | minecraft:squid                                  | net.minecraft.entity.passive.SquidEntity                                                   |  74 |
+| Minecraft                  | minecraft:stray                                  | net.minecraft.entity.monster.StrayEntity                                                   |  75 |
+| Minecraft                  | minecraft:tnt                                    | net.minecraft.entity.item.TNTEntity                                                        |  59 |
+| Minecraft                  | minecraft:tnt_minecart                           | net.minecraft.entity.item.minecart.TNTMinecartEntity                                       |  48 |
+| Minecraft                  | minecraft:trader_llama                           | net.minecraft.entity.passive.horse.TraderLlamaEntity                                       |  76 |
+| Minecraft                  | minecraft:trident                                | net.minecraft.entity.projectile.TridentEntity                                              |  83 |
+| Minecraft                  | minecraft:tropical_fish                          | net.minecraft.entity.passive.fish.TropicalFishEntity                                       |  77 |
+| Minecraft                  | minecraft:turtle                                 | net.minecraft.entity.passive.TurtleEntity                                                  |  78 |
+| Minecraft                  | minecraft:vex                                    | net.minecraft.entity.monster.VexEntity                                                     |  84 |
+| Minecraft                  | minecraft:villager                               | net.minecraft.entity.merchant.villager.VillagerEntity                                      |  85 |
+| Minecraft                  | minecraft:vindicator                             | net.minecraft.entity.monster.VindicatorEntity                                              |  87 |
+| Minecraft                  | minecraft:wandering_trader                       | net.minecraft.entity.merchant.villager.WanderingTraderEntity                               |  89 |
+| Minecraft                  | minecraft:witch                                  | net.minecraft.entity.monster.WitchEntity                                                   |  90 |
+| Minecraft                  | minecraft:wither                                 | net.minecraft.entity.boss.WitherEntity                                                     |  91 |
+| Minecraft                  | minecraft:wither_skeleton                        | net.minecraft.entity.monster.WitherSkeletonEntity                                          |  92 |
+| Minecraft                  | minecraft:wither_skull                           | net.minecraft.entity.projectile.WitherSkullEntity                                          |  93 |
+| Minecraft                  | minecraft:wolf                                   | net.minecraft.entity.passive.WolfEntity                                                    |  94 |
+| Minecraft                  | minecraft:zombie                                 | net.minecraft.entity.monster.ZombieEntity                                                  |  95 |
+| Minecraft                  | minecraft:zombie_horse                           | net.minecraft.entity.passive.horse.ZombieHorseEntity                                       |  96 |
+| Minecraft                  | minecraft:zombie_pigman                          | net.minecraft.entity.monster.ZombiePigmanEntity                                            |  57 |
+| Minecraft                  | minecraft:zombie_villager                        | net.minecraft.entity.monster.ZombieVillagerEntity                                          |  97 |
+| MrCrayfish's Furniture Mod | cfm:seat                                         | com.mrcrayfish.furniture.entity.SeatEntity                                                 | 279 |
+| MrCrayfish's Vehicle Mod   | vehicle:aluminum_boat                            | com.mrcrayfish.vehicle.entity.vehicle.AluminumBoatEntity                                   | 123 |
+| MrCrayfish's Vehicle Mod   | vehicle:atv                                      | com.mrcrayfish.vehicle.entity.vehicle.ATVEntity                                            | 115 |
+| MrCrayfish's Vehicle Mod   | vehicle:bath                                     | com.mrcrayfish.vehicle.entity.vehicle.BathEntity                                           | 139 |
+| MrCrayfish's Vehicle Mod   | vehicle:bumper_car                               | com.mrcrayfish.vehicle.entity.vehicle.BumperCarEntity                                      | 120 |
+| MrCrayfish's Vehicle Mod   | vehicle:couch                                    | com.mrcrayfish.vehicle.entity.vehicle.CouchEntity                                          | 138 |
+| MrCrayfish's Vehicle Mod   | vehicle:dirt_bike                                | com.mrcrayfish.vehicle.entity.vehicle.DirtBikeEntity                                       | 132 |
+| MrCrayfish's Vehicle Mod   | vehicle:dune_buggy                               | com.mrcrayfish.vehicle.entity.vehicle.DuneBuggyEntity                                      | 116 |
+| MrCrayfish's Vehicle Mod   | vehicle:fertilizer                               | com.mrcrayfish.vehicle.entity.trailer.FertilizerTrailerEntity                              | 137 |
+| MrCrayfish's Vehicle Mod   | vehicle:fluid_trailer                            | com.mrcrayfish.vehicle.entity.trailer.FluidTrailerEntity                                   | 135 |
+| MrCrayfish's Vehicle Mod   | vehicle:go_kart                                  | com.mrcrayfish.vehicle.entity.vehicle.GoKartEntity                                         | 117 |
+| MrCrayfish's Vehicle Mod   | vehicle:golf_cart                                | com.mrcrayfish.vehicle.entity.vehicle.GolfCartEntity                                       | 128 |
+| MrCrayfish's Vehicle Mod   | vehicle:jack                                     | com.mrcrayfish.vehicle.entity.EntityJack                                                   | 141 |
+| MrCrayfish's Vehicle Mod   | vehicle:jet_ski                                  | com.mrcrayfish.vehicle.entity.vehicle.JetSkiEntity                                         | 121 |
+| MrCrayfish's Vehicle Mod   | vehicle:lawn_mower                               | com.mrcrayfish.vehicle.entity.vehicle.LawnMowerEntity                                      | 125 |
+| MrCrayfish's Vehicle Mod   | vehicle:mini_bike                                | com.mrcrayfish.vehicle.entity.vehicle.MiniBikeEntity                                       | 119 |
+| MrCrayfish's Vehicle Mod   | vehicle:mini_bus                                 | com.mrcrayfish.vehicle.entity.vehicle.MiniBusEntity                                        | 131 |
+| MrCrayfish's Vehicle Mod   | vehicle:moped                                    | com.mrcrayfish.vehicle.entity.vehicle.MopedEntity                                          | 126 |
+| MrCrayfish's Vehicle Mod   | vehicle:off_roader                               | com.mrcrayfish.vehicle.entity.vehicle.OffRoaderEntity                                      | 129 |
+| MrCrayfish's Vehicle Mod   | vehicle:seeder                                   | com.mrcrayfish.vehicle.entity.trailer.SeederTrailerEntity                                  | 136 |
+| MrCrayfish's Vehicle Mod   | vehicle:shopping_cart                            | com.mrcrayfish.vehicle.entity.vehicle.ShoppingCartEntity                                   | 118 |
+| MrCrayfish's Vehicle Mod   | vehicle:smart_car                                | com.mrcrayfish.vehicle.entity.vehicle.SmartCarEntity                                       | 124 |
+| MrCrayfish's Vehicle Mod   | vehicle:sofacopter                               | com.mrcrayfish.vehicle.entity.vehicle.SofacopterEntity                                     | 140 |
+| MrCrayfish's Vehicle Mod   | vehicle:speed_boat                               | com.mrcrayfish.vehicle.entity.vehicle.SpeedBoatEntity                                      | 122 |
+| MrCrayfish's Vehicle Mod   | vehicle:sports_plane                             | com.mrcrayfish.vehicle.entity.vehicle.SportsPlaneEntity                                    | 127 |
+| MrCrayfish's Vehicle Mod   | vehicle:storage_trailer                          | com.mrcrayfish.vehicle.entity.trailer.StorageTrailerEntity                                 | 134 |
+| MrCrayfish's Vehicle Mod   | vehicle:tractor                                  | com.mrcrayfish.vehicle.entity.vehicle.TractorEntity                                        | 130 |
+| MrCrayfish's Vehicle Mod   | vehicle:vehicle_trailer                          | com.mrcrayfish.vehicle.entity.trailer.VehicleEntityTrailer                                 | 133 |
+| Mubble                     | mubble:chincho                                   | hugman.mubble.objects.entity.ChinchoEntity                                                 | 456 |
+| Mubble                     | mubble:custom_tnt                                | hugman.mubble.objects.entity.CustomTNTEntity                                               | 454 |
+| Mubble                     | mubble:duck                                      | hugman.mubble.objects.entity.DuckEntity                                                    | 452 |
+| Mubble                     | mubble:fireball                                  | hugman.mubble.objects.entity.FireballEntity                                                | 459 |
+| Mubble                     | mubble:flying_block                              | hugman.mubble.objects.entity.FlyingBlockEntity                                             | 455 |
+| Mubble                     | mubble:goomba                                    | hugman.mubble.objects.entity.GoombaEntity                                                  | 457 |
+| Mubble                     | mubble:iceball                                   | hugman.mubble.objects.entity.IceballEntity                                                 | 460 |
+| Mubble                     | mubble:kirby_ball                                | hugman.mubble.objects.entity.KirbyBallEntity                                               | 461 |
+| Mubble                     | mubble:toad                                      | hugman.mubble.objects.entity.ToadEntity                                                    | 458 |
+| Mubble                     | mubble:zombie_cowman                             | hugman.mubble.objects.entity.ZombieCowmanEntity                                            | 453 |
+| NetherEx                   | netherex:coolmar_spider                          | logictechcorp.netherex.entity.hostile.CoolmarSpiderEntity                                  | 326 |
+| NetherEx                   | netherex:mogus                                   | logictechcorp.netherex.entity.neutral.MogusEntity                                          | 320 |
+| NetherEx                   | netherex:salamander                              | logictechcorp.netherex.entity.neutral.SalamanderEntity                                     | 321 |
+| NetherEx                   | netherex:spinout                                 | logictechcorp.netherex.entity.hostile.SpinoutEntity                                        | 322 |
+| NetherEx                   | netherex:spore                                   | logictechcorp.netherex.entity.hostile.SporeEntity                                          | 323 |
+| NetherEx                   | netherex:spore_creeper                           | logictechcorp.netherex.entity.hostile.SporeCreeperEntity                                   | 324 |
+| NetherEx                   | netherex:wight                                   | logictechcorp.netherex.entity.hostile.WightEntity                                          | 325 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:aeromancer                   | net.mcreator.nuggetsdungeonsii.entity.AeromancerEntity$CustomEntity                        | 177 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:alien                        | net.mcreator.nuggetsdungeonsii.entity.AlienEntity$CustomEntity                             | 255 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ancient_vampire              | net.mcreator.nuggetsdungeonsii.entity.AncientVampireEntity$CustomEntity                    | 236 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ant                          | net.mcreator.nuggetsdungeonsii.entity.AntEntity$CustomEntity                               | 148 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:aquarachnid                  | net.mcreator.nuggetsdungeonsii.entity.AquarachnidEntity$CustomEntity                       | 161 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:beetle                       | net.mcreator.nuggetsdungeonsii.entity.BeetleEntity$CustomEntity                            | 163 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bionic                       | net.mcreator.nuggetsdungeonsii.entity.BionicEntity$CustomEntity                            | 241 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:biter                        | net.mcreator.nuggetsdungeonsii.entity.BiterEntity$CustomEntity                             | 268 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:black_ant                    | net.mcreator.nuggetsdungeonsii.entity.BlackAntEntity$CustomEntity                          | 230 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:black_knight                 | net.mcreator.nuggetsdungeonsii.entity.BlackKnightEntity$CustomEntity                       | 164 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:black_widow_spider           | net.mcreator.nuggetsdungeonsii.entity.BlackWidowSpiderEntity$CustomEntity                  | 264 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blazer                       | net.mcreator.nuggetsdungeonsii.entity.BlazerEntity$CustomEntity                            | 222 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blighted                     | net.mcreator.nuggetsdungeonsii.entity.BlightedEntity$CustomEntity                          | 186 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blooded                      | net.mcreator.nuggetsdungeonsii.entity.BloodedEntity$CustomEntity                           | 211 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:blueback_spider              | net.mcreator.nuggetsdungeonsii.entity.BluebackSpiderEntity$CustomEntity                    | 263 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bluecoat                     | net.mcreator.nuggetsdungeonsii.entity.BluecoatEntity$CustomEntity                          | 209 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bograchnid                   | net.mcreator.nuggetsdungeonsii.entity.BograchnidEntity$CustomEntity                        | 144 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bonerachnid                  | net.mcreator.nuggetsdungeonsii.entity.BonerachnidEntity$CustomEntity                       | 145 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:bull                         | net.mcreator.nuggetsdungeonsii.entity.BullEntity$CustomEntity                              | 142 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:buried                       | net.mcreator.nuggetsdungeonsii.entity.BuriedEntity$CustomEntity                            | 173 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:candy_corn                   | net.mcreator.nuggetsdungeonsii.entity.CandyCornEntity$CustomEntity                         | 245 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cave_scorpion                | net.mcreator.nuggetsdungeonsii.entity.CaveScorpionEntity$CustomEntity                      | 199 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:caverachnid                  | net.mcreator.nuggetsdungeonsii.entity.CaverachnidEntity$CustomEntity                       | 147 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cavesquatch                  | net.mcreator.nuggetsdungeonsii.entity.CavesquatchEntity$CustomEntity                       | 193 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:charred                      | net.mcreator.nuggetsdungeonsii.entity.CharredEntity$CustomEntity                           | 150 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:chomper                      | net.mcreator.nuggetsdungeonsii.entity.ChomperEntity$CustomEntity                           | 227 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:clown                        | net.mcreator.nuggetsdungeonsii.entity.ClownEntity$CustomEntity                             | 221 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:commander_candy_corn         | net.mcreator.nuggetsdungeonsii.entity.CommanderCandyCornEntity$CustomEntity                | 246 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:copperoid                    | net.mcreator.nuggetsdungeonsii.entity.CopperoidEntity$CustomEntity                         | 143 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:crimson_knight               | net.mcreator.nuggetsdungeonsii.entity.CrimsonKnightEntity$CustomEntity                     | 231 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cruncher                     | net.mcreator.nuggetsdungeonsii.entity.CruncherEntity$CustomEntity                          | 244 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:cursed                       | net.mcreator.nuggetsdungeonsii.entity.CursedEntity$CustomEntity                            | 179 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:darkrachnid                  | net.mcreator.nuggetsdungeonsii.entity.DarkrachnidEntity$CustomEntity                       | 249 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:darksquatch                  | net.mcreator.nuggetsdungeonsii.entity.DarksquatchEntity$CustomEntity                       | 248 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:decayer                      | net.mcreator.nuggetsdungeonsii.entity.DecayerEntity$CustomEntity                           | 250 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:deepur                       | net.mcreator.nuggetsdungeonsii.entity.DeepurEntity$CustomEntity                            | 172 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:desert_knight                | net.mcreator.nuggetsdungeonsii.entity.DesertKnightEntity$CustomEntity                      | 168 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dionic                       | net.mcreator.nuggetsdungeonsii.entity.DionicEntity$CustomEntity                            | 243 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:diseased_rat                 | net.mcreator.nuggetsdungeonsii.entity.DiseasedRatEntity$CustomEntity                       | 183 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:drakula                      | net.mcreator.nuggetsdungeonsii.entity.DrakulaEntity$CustomEntity                           | 234 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:draugr                       | net.mcreator.nuggetsdungeonsii.entity.DraugrEntity$CustomEntity                            | 204 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dreadlich_boss               | net.mcreator.nuggetsdungeonsii.entity.DreadlichBossEntity$CustomEntity                     | 153 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dust_mummy                   | net.mcreator.nuggetsdungeonsii.entity.DustMummyEntity$CustomEntity                         | 251 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:dweller                      | net.mcreator.nuggetsdungeonsii.entity.DwellerEntity$CustomEntity                           | 162 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletaeromancer       | net.mcreator.nuggetsdungeonsii.entity.AeromancerEntity$ArrowCustomEntity                   | 178 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletair_staff        | net.mcreator.nuggetsdungeonsii.item.AirStaffItem$ArrowCustomEntity                         | 176 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletmusket           | net.mcreator.nuggetsdungeonsii.item.MusketItem$ArrowCustomEntity                           | 206 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletninja            | net.mcreator.nuggetsdungeonsii.entity.NinjaEntity$ArrowCustomEntity                        | 201 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletredcoat          | net.mcreator.nuggetsdungeonsii.entity.RedcoatEntity$ArrowCustomEntity                      | 208 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybulletshuriken_shooter | net.mcreator.nuggetsdungeonsii.item.ShurikenShooterItem$ArrowCustomEntity                  | 202 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:entitybullettower_guardian   | net.mcreator.nuggetsdungeonsii.entity.TowerGuardianEntity$ArrowCustomEntity                | 175 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:fleshrachnid                 | net.mcreator.nuggetsdungeonsii.entity.FleshrachnidEntity$CustomEntity                      | 212 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:frost_husk                   | net.mcreator.nuggetsdungeonsii.entity.FrostHuskEntity$CustomEntity                         | 225 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:frost_scorpion               | net.mcreator.nuggetsdungeonsii.entity.FrostScorpionEntity$CustomEntity                     | 218 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:frostrachnid                 | net.mcreator.nuggetsdungeonsii.entity.FrostrachnidEntity$CustomEntity                      | 237 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:geode                        | net.mcreator.nuggetsdungeonsii.entity.GeodeEntity$CustomEntity                             | 197 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ghost                        | net.mcreator.nuggetsdungeonsii.entity.GhostEntity$CustomEntity                             | 247 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:glowboar                     | net.mcreator.nuggetsdungeonsii.entity.GlowboarEntity$CustomEntity                          | 235 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:goblin                       | net.mcreator.nuggetsdungeonsii.entity.GoblinEntity$CustomEntity                            | 187 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:golden_knight                | net.mcreator.nuggetsdungeonsii.entity.GoldenKnightEntity$CustomEntity                      | 258 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:gorgon                       | net.mcreator.nuggetsdungeonsii.entity.GorgonEntity$CustomEntity                            | 260 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:haunted_armor                | net.mcreator.nuggetsdungeonsii.entity.HauntedArmorEntity$CustomEntity                      | 146 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hell_rat                     | net.mcreator.nuggetsdungeonsii.entity.HellRatEntity$CustomEntity                           | 265 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hell_scorpion                | net.mcreator.nuggetsdungeonsii.entity.HellScorpionEntity$CustomEntity                      | 220 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hermit_creep                 | net.mcreator.nuggetsdungeonsii.entity.HermitCreepEntity$CustomEntity                       | 210 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hobgoblin                    | net.mcreator.nuggetsdungeonsii.entity.HobgoblinEntity$CustomEntity                         | 215 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hobgoblin_chief              | net.mcreator.nuggetsdungeonsii.entity.HobgoblinChiefEntity$CustomEntity                    | 216 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:hollow                       | net.mcreator.nuggetsdungeonsii.entity.HollowEntity$CustomEntity                            | 203 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:houndeye                     | net.mcreator.nuggetsdungeonsii.entity.HoundeyeEntity$CustomEntity                          | 253 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:iceman                       | net.mcreator.nuggetsdungeonsii.entity.IcemanEntity$CustomEntity                            | 159 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:illager_knight               | net.mcreator.nuggetsdungeonsii.entity.IllagerKnightEntity$CustomEntity                     | 184 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:illager_rebel                | net.mcreator.nuggetsdungeonsii.entity.IllagerRebelEntity$CustomEntity                      | 158 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:infected_husk                | net.mcreator.nuggetsdungeonsii.entity.InfectedHuskEntity$CustomEntity                      | 229 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ionic                        | net.mcreator.nuggetsdungeonsii.entity.IonicEntity$CustomEntity                             | 239 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:jungle_woodrachnid           | net.mcreator.nuggetsdungeonsii.entity.JungleWoodrachnidEntity$CustomEntity                 | 151 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:knight                       | net.mcreator.nuggetsdungeonsii.entity.KnightEntity$CustomEntity                            | 166 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:martian                      | net.mcreator.nuggetsdungeonsii.entity.MartianEntity$CustomEntity                           | 256 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:mawrachnid                   | net.mcreator.nuggetsdungeonsii.entity.MawrachnidEntity$CustomEntity                        | 196 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:monolith_guard               | net.mcreator.nuggetsdungeonsii.entity.MonolithGuardEntity$CustomEntity                     | 198 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:mummy                        | net.mcreator.nuggetsdungeonsii.entity.MummyEntity$CustomEntity                             | 167 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:muncher                      | net.mcreator.nuggetsdungeonsii.entity.MuncherEntity$CustomEntity                           | 223 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:neon_rat                     | net.mcreator.nuggetsdungeonsii.entity.NeonRatEntity$CustomEntity                           | 181 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:neonic                       | net.mcreator.nuggetsdungeonsii.entity.NeonicEntity$CustomEntity                            | 240 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:nether_beast                 | net.mcreator.nuggetsdungeonsii.entity.NetherBeastEntity$CustomEntity                       | 152 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:netherracknid                | net.mcreator.nuggetsdungeonsii.entity.NetherracknidEntity$CustomEntity                     | 228 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:ninja                        | net.mcreator.nuggetsdungeonsii.entity.NinjaEntity$CustomEntity                             | 200 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:phantorachnid                | net.mcreator.nuggetsdungeonsii.entity.PhantorachnidEntity$CustomEntity                     | 269 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:pharoah                      | net.mcreator.nuggetsdungeonsii.entity.PharoahEntity$CustomEntity                           | 170 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:piglien                      | net.mcreator.nuggetsdungeonsii.entity.PiglienEntity$CustomEntity                           | 257 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:plague_mummy                 | net.mcreator.nuggetsdungeonsii.entity.PlagueMummyEntity$CustomEntity                       | 267 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:platinum_knight              | net.mcreator.nuggetsdungeonsii.entity.PlatinumKnightEntity$CustomEntity                    | 266 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:poprachnid                   | net.mcreator.nuggetsdungeonsii.entity.PoprachnidEntity$CustomEntity                        | 205 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:psionic                      | net.mcreator.nuggetsdungeonsii.entity.PsionicEntity$CustomEntity                           | 242 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:rainbow_rat                  | net.mcreator.nuggetsdungeonsii.entity.RainbowRatEntity$CustomEntity                        | 182 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:rainbowrachnid               | net.mcreator.nuggetsdungeonsii.entity.RainbowrachnidEntity$CustomEntity                    | 232 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:rat                          | net.mcreator.nuggetsdungeonsii.entity.RatEntity$CustomEntity                               | 180 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:red_scorpion                 | net.mcreator.nuggetsdungeonsii.entity.RedScorpionEntity$CustomEntity                       | 217 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:redcoat                      | net.mcreator.nuggetsdungeonsii.entity.RedcoatEntity$CustomEntity                           | 207 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:robot                        | net.mcreator.nuggetsdungeonsii.entity.RobotEntity$CustomEntity                             | 188 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:royal_illager_knight         | net.mcreator.nuggetsdungeonsii.entity.RoyalIllagerKnightEntity$CustomEntity                | 185 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sand_rat                     | net.mcreator.nuggetsdungeonsii.entity.SandRatEntity$CustomEntity                           | 224 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sandsquatch                  | net.mcreator.nuggetsdungeonsii.entity.SandsquatchEntity$CustomEntity                       | 169 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sasquatch                    | net.mcreator.nuggetsdungeonsii.entity.SasquatchEntity$CustomEntity                         | 160 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:scarecrow                    | net.mcreator.nuggetsdungeonsii.entity.ScarecrowEntity$CustomEntity                         | 213 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:scorpion                     | net.mcreator.nuggetsdungeonsii.entity.ScorpionEntity$CustomEntity                          | 154 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:silver_knight                | net.mcreator.nuggetsdungeonsii.entity.SilverKnightEntity$CustomEntity                      | 195 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:sky_knight                   | net.mcreator.nuggetsdungeonsii.entity.SkyKnightEntity$CustomEntity                         | 261 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:special_goblin_skullripper   | net.mcreator.nuggetsdungeonsii.entity.SpecialGoblinSkullripperEntity$CustomEntity          | 252 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:spider_broodfather           | net.mcreator.nuggetsdungeonsii.entity.SpiderBroodfatherEntity$CustomEntity                 | 214 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:spider_broodmother_boss      | net.mcreator.nuggetsdungeonsii.entity.SpiderBroodmotherBossEntity$CustomEntity             | 156 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:spriggan                     | net.mcreator.nuggetsdungeonsii.entity.SprigganEntity$CustomEntity                          | 189 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:squidman                     | net.mcreator.nuggetsdungeonsii.entity.SquidmanEntity$CustomEntity                          | 155 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:stone_statue                 | net.mcreator.nuggetsdungeonsii.entity.StoneStatueEntity$CustomEntity                       | 259 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:swampsquatch                 | net.mcreator.nuggetsdungeonsii.entity.SwampsquatchEntity$CustomEntity                      | 194 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:tarantula                    | net.mcreator.nuggetsdungeonsii.entity.TarantulaEntity$CustomEntity                         | 191 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:termite                      | net.mcreator.nuggetsdungeonsii.entity.TermiteEntity$CustomEntity                           | 192 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:the_white_pumpkin            | net.mcreator.nuggetsdungeonsii.entity.TheWhitePumpkinEntity$CustomEntity                   | 262 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:tower_guardian               | net.mcreator.nuggetsdungeonsii.entity.TowerGuardianEntity$CustomEntity                     | 174 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:tower_sentinel               | net.mcreator.nuggetsdungeonsii.entity.TowerSentinelEntity$CustomEntity                     | 254 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:toxic_scorpion               | net.mcreator.nuggetsdungeonsii.entity.ToxicScorpionEntity$CustomEntity                     | 219 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:vampire                      | net.mcreator.nuggetsdungeonsii.entity.VampireEntity$CustomEntity                           | 233 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:werewolf_den                 | net.mcreator.nuggetsdungeonsii.entity.WerewolfDenEntity$CustomEntity                       | 226 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:white_knight                 | net.mcreator.nuggetsdungeonsii.entity.WhiteKnightEntity$CustomEntity                       | 165 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:wight                        | net.mcreator.nuggetsdungeonsii.entity.WightEntity$CustomEntity                             | 171 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:wildfire_spriggan            | net.mcreator.nuggetsdungeonsii.entity.WildfireSprigganEntity$CustomEntity                  | 190 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:wood_elf                     | net.mcreator.nuggetsdungeonsii.entity.WoodElfEntity$CustomEntity                           | 238 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:woodrachnid                  | net.mcreator.nuggetsdungeonsii.entity.WoodrachnidEntity$CustomEntity                       | 149 |
+| Nugget's Dungeons II       | nuggets_dungeons_ii:yeti                         | net.mcreator.nuggetsdungeonsii.entity.YetiEntity$CustomEntity                              | 157 |
+| Oh The Biomes You'll Go    | byg:boat                                         | voronoiaoc.byg.common.entity.boat.BYGBoatEntity                                            | 446 |
+| Playing Cards              | playingcards:card                                | playingcards.entity.EntityCard                                                             | 447 |
+| Playing Cards              | playingcards:card_deck                           | playingcards.entity.EntityCardDeck                                                         | 448 |
+| Playing Cards              | playingcards:dice                                | playingcards.entity.EntityDice                                                             | 450 |
+| Playing Cards              | playingcards:poker_chip                          | playingcards.entity.EntityPokerChip                                                        | 449 |
+| Playing Cards              | playingcards:seat                                | playingcards.entity.EntitySeat                                                             | 451 |
+| ProjectE                   | projecte:fire_projectile                         | moze_intel.projecte.gameObjs.entity.EntityFireProjectile                                   | 110 |
+| ProjectE                   | projecte:homing_arrow                            | moze_intel.projecte.gameObjs.entity.EntityHomingArrow                                      | 109 |
+| ProjectE                   | projecte:lava_projectile                         | moze_intel.projecte.gameObjs.entity.EntityLavaProjectile                                   | 104 |
+| ProjectE                   | projecte:lens_projectile                         | moze_intel.projecte.gameObjs.entity.EntityLensProjectile                                   | 106 |
+| ProjectE                   | projecte:mob_randomizer                          | moze_intel.projecte.gameObjs.entity.EntityMobRandomizer                                    | 105 |
+| ProjectE                   | projecte:nova_cataclysm_primed                   | moze_intel.projecte.gameObjs.entity.EntityNovaCataclysmPrimed                              | 108 |
+| ProjectE                   | projecte:nova_catalyst_primed                    | moze_intel.projecte.gameObjs.entity.EntityNovaCatalystPrimed                               | 107 |
+| ProjectE                   | projecte:swrg_projectile                         | moze_intel.projecte.gameObjs.entity.EntitySWRGProjectile                                   | 111 |
+| ProjectE                   | projecte:water_projectile                        | moze_intel.projecte.gameObjs.entity.EntityWaterProjectile                                  | 103 |
+| Quark                      | quark:chest_passenger                            | vazkii.quark.management.entity.ChestPassengerEntity                                        | 429 |
+| Quark                      | quark:colored_frame                              | vazkii.quark.building.entity.ColoredItemFrameEntity                                        | 437 |
+| Quark                      | quark:crab                                       | vazkii.quark.mobs.entity.CrabEntity                                                        | 432 |
+| Quark                      | quark:foxhound                                   | vazkii.quark.mobs.entity.FoxhoundEntity                                                    | 438 |
+| Quark                      | quark:frog                                       | vazkii.quark.mobs.entity.FrogEntity                                                        | 433 |
+| Quark                      | quark:glass_frame                                | vazkii.quark.building.entity.GlassItemFrameEntity                                          | 436 |
+| Quark                      | quark:gravisand                                  | vazkii.quark.automation.entity.GravisandEntity                                             | 427 |
+| Quark                      | quark:pickarang                                  | vazkii.quark.tools.entity.PickarangEntity                                                  | 431 |
+| Quark                      | quark:stoneling                                  | vazkii.quark.mobs.entity.StonelingEntity                                                   | 435 |
+| Quark                      | quark:toretoise                                  | vazkii.quark.mobs.entity.ToretoiseEntity                                                   | 434 |
+| Quark                      | quark:totem                                      | vazkii.quark.oddities.entity.TotemOfHoldingEntity                                          | 428 |
+| Quark                      | quark:wrapped                                    | vazkii.quark.world.entity.WrappedEntity                                                    | 430 |
+| SecurityCraft              | securitycraft:bouncingbetty                      | net.geforcemods.securitycraft.entity.BouncingBettyEntity                                   | 440 |
+| SecurityCraft              | securitycraft:bullet                             | net.geforcemods.securitycraft.entity.BulletEntity                                          | 444 |
+| SecurityCraft              | securitycraft:imsbomb                            | net.geforcemods.securitycraft.entity.IMSBombEntity                                         | 441 |
+| SecurityCraft              | securitycraft:securitycamera                     | net.geforcemods.securitycraft.entity.SecurityCameraEntity                                  | 442 |
+| SecurityCraft              | securitycraft:sentry                             | net.geforcemods.securitycraft.entity.SentryEntity                                          | 443 |
+| Snail Mail                 | snailmail:snail_man                              | dev.itsmeow.snailmail.entity.SnailManEntity                                                | 112 |
+| Spartan Weaponry           | spartanweaponry:arrow                            | com.oblivioussp.spartanweaponry.entity.projectile.ArrowBaseEntity                          | 270 |
+| Spartan Weaponry           | spartanweaponry:arrow_explosive                  | com.oblivioussp.spartanweaponry.entity.projectile.ArrowExplosiveEntity                     | 271 |
+| Spartan Weaponry           | spartanweaponry:bolt                             | com.oblivioussp.spartanweaponry.entity.projectile.BoltEntity                               | 272 |
+| Spartan Weaponry           | spartanweaponry:bolt_spectral                    | com.oblivioussp.spartanweaponry.entity.projectile.BoltSpectralEntity                       | 273 |
+| Spartan Weaponry           | spartanweaponry:boomerang                        | com.oblivioussp.spartanweaponry.entity.projectile.BoomerangEntity                          | 277 |
+| Spartan Weaponry           | spartanweaponry:dynamite                         | com.oblivioussp.spartanweaponry.entity.projectile.DynamiteEntity                           | 278 |
+| Spartan Weaponry           | spartanweaponry:javelin                          | com.oblivioussp.spartanweaponry.entity.projectile.JavelinEntity                            | 276 |
+| Spartan Weaponry           | spartanweaponry:throwing_weapon                  | com.oblivioussp.spartanweaponry.entity.projectile.ThrowingWeaponEntity                     | 274 |
+| Spartan Weaponry           | spartanweaponry:tomahawk                         | com.oblivioussp.spartanweaponry.entity.projectile.TomahawkEntity                           | 275 |
+| Switch-Bow                 | switchbow:entityarrowair                         | de.Whitedraco.switchbow.entity.arrow.EntityArrowAir                                        | 283 |
+| Switch-Bow                 | switchbow:entityarrowairupgrade                  | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowAirUpgrade                         | 314 |
+| Switch-Bow                 | switchbow:entityarrowbone                        | de.Whitedraco.switchbow.entity.arrow.EntityArrowBone                                       | 293 |
+| Switch-Bow                 | switchbow:entityarrowboneaoe                     | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowBoneAOE                            | 309 |
+| Switch-Bow                 | switchbow:entityarrowbouncy                      | de.Whitedraco.switchbow.entity.arrow.EntityArrowBouncy                                     | 305 |
+| Switch-Bow                 | switchbow:entityarrowburial                      | de.Whitedraco.switchbow.entity.arrow.EntityArrowBurial                                     | 298 |
+| Switch-Bow                 | switchbow:entityarrowburialaoe                   | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowBurialAOE                          | 311 |
+| Switch-Bow                 | switchbow:entityarrowchorus                      | de.Whitedraco.switchbow.entity.arrow.EntityArrowChorus                                     | 299 |
+| Switch-Bow                 | switchbow:entityarrowdiamond                     | de.Whitedraco.switchbow.entity.arrow.EntityArrowDiamond                                    | 290 |
+| Switch-Bow                 | switchbow:entityarrowdragonbreath                | de.Whitedraco.switchbow.entity.arrow.EntityArrowDragonBreath                               | 301 |
+| Switch-Bow                 | switchbow:entityarrowenderperle                  | de.Whitedraco.switchbow.entity.arrow.EntityArrowEnderperle                                 | 284 |
+| Switch-Bow                 | switchbow:entityarrowfire                        | de.Whitedraco.switchbow.entity.arrow.EntityArrowFire                                       | 292 |
+| Switch-Bow                 | switchbow:entityarrowfireupgrade                 | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowFireUpgrade                        | 312 |
+| Switch-Bow                 | switchbow:entityarrowfirework                    | ?                                                                                          | 294 |
+| Switch-Bow                 | switchbow:entityarrowflytomoon                   | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowFlytoMoon                          | 316 |
+| Switch-Bow                 | switchbow:entityarrowfrost                       | de.Whitedraco.switchbow.entity.arrow.EntityArrowFrost                                      | 282 |
+| Switch-Bow                 | switchbow:entityarrowknockback                   | de.Whitedraco.switchbow.entity.arrow.EntityArrowKnockback                                  | 304 |
+| Switch-Bow                 | switchbow:entityarrowlightningbolt               | de.Whitedraco.switchbow.entity.arrow.EntityArrowLightningBolt                              | 280 |
+| Switch-Bow                 | switchbow:entityarrowlightningboltstorm          | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowLightningBoltStorm                 | 308 |
+| Switch-Bow                 | switchbow:entityarrowlove                        | de.Whitedraco.switchbow.entity.arrow.EntityArrowLove                                       | 291 |
+| Switch-Bow                 | switchbow:entityarrowluck                        | de.Whitedraco.switchbow.entity.arrow.EntityArrowLuck                                       | 296 |
+| Switch-Bow                 | switchbow:entityarrowluckupgrade                 | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowLuckUpgrade                        | 313 |
+| Switch-Bow                 | switchbow:entityarrowofthesearcher               | de.Whitedraco.switchbow.entity.arrow.EntityArrowoftheSearcher                              | 306 |
+| Switch-Bow                 | switchbow:entityarrowpiercing                    | de.Whitedraco.switchbow.entity.arrow.EntityArrowPiercing                                   | 307 |
+| Switch-Bow                 | switchbow:entityarrowprotector                   | de.Whitedraco.switchbow.entity.arrow.EntityArrowProtector                                  | 303 |
+| Switch-Bow                 | switchbow:entityarrowredstone                    | de.Whitedraco.switchbow.entity.arrow.EntityArrowRedstone                                   | 297 |
+| Switch-Bow                 | switchbow:entityarrowsplit                       | de.Whitedraco.switchbow.entity.arrow.EntityArrowSplit                                      | 288 |
+| Switch-Bow                 | switchbow:entityarrowsplitlove                   | de.Whitedraco.switchbow.entity.arrow.EntityArrowSplitLove                                  | 295 |
+| Switch-Bow                 | switchbow:entityarrowsplitloveupgrade            | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowSplitLoveUpgrade                   | 315 |
+| Switch-Bow                 | switchbow:entityarrowsplitupgrade                | de.Whitedraco.switchbow.entity.arrow.upgrade.EntityArrowSplitUpgrade                       | 310 |
+| Switch-Bow                 | switchbow:entityarrowsprinkler                   | de.Whitedraco.switchbow.entity.arrow.EntityArrowSprinkler                                  | 300 |
+| Switch-Bow                 | switchbow:entityarrowtnt                         | de.Whitedraco.switchbow.entity.arrow.EntityArrowTNT                                        | 281 |
+| Switch-Bow                 | switchbow:entityarrowtorch                       | de.Whitedraco.switchbow.entity.arrow.EntityArrowTorch                                      | 287 |
+| Switch-Bow                 | switchbow:entityarrowtriple                      | de.Whitedraco.switchbow.entity.arrow.EntityArrowTriple                                     | 302 |
+| Switch-Bow                 | switchbow:entityarrowunderwater                  | de.Whitedraco.switchbow.entity.arrow.EntityArrowUnderwater                                 | 289 |
+| Switch-Bow                 | switchbow:entityarrowvampier                     | de.Whitedraco.switchbow.entity.arrow.EntityArrowVampier                                    | 285 |
+| Switch-Bow                 | switchbow:entityarrowwither                      | de.Whitedraco.switchbow.entity.arrow.EntityArrowWither                                     | 286 |
+| Switch-Bow                 | switchbow:entityburial                           | de.Whitedraco.switchbow.entity.EntityBurial                                                | 318 |
+| Switch-Bow                 | switchbow:entityfire                             | de.Whitedraco.switchbow.entity.EntityFire                                                  | 317 |
+| Switch-Bow                 | switchbow:entitylittleirongolem                  | de.Whitedraco.switchbow.entity.living.EntityLittleIronGolem                                | 319 |
++----------------------------+--------------------------------------------------+--------------------------------------------------------------------------------------------+-----+
+| Mod name                   | Registry name                                    | Entity class name                                                                          |  ID |
++----------------------------+--------------------------------------------------+--------------------------------------------------------------------------------------------+-----+

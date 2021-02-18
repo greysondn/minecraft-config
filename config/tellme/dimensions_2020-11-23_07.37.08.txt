@@ -1,0 +1,10 @@
++----------------------+--------+---------------+------------+---------+------------------------------------------------------------------------------+
+| ID                   | Raw ID | Has Sky Light | Is Vanilla | Loaded? | Dimension class                                                              |
++----------------------+--------+---------------+------------+---------+------------------------------------------------------------------------------+
+| minecraft:the_nether |     -1 |         false |       true |   false | voronoiaoc.byg.common.world.dimension.nether.hooks.ServerNetherDimensionHook |
+| minecraft:overworld  |      0 |          true |       true |    true | net.minecraft.world.dimension.OverworldDimension                             |
+| minecraft:the_end    |      1 |         false |       true |   false | voronoiaoc.byg.common.world.dimension.end.EndDimensionHook                   |
+| nomadictents:tent    |      2 |          true |      false |   false | nomadictents.dimension.TentDimension                                         |
++----------------------+--------+---------------+------------+---------+------------------------------------------------------------------------------+
+| ID                   | Raw ID | Has Sky Light | Is Vanilla | Loaded? | Dimension class                                                              |
++----------------------+--------+---------------+------------+---------+------------------------------------------------------------------------------+

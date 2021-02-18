@@ -1,0 +1,48 @@
++-------------------------------------------------+
+| Registry name                                   |
++-------------------------------------------------+
+| byg:boreal_sb                                   |
+| byg:coniferous_sb                               |
+| byg:dover_sb                                    |
+| byg:dunes_sb                                    |
+| byg:ebony_woods_sb                              |
+| byg:eroded_sierra_sb                            |
+| byg:fungal_rainforest_sb                        |
+| byg:glowing_ancient_forest_sb                   |
+| byg:glowshroom_bayou_sb                         |
+| byg:great_lake_isle_sb                          |
+| byg:great_lake_sb                               |
+| byg:lush_tundra_sb                              |
+| byg:marshland_sb                                |
+| byg:quagmire_sb                                 |
+| byg:rainbowbeach_sb                             |
+| byg:red_rock_lowland_sb                         |
+| byg:red_rock_sb                                 |
+| byg:reddunes_sb                                 |
+| byg:rockybeach_sb                               |
+| byg:rockyblackbeach_sb                          |
+| byg:sierra_valley_sb                            |
+| explorercraft:mud_surface_builder               |
+| extendednether:basalt_deltas_surface_builder    |
+| extendednether:nether_forest_surface_builder    |
+| extendednether:soul_sand_valley_surface_builder |
+| minecraft:badlands                              |
+| minecraft:default                               |
+| minecraft:eroded_badlands                       |
+| minecraft:frozen_ocean                          |
+| minecraft:giant_tree_taiga                      |
+| minecraft:gravelly_mountain                     |
+| minecraft:mountain                              |
+| minecraft:nether                                |
+| minecraft:nope                                  |
+| minecraft:shattered_savanna                     |
+| minecraft:swamp                                 |
+| minecraft:wooded_badlands                       |
+| netherex:nether_surface_builder_wrapper         |
+| voyage:desert_mixed                             |
+| voyage:rock_field                               |
+| voyage:rocky_peaks                              |
+| voyage:steppe                                   |
++-------------------------------------------------+
+| Registry name                                   |
++-------------------------------------------------+

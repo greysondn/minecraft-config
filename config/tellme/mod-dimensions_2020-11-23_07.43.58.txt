@@ -1,0 +1,8 @@
++----------------------------------+
+| Registry name                    |
++----------------------------------+
+| appliedenergistics2:storage_cell |
+| nomadictents:tent_dimension      |
++----------------------------------+
+| Registry name                    |
++----------------------------------+

@@ -1,0 +1,65 @@
++-------------------+-----------------------------------+------------------------------------------+----+-------------------------+--------+---------------+
+| Mod name          | Registry name                     | Potion Name                              | ID | Liquid color            | Is bad | Is beneficial |
++-------------------+-----------------------------------+------------------------------------------+----+-------------------------+--------+---------------+
+| Bountiful Baubles | bountifulbaubles:flight           | effect.bountifulbaubles.flight           | 53 | 0x00AAE0FF (  11198719) |  false |          true |
+| Bountiful Baubles | bountifulbaubles:sinful           | effect.bountifulbaubles.sinful           | 52 | 0x00101317 (   1053463) |  false |          true |
+| Charm             | charm:coffee_effect               | effect.charm.coffee_effect               | 56 | 0x00602000 (   6299648) |  false |          true |
+| Corail Tombstone  | tombstone:diversion               | effect.tombstone.diversion               | 35 | 0x00C7D0F3 (  13095155) |  false |          true |
+| Corail Tombstone  | tombstone:exorcism                | effect.tombstone.exorcism                | 39 | 0x00080A17 (    526871) |  false |         false |
+| Corail Tombstone  | tombstone:feather_fall            | effect.tombstone.feather_fall            | 36 | 0x00EDF4FA (  15594746) |  false |          true |
+| Corail Tombstone  | tombstone:ghostly_shape           | effect.tombstone.ghostly_shape           |  0 | 0x0023949A (   2331802) |  false |          true |
+| Corail Tombstone  | tombstone:lightning_resistance    | effect.tombstone.lightning_resistance    | 41 | 0x0036369A (   3552922) |  false |          true |
+| Corail Tombstone  | tombstone:preservation            | effect.tombstone.preservation            | 33 | 0x009999FF (  10066431) |  false |          true |
+| Corail Tombstone  | tombstone:purification            | effect.tombstone.purification            | 37 | 0x00FFFF99 (  16777113) |  false |          true |
+| Corail Tombstone  | tombstone:reach                   | effect.tombstone.reach                   | 40 | 0x00000000 (         0) |  false |          true |
+| Corail Tombstone  | tombstone:true_sight              | effect.tombstone.true_sight              | 38 | 0x00F9F4D8 (  16381144) |  false |          true |
+| Corail Tombstone  | tombstone:unstable_intangibleness | effect.tombstone.unstable_intangibleness | 34 | 0x00C7D0F3 (  13095155) |  false |          true |
+| Dungeons Gear     | dungeons_gear:shielding           | effect.dungeons_gear.shielding           | 49 | 0x0099453A (  10044730) |  false |          true |
+| Dungeons Gear     | dungeons_gear:soul_protection     | effect.dungeons_gear.soul_protection     | 50 | 0x002552A5 (   2445989) |  false |          true |
+| Dungeons Gear     | dungeons_gear:stunned             | effect.dungeons_gear.stunned             | 51 | 0x00484D48 (   4738376) |   true |         false |
+| Minecraft         | minecraft:absorption              | effect.minecraft.absorption              | 22 | 0x002552A5 (   2445989) |  false |          true |
+| Minecraft         | minecraft:bad_omen                | effect.minecraft.bad_omen                | 31 | 0x000B6138 (    745784) |  false |         false |
+| Minecraft         | minecraft:blindness               | effect.minecraft.blindness               | 15 | 0x001F1F23 (   2039587) |   true |         false |
+| Minecraft         | minecraft:conduit_power           | effect.minecraft.conduit_power           | 29 | 0x001DC2D1 (   1950417) |  false |          true |
+| Minecraft         | minecraft:dolphins_grace          | effect.minecraft.dolphins_grace          | 30 | 0x0088A3BE (   8954814) |  false |          true |
+| Minecraft         | minecraft:fire_resistance         | effect.minecraft.fire_resistance         | 12 | 0x00E49A3A (  14981690) |  false |          true |
+| Minecraft         | minecraft:glowing                 | effect.minecraft.glowing                 | 24 | 0x0094A061 (   9740385) |  false |         false |
+| Minecraft         | minecraft:haste                   | effect.minecraft.haste                   |  3 | 0x00D9C043 (  14270531) |  false |          true |
+| Minecraft         | minecraft:health_boost            | effect.minecraft.health_boost            | 21 | 0x00F87D23 (  16284963) |  false |          true |
+| Minecraft         | minecraft:hero_of_the_village     | effect.minecraft.hero_of_the_village     | 32 | 0x0044FF44 (   4521796) |  false |          true |
+| Minecraft         | minecraft:hunger                  | effect.minecraft.hunger                  | 17 | 0x00587653 (   5797459) |   true |         false |
+| Minecraft         | minecraft:instant_damage          | effect.minecraft.instant_damage          |  7 | 0x00430A09 (   4393481) |   true |         false |
+| Minecraft         | minecraft:instant_health          | effect.minecraft.instant_health          |  6 | 0x00F82423 (  16262179) |  false |          true |
+| Minecraft         | minecraft:invisibility            | effect.minecraft.invisibility            | 14 | 0x007F8392 (   8356754) |  false |          true |
+| Minecraft         | minecraft:jump_boost              | effect.minecraft.jump_boost              |  8 | 0x0022FF4C (   2293580) |  false |          true |
+| Minecraft         | minecraft:levitation              | effect.minecraft.levitation              | 25 | 0x00CEFFFF (  13565951) |   true |         false |
+| Minecraft         | minecraft:luck                    | effect.minecraft.luck                    | 26 | 0x00339900 (   3381504) |  false |          true |
+| Minecraft         | minecraft:mining_fatigue          | effect.minecraft.mining_fatigue          |  4 | 0x004A4217 (   4866583) |   true |         false |
+| Minecraft         | minecraft:nausea                  | effect.minecraft.nausea                  |  9 | 0x00551D4A (   5578058) |   true |         false |
+| Minecraft         | minecraft:night_vision            | effect.minecraft.night_vision            | 16 | 0x001F1FA1 (   2039713) |  false |          true |
+| Minecraft         | minecraft:poison                  | effect.minecraft.poison                  | 19 | 0x004E9331 (   5149489) |   true |         false |
+| Minecraft         | minecraft:regeneration            | effect.minecraft.regeneration            | 10 | 0x00CD5CAB (  13458603) |  false |          true |
+| Minecraft         | minecraft:resistance              | effect.minecraft.resistance              | 11 | 0x0099453A (  10044730) |  false |          true |
+| Minecraft         | minecraft:saturation              | effect.minecraft.saturation              | 23 | 0x00F82423 (  16262179) |  false |          true |
+| Minecraft         | minecraft:slow_falling            | effect.minecraft.slow_falling            | 28 | 0x00FFEFD1 (  16773073) |  false |          true |
+| Minecraft         | minecraft:slowness                | effect.minecraft.slowness                |  2 | 0x005A6C81 (   5926017) |   true |         false |
+| Minecraft         | minecraft:speed                   | effect.minecraft.speed                   |  1 | 0x007CAFC6 (   8171462) |  false |          true |
+| Minecraft         | minecraft:strength                | effect.minecraft.strength                |  5 | 0x00932423 (   9643043) |  false |          true |
+| Minecraft         | minecraft:unluck                  | effect.minecraft.unluck                  | 27 | 0x00C0A44D (  12624973) |   true |         false |
+| Minecraft         | minecraft:water_breathing         | effect.minecraft.water_breathing         | 13 | 0x002E5299 (   3035801) |  false |          true |
+| Minecraft         | minecraft:weakness                | effect.minecraft.weakness                | 18 | 0x00484D48 (   4738376) |   true |         false |
+| Minecraft         | minecraft:wither                  | effect.minecraft.wither                  | 20 | 0x00352A27 (   3484199) |   true |         false |
+| Mubble            | mubble:heaviness                  | effect.mubble.heaviness                  | 57 | 0x008C5D3A (   9198906) |   true |         false |
+| Mubble            | mubble:hiccup                     | effect.mubble.hiccup                     | 58 | 0x008C5D3A (   9198906) |  false |         false |
+| NetherEx          | netherex:fire_burning             | effect.netherex.fire_burning             | 47 | 0x00000000 (         0) |   true |         false |
+| NetherEx          | netherex:frostbitten              | effect.netherex.frostbitten              | 46 | 0xFF13E2FF ( -15473921) |   true |         false |
+| NetherEx          | netherex:frozen                   | effect.netherex.frozen                   | 45 | 0xFF5DBCD2 ( -10634030) |   true |         false |
+| NetherEx          | netherex:infested                 | effect.netherex.infested                 | 44 | 0xFF8E6028 (  -7446488) |   true |         false |
+| NetherEx          | netherex:soul_sucked              | effect.netherex.soul_sucked              | 48 | 0xFF643C0E ( -10208242) |   true |         false |
+| Quark             | quark:danger_sight                | effect.quark.danger_sight                | 55 | 0x0008C8E3 (    575715) |  false |          true |
+| Quark             | quark:resilience                  | effect.quark.resilience                  | 54 | 0x005B1A04 (   5970436) |  false |          true |
+| Switch-Bow        | switchbow:freeze                  | effect.switchbow.freeze                  | 42 | 0x00000000 (         0) |  false |          true |
+| Switch-Bow        | switchbow:love                    | effect.switchbow.love                    | 43 | 0x00000000 (         0) |  false |          true |
++-------------------+-----------------------------------+------------------------------------------+----+-------------------------+--------+---------------+
+| Mod name          | Registry name                     | Potion Name                              | ID | Liquid color            | Is bad | Is beneficial |
++-------------------+-----------------------------------+------------------------------------------+----+-------------------------+--------+---------------+

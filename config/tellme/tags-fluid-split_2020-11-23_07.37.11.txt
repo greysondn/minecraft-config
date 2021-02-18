@@ -1,0 +1,16 @@
++----------------------+---------------------------------------+
+| ID                   | Tagged objects                        |
++----------------------+---------------------------------------+
+| forge:steam          | biggerreactors:fluid_irradiated_steam |
+| minecraft:lava       | minecraft:flowing_lava                |
+| minecraft:lava       | minecraft:lava                        |
+| minecraft:lava       | securitycraft:fake_lava               |
+| minecraft:lava       | securitycraft:flowing_fake_lava       |
+| minecraft:water      | minecraft:flowing_water               |
+| minecraft:water      | minecraft:water                       |
+| minecraft:water      | securitycraft:fake_water              |
+| minecraft:water      | securitycraft:flowing_fake_water      |
+| mubble:freezable/ice | minecraft:water                       |
++----------------------+---------------------------------------+
+| ID                   | Tagged objects                        |
++----------------------+---------------------------------------+

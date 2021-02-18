@@ -1,0 +1,11 @@
++----------------------------+
+| Registry name              |
++----------------------------+
+| minecraft:caves            |
+| minecraft:debug            |
+| minecraft:flat             |
+| minecraft:floating_islands |
+| minecraft:surface          |
++----------------------------+
+| Registry name              |
++----------------------------+

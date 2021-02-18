@@ -1,0 +1,15 @@
++------------------------------+
+| Registry name                |
++------------------------------+
+| minecraft:block_ignore       |
+| minecraft:block_rot          |
+| minecraft:gravity            |
+| minecraft:jigsaw_replacement |
+| minecraft:nop                |
+| minecraft:rule               |
+| quark:big_dungeon_chest      |
+| quark:big_dungeon_spawner    |
+| quark:fake_air               |
++------------------------------+
+| Registry name                |
++------------------------------+

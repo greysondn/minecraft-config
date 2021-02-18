@@ -1,0 +1,30 @@
++-------------------------------+-------------------------------+--------+
+| Registry name                 | Name                          | Radius |
++-------------------------------+-------------------------------+--------+
+| appliedenergistics2:meteorite | appliedenergistics2:meteorite | 2      |
+| byg:red_desert_temple         | byg:red_desert_temple         | 3      |
+| byg:skyris_fortress           | byg:skyris_fortress           | 15     |
+| byg:village                   | byg:village                   | 16     |
+| dungeoncrawl:dungeon          | dungeoncrawl:dungeon          | 0      |
+| explorercraft:wizard_tower    | explorercraft:wizard_tower    | 3      |
+| extendednether:nefos          | extendednether:NeFos          | 0      |
+| minecraft:buried_treasure     | Buried_Treasure               | 1      |
+| minecraft:desert_pyramid      | Desert_Pyramid                | 3      |
+| minecraft:endcity             | EndCity                       | 8      |
+| minecraft:fortress            | Fortress                      | 8      |
+| minecraft:igloo               | Igloo                         | 3      |
+| minecraft:jungle_pyramid      | Jungle_Pyramid                | 3      |
+| minecraft:mansion             | Mansion                       | 8      |
+| minecraft:mineshaft           | Mineshaft                     | 12     |
+| minecraft:monument            | Monument                      | 8      |
+| minecraft:ocean_ruin          | Ocean_Ruin                    | 3      |
+| minecraft:pillager_outpost    | Pillager_Outpost              | 3      |
+| minecraft:shipwreck           | Shipwreck                     | 3      |
+| minecraft:stronghold          | Stronghold                    | 8      |
+| minecraft:swamp_hut           | Swamp_Hut                     | 3      |
+| minecraft:village             | Village                       | 8      |
+| quark:big_dungeon             | quark:big_dungeon             | 7      |
+| towers_of_the_wild:tower      | towers_of_the_wild:Tower      | 3      |
++-------------------------------+-------------------------------+--------+
+| Registry name                 | Name                          | Radius |
++-------------------------------+-------------------------------+--------+

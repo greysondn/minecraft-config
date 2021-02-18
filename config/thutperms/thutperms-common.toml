@@ -1,0 +1,10 @@
+
+[general]
+	argument_perms = false
+	lang_file = "en_us.json"
+	debug = true
+	clientEnabled = true
+	command_alternates = []
+	disabled = false
+	command_renames = []
+

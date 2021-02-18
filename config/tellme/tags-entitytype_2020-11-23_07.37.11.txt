@@ -1,0 +1,11 @@
++------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| ID                           | Tagged objects                                                                                                            |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| minecraft:arrows             | minecraft:spectral_arrow, minecraft:arrow                                                                                 |
+| minecraft:beehive_inhabitors | minecraft:bee                                                                                                             |
+| minecraft:raiders            | minecraft:ravager, minecraft:illusioner, minecraft:pillager, minecraft:witch, minecraft:evoker, minecraft:vindicator      |
+| minecraft:skeletons          | minecraft:stray, minecraft:wither_skeleton, explorercraft:infected_skeleton, minecraft:skeleton                           |
+| mubble:can_wear_helmet       | minecraft:zombie, minecraft:husk, minecraft:stray, minecraft:zombie_pigman, minecraft:wither_skeleton, minecraft:skeleton |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| ID                           | Tagged objects                                                                                                            |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------+
