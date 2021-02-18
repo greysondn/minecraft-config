@@ -1,7 +1,7 @@
 
 [general]
 	#Add loot to Chest loot system
-	USE_CHESTLOOTSYSTEM = true
+	USE_CHESTLOOTSYSTEM = false
 
 [gear]
 	#Accessory Max Damage
