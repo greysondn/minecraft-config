@@ -16,4 +16,9 @@ ops.json
 usercache.json
 usernamecache.json
 whitelist.json
-world
+
+# world's serverconfig is hard
+!world
+
+world/*
+!world/serverconfig
