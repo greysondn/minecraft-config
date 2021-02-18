@@ -1,0 +1,219 @@
++--------------------------+--------------------------------------------+-----+
+| Mod name                 | Registry name                              |  ID |
++--------------------------+--------------------------------------------+-----+
+| Applied Energistics 2    | appliedenergistics2:charged_quartz         | 115 |
+| Applied Energistics 2    | appliedenergistics2:growing_crystal        | 116 |
+| Applied Energistics 2    | appliedenergistics2:singularity            | 114 |
+| Applied Energistics 2    | appliedenergistics2:tiny_tnt_primed        | 113 |
+| Artifacts                | artifacts:mimic                            | 182 |
+| Clumps                   | clumps:xp_orb_big                          | 112 |
+| Create                   | create:contraption                         | 109 |
+| Create                   | create:seat                                | 111 |
+| Create                   | create:stationary_contraption              | 110 |
+| Create                   | create:super_glue                          | 108 |
+| Doom Mod                 | doomweapon:arachnotron                     | 160 |
+| Doom Mod                 | doomweapon:archvile                        | 156 |
+| Doom Mod                 | doomweapon:archvile_firing                 | 139 |
+| Doom Mod                 | doomweapon:argent_bolt                     | 142 |
+| Doom Mod                 | doomweapon:barenblast                      | 148 |
+| Doom Mod                 | doomweapon:baron                           | 157 |
+| Doom Mod                 | doomweapon:barrel                          | 140 |
+| Doom Mod                 | doomweapon:bfg_cell                        | 145 |
+| Doom Mod                 | doomweapon:bullets                         | 149 |
+| Doom Mod                 | doomweapon:cacodemon                       | 155 |
+| Doom Mod                 | doomweapon:chaingun_mob                    | 180 |
+| Doom Mod                 | doomweapon:chaingunbullets                 | 150 |
+| Doom Mod                 | doomweapon:chaingunner                     | 164 |
+| Doom Mod                 | doomweapon:cyberdemon                      | 170 |
+| Doom Mod                 | doomweapon:cyberdemon2016                  | 171 |
+| Doom Mod                 | doomweapon:energy_cell                     | 144 |
+| Doom Mod                 | doomweapon:energy_cell_mob                 | 178 |
+| Doom Mod                 | doomweapon:gargoyle                        | 181 |
+| Doom Mod                 | doomweapon:gore_nest                       | 174 |
+| Doom Mod                 | doomweapon:hellknight                      | 168 |
+| Doom Mod                 | doomweapon:hellknight2016                  | 169 |
+| Doom Mod                 | doomweapon:iconofsin                       | 177 |
+| Doom Mod                 | doomweapon:imp                             | 151 |
+| Doom Mod                 | doomweapon:imp2016                         | 163 |
+| Doom Mod                 | doomweapon:lost_soul                       | 147 |
+| Doom Mod                 | doomweapon:mancubus                        | 158 |
+| Doom Mod                 | doomweapon:marauder                        | 165 |
+| Doom Mod                 | doomweapon:mechazombie                     | 176 |
+| Doom Mod                 | doomweapon:nightmare_imp                   | 152 |
+| Doom Mod                 | doomweapon:painelemental                   | 167 |
+| Doom Mod                 | doomweapon:pinky                           | 153 |
+| Doom Mod                 | doomweapon:possessed_scientist             | 175 |
+| Doom Mod                 | doomweapon:possessed_soldier               | 173 |
+| Doom Mod                 | doomweapon:revenant                        | 162 |
+| Doom Mod                 | doomweapon:rocket                          | 146 |
+| Doom Mod                 | doomweapon:rocket_mob                      | 179 |
+| Doom Mod                 | doomweapon:shotgun_shell                   | 141 |
+| Doom Mod                 | doomweapon:shotgunguy                      | 166 |
+| Doom Mod                 | doomweapon:spectre                         | 154 |
+| Doom Mod                 | doomweapon:spiderdemon                     | 159 |
+| Doom Mod                 | doomweapon:unmaykr_bolt                    | 143 |
+| Doom Mod                 | doomweapon:unwilling                       | 172 |
+| Doom Mod                 | doomweapon:zombieman                       | 161 |
+| Farming for Blockheads   | farmingforblockheads:merchant              | 118 |
+| Immersive Portals        | immersive_portals:border_portal            | 125 |
+| Immersive Portals        | immersive_portals:breakable_mirror         | 123 |
+| Immersive Portals        | immersive_portals:end_floor_portal         | 126 |
+| Immersive Portals        | immersive_portals:end_portal               | 121 |
+| Immersive Portals        | immersive_portals:general_breakable_portal | 127 |
+| Immersive Portals        | immersive_portals:global_tracked_portal    | 124 |
+| Immersive Portals        | immersive_portals:loading_indicator        | 128 |
+| Immersive Portals        | immersive_portals:mirror                   | 122 |
+| Immersive Portals        | immersive_portals:nether_portal_new        | 120 |
+| Immersive Portals        | immersive_portals:portal                   | 119 |
+| Joy of Painting          | xercapaint:canvas                          | 188 |
+| Minecraft                | minecraft:area_effect_cloud                |   0 |
+| Minecraft                | minecraft:armor_stand                      |   1 |
+| Minecraft                | minecraft:arrow                            |   2 |
+| Minecraft                | minecraft:bat                              |   3 |
+| Minecraft                | minecraft:bee                              |   4 |
+| Minecraft                | minecraft:blaze                            |   5 |
+| Minecraft                | minecraft:boat                             |   6 |
+| Minecraft                | minecraft:cat                              |   7 |
+| Minecraft                | minecraft:cave_spider                      |   8 |
+| Minecraft                | minecraft:chest_minecart                   |  46 |
+| Minecraft                | minecraft:chicken                          |   9 |
+| Minecraft                | minecraft:cod                              |  10 |
+| Minecraft                | minecraft:command_block_minecart           |  47 |
+| Minecraft                | minecraft:cow                              |  11 |
+| Minecraft                | minecraft:creeper                          |  12 |
+| Minecraft                | minecraft:dolphin                          |  13 |
+| Minecraft                | minecraft:donkey                           |  14 |
+| Minecraft                | minecraft:dragon_fireball                  |  15 |
+| Minecraft                | minecraft:drowned                          |  16 |
+| Minecraft                | minecraft:egg                              |  84 |
+| Minecraft                | minecraft:elder_guardian                   |  17 |
+| Minecraft                | minecraft:end_crystal                      |  18 |
+| Minecraft                | minecraft:ender_dragon                     |  19 |
+| Minecraft                | minecraft:ender_pearl                      |  85 |
+| Minecraft                | minecraft:enderman                         |  20 |
+| Minecraft                | minecraft:endermite                        |  21 |
+| Minecraft                | minecraft:evoker                           |  22 |
+| Minecraft                | minecraft:evoker_fangs                     |  23 |
+| Minecraft                | minecraft:experience_bottle                |  86 |
+| Minecraft                | minecraft:experience_orb                   |  24 |
+| Minecraft                | minecraft:eye_of_ender                     |  25 |
+| Minecraft                | minecraft:falling_block                    |  26 |
+| Minecraft                | minecraft:fireball                         |  39 |
+| Minecraft                | minecraft:firework_rocket                  |  27 |
+| Minecraft                | minecraft:fishing_bobber                   | 107 |
+| Minecraft                | minecraft:fox                              |  28 |
+| Minecraft                | minecraft:furnace_minecart                 |  48 |
+| Minecraft                | minecraft:ghast                            |  29 |
+| Minecraft                | minecraft:giant                            |  30 |
+| Minecraft                | minecraft:guardian                         |  31 |
+| Minecraft                | minecraft:hoglin                           |  32 |
+| Minecraft                | minecraft:hopper_minecart                  |  49 |
+| Minecraft                | minecraft:horse                            |  33 |
+| Minecraft                | minecraft:husk                             |  34 |
+| Minecraft                | minecraft:illusioner                       |  35 |
+| Minecraft                | minecraft:iron_golem                       |  36 |
+| Minecraft                | minecraft:item                             |  37 |
+| Minecraft                | minecraft:item_frame                       |  38 |
+| Minecraft                | minecraft:leash_knot                       |  40 |
+| Minecraft                | minecraft:lightning_bolt                   |  41 |
+| Minecraft                | minecraft:llama                            |  42 |
+| Minecraft                | minecraft:llama_spit                       |  43 |
+| Minecraft                | minecraft:magma_cube                       |  44 |
+| Minecraft                | minecraft:minecart                         |  45 |
+| Minecraft                | minecraft:mooshroom                        |  53 |
+| Minecraft                | minecraft:mule                             |  52 |
+| Minecraft                | minecraft:ocelot                           |  54 |
+| Minecraft                | minecraft:painting                         |  55 |
+| Minecraft                | minecraft:panda                            |  56 |
+| Minecraft                | minecraft:parrot                           |  57 |
+| Minecraft                | minecraft:phantom                          |  58 |
+| Minecraft                | minecraft:pig                              |  59 |
+| Minecraft                | minecraft:piglin                           |  60 |
+| Minecraft                | minecraft:piglin_brute                     |  61 |
+| Minecraft                | minecraft:pillager                         |  62 |
+| Minecraft                | minecraft:player                           | 106 |
+| Minecraft                | minecraft:polar_bear                       |  63 |
+| Minecraft                | minecraft:potion                           |  87 |
+| Minecraft                | minecraft:pufferfish                       |  65 |
+| Minecraft                | minecraft:rabbit                           |  66 |
+| Minecraft                | minecraft:ravager                          |  67 |
+| Minecraft                | minecraft:salmon                           |  68 |
+| Minecraft                | minecraft:sheep                            |  69 |
+| Minecraft                | minecraft:shulker                          |  70 |
+| Minecraft                | minecraft:shulker_bullet                   |  71 |
+| Minecraft                | minecraft:silverfish                       |  72 |
+| Minecraft                | minecraft:skeleton                         |  73 |
+| Minecraft                | minecraft:skeleton_horse                   |  74 |
+| Minecraft                | minecraft:slime                            |  75 |
+| Minecraft                | minecraft:small_fireball                   |  76 |
+| Minecraft                | minecraft:snow_golem                       |  77 |
+| Minecraft                | minecraft:snowball                         |  78 |
+| Minecraft                | minecraft:spawner_minecart                 |  50 |
+| Minecraft                | minecraft:spectral_arrow                   |  79 |
+| Minecraft                | minecraft:spider                           |  80 |
+| Minecraft                | minecraft:squid                            |  81 |
+| Minecraft                | minecraft:stray                            |  82 |
+| Minecraft                | minecraft:strider                          |  83 |
+| Minecraft                | minecraft:tnt                              |  64 |
+| Minecraft                | minecraft:tnt_minecart                     |  51 |
+| Minecraft                | minecraft:trader_llama                     |  89 |
+| Minecraft                | minecraft:trident                          |  88 |
+| Minecraft                | minecraft:tropical_fish                    |  90 |
+| Minecraft                | minecraft:turtle                           |  91 |
+| Minecraft                | minecraft:vex                              |  92 |
+| Minecraft                | minecraft:villager                         |  93 |
+| Minecraft                | minecraft:vindicator                       |  94 |
+| Minecraft                | minecraft:wandering_trader                 |  95 |
+| Minecraft                | minecraft:witch                            |  96 |
+| Minecraft                | minecraft:wither                           |  97 |
+| Minecraft                | minecraft:wither_skeleton                  |  98 |
+| Minecraft                | minecraft:wither_skull                     |  99 |
+| Minecraft                | minecraft:wolf                             | 100 |
+| Minecraft                | minecraft:zoglin                           | 101 |
+| Minecraft                | minecraft:zombie                           | 102 |
+| Minecraft                | minecraft:zombie_horse                     | 103 |
+| Minecraft                | minecraft:zombie_villager                  | 104 |
+| Minecraft                | minecraft:zombified_piglin                 | 105 |
+| MrCrayfish's Vehicle Mod | vehicle:aluminum_boat                      | 197 |
+| MrCrayfish's Vehicle Mod | vehicle:atv                                | 189 |
+| MrCrayfish's Vehicle Mod | vehicle:bumper_car                         | 194 |
+| MrCrayfish's Vehicle Mod | vehicle:dirt_bike                          | 206 |
+| MrCrayfish's Vehicle Mod | vehicle:dune_buggy                         | 190 |
+| MrCrayfish's Vehicle Mod | vehicle:fertilizer                         | 211 |
+| MrCrayfish's Vehicle Mod | vehicle:fluid_trailer                      | 209 |
+| MrCrayfish's Vehicle Mod | vehicle:go_kart                            | 191 |
+| MrCrayfish's Vehicle Mod | vehicle:golf_cart                          | 202 |
+| MrCrayfish's Vehicle Mod | vehicle:jack                               | 212 |
+| MrCrayfish's Vehicle Mod | vehicle:jet_ski                            | 195 |
+| MrCrayfish's Vehicle Mod | vehicle:lawn_mower                         | 199 |
+| MrCrayfish's Vehicle Mod | vehicle:mini_bike                          | 193 |
+| MrCrayfish's Vehicle Mod | vehicle:mini_bus                           | 205 |
+| MrCrayfish's Vehicle Mod | vehicle:moped                              | 200 |
+| MrCrayfish's Vehicle Mod | vehicle:off_roader                         | 203 |
+| MrCrayfish's Vehicle Mod | vehicle:seeder                             | 210 |
+| MrCrayfish's Vehicle Mod | vehicle:shopping_cart                      | 192 |
+| MrCrayfish's Vehicle Mod | vehicle:smart_car                          | 198 |
+| MrCrayfish's Vehicle Mod | vehicle:speed_boat                         | 196 |
+| MrCrayfish's Vehicle Mod | vehicle:sports_plane                       | 201 |
+| MrCrayfish's Vehicle Mod | vehicle:storage_trailer                    | 208 |
+| MrCrayfish's Vehicle Mod | vehicle:tractor                            | 204 |
+| MrCrayfish's Vehicle Mod | vehicle:vehicle_trailer                    | 207 |
+| Powah                    | powah:charged_snowball                     | 117 |
+| ProjectE                 | projecte:fire_projectile                   | 129 |
+| ProjectE                 | projecte:homing_arrow                      | 130 |
+| ProjectE                 | projecte:lava_projectile                   | 131 |
+| ProjectE                 | projecte:lens_projectile                   | 132 |
+| ProjectE                 | projecte:mob_randomizer                    | 133 |
+| ProjectE                 | projecte:nova_cataclysm_primed             | 135 |
+| ProjectE                 | projecte:nova_catalyst_primed              | 134 |
+| ProjectE                 | projecte:swrg_projectile                   | 136 |
+| ProjectE                 | projecte:water_projectile                  | 137 |
+| SecurityCraft            | securitycraft:bouncingbetty                | 183 |
+| SecurityCraft            | securitycraft:bullet                       | 187 |
+| SecurityCraft            | securitycraft:imsbomb                      | 184 |
+| SecurityCraft            | securitycraft:securitycamera               | 185 |
+| SecurityCraft            | securitycraft:sentry                       | 186 |
+| Snail Mail               | snailmail:snail_man                        | 138 |
++--------------------------+--------------------------------------------+-----+
+| Mod name                 | Registry name                              |  ID |
++--------------------------+--------------------------------------------+-----+

@@ -1,13 +1,19 @@
 [
   {
-    "mob": ["minecraft:creeper", "minecraft:skeleton"],
-    "result": "default"
-  },
-  {
-    "passive": true,
-    "result": "default"
-  },
-  {
+    "mob": [
+        "doomweapon:cyberdemon2016",
+        "doomweapon:gargoyle",
+        "doomweapon:gore_nest",
+        "doomweapon:hellknight2016",
+        "doomweapon:iconofsin",
+        "doomweapon:imp2016",
+        "doomweapon:marauder",
+        "doomweapon:mechazombie",
+        "doomweapon:nightmare_imp",
+        "doomweapon:possessed_scientist",
+        "doomweapon:possessed_soldier",
+        "doomweapon:unwilling"
+    ],
     "result": "deny"
   }
 ]
