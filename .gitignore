@@ -2,6 +2,7 @@
 *.swp
 .mixin.out
 1.16.5.json
+config/minecraft2discord.toml
 crash-reports
 eula.txt
 forge-1.16.5-36.0.42-installer.jar
