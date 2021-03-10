@@ -8,5 +8,5 @@
 
 ["Trail Values 6464"]
 	#Trail Block String 6464
-	defaultTrailBlocksActual = "minecraft:grass_path,2;minecraft:sand,-1;minecraft:stone_brick_slab,3;minecraft:bricks,11;"
+	defaultTrailBlocksActual = "minecraft:bricks,11;minecraft:grass_path,2;minecraft:cave_air,4;mapperbase:asphalt,3;minecraft:stone_brick_slab,3;roadstuff:asphalt_slope,3;minecraft:sand,-1;"
 

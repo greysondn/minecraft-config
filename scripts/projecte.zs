@@ -1,130 +1,174 @@
-# projecte's work is at least straightforward, thankfully.
-#
-# Literally just a huge slew of blocks I want to remove.
-
-
-import crafttweaker.creativetabs.ICreativeTab;
-import crafttweaker.item.IItemStack;
+# small handful of projecte things we don't like much
+import crafttweaker.api.item.IItemStack;
 
 # list of all the items we want to remove, as an array.
-val itemsToRemove = [
+var itemsToRemove = [
     # alchemical bags
-    <projecte:item.pe_alchemical_bag:0>,
-    <projecte:item.pe_alchemical_bag:1>,
-    <projecte:item.pe_alchemical_bag:2>,
-    <projecte:item.pe_alchemical_bag:3>,
-    <projecte:item.pe_alchemical_bag:4>,
-    <projecte:item.pe_alchemical_bag:5>,
-    <projecte:item.pe_alchemical_bag:6>,
-    <projecte:item.pe_alchemical_bag:7>,
-    <projecte:item.pe_alchemical_bag:8>,
-    <projecte:item.pe_alchemical_bag:9>,
-    <projecte:item.pe_alchemical_bag:10>,
-    <projecte:item.pe_alchemical_bag:11>,
-    <projecte:item.pe_alchemical_bag:12>,
-    <projecte:item.pe_alchemical_bag:13>,
-    <projecte:item.pe_alchemical_bag:14>,
-    <projecte:item.pe_alchemical_bag:15>,
-    
+    <item:projecte:black_alchemical_bag>,
+    <item:projecte:blue_alchemical_bag>,
+    <item:projecte:brown_alchemical_bag>,
+    <item:projecte:cyan_alchemical_bag>,
+    <item:projecte:gray_alchemical_bag>,
+    <item:projecte:green_alchemical_bag>,
+    <item:projecte:light_blue_alchemical_bag>,
+    <item:projecte:light_gray_alchemical_bag>,
+    <item:projecte:lime_alchemical_bag>,
+    <item:projecte:magenta_alchemical_bag>,
+    <item:projecte:orange_alchemical_bag>,
+    <item:projecte:pink_alchemical_bag>,
+    <item:projecte:purple_alchemical_bag>,
+    <item:projecte:red_alchemical_bag>,
+    <item:projecte:white_alchemical_bag>,
+    <item:projecte:yellow_alchemical_bag>,
+
+    # antimatter relays
+    <item:projecte:relay_mk1>,
+    <item:projecte:relay_mk2>,
+    <item:projecte:relay_mk3>,
+
     # Archangel's Smite
-    <projecte:item.pe_archangel_smite>,
-    
+    <item:projecte:archangel_smite>,
+
+    # Black Hole Band
+    <item:projecte:black_hole_band>,
+
+    # Body Stone
+    <item:projecte:body_stone>,
+
+    # Catalytic Lens
+    <item:projecte:catalytic_lens>,
+
     # Dark Matter Armor
-    <projecte:item.pe_dm_armor_0>,
-    <projecte:item.pe_dm_armor_1>,
-    <projecte:item.pe_dm_armor_2>,
-    <projecte:item.pe_dm_armor_3>,
-    
+    <item:projecte:dm_boots>,
+    <item:projecte:dm_chestplate>,
+    <item:projecte:dm_helmet>,
+    <item:projecte:dm_leggings>,
+
+    # Dark Matter Pedestal
+    <item:projecte:dm_pedestal>,
+
     # Dark Matter Tools
-    <projecte:item.pe_dm_axe>,
-    <projecte:item.pe_dm_hammer>,
-    <projecte:item.pe_dm_hoe>,
-    <projecte:item.pe_dm_pick>,
-    <projecte:item.pe_dm_shears>,
-    <projecte:item.pe_dm_shovel>,
-    <projecte:item.pe_dm_sword>,
-    
+    <item:projecte:dm_axe>,
+    <item:projecte:dm_hammer>,
+    <item:projecte:dm_hoe>,
+    <item:projecte:dm_pick>,
+    <item:projecte:dm_shears>,
+    <item:projecte:dm_shovel>,
+    <item:projecte:dm_sword>,
+
+    # Destruction Catalyst
+    <item:projecte:destruction_catalyst>,
+
     # Energy Collector
-    <projecte:collector_mk1>,
-    <projecte:collector_mk2>,
-    <projecte:collector_mk3>,
-    
+    <item:projecte:collector_mk1>,
+    <item:projecte:collector_mk2>,
+    <item:projecte:collector_mk3>,
+
     # Energy Condensor
-    <projecte:condenser_mk1>,
-    <projecte:condenser_mk2>,
-    
+    <item:projecte:condenser_mk1>,
+    <item:projecte:condenser_mk2>,
+
     # Evertide Amulet
-    <projecte:item.pe_evertide_amulet>,
-    
+    <item:projecte:evertide_amulet>,
+
     # Gem Armor
-    <projecte:item.pe_gem_armor_0>,
-    <projecte:item.pe_gem_armor_1>,
-    <projecte:item.pe_gem_armor_2>,
-    <projecte:item.pe_gem_armor_3>,
-    
+    <item:projecte:gem_boots>,
+    <item:projecte:gem_chestplate>,
+    <item:projecte:gem_helmet>,
+    <item:projecte:gem_leggings>,
+
+    # Gem of Eternal Density
+    <item:projecte:gem_of_eternal_density>,
+
+    # Harvest Goddess Band
+    <item:projecte:harvest_goddess_band>,
+
+    # Hyperkinetic Lens
+    <item:projecte:hyperkinetic_lens>,
+
     # Ignition Ring
-    <projecte:item.pe_ignition>,
-    
+    <item:projecte:ignition_ring>,
+
+    # Iron Band
+    <item:projecte:iron_band>,
+
+    # Interdiction Torch
+    <item:projecte:interdiction_torch>,
+
+    # Life Stone
+    <item:projecte:life_stone>,
+
+    # Mercurial Eye
+    <item:projecte:mercurial_eye>,
+
     # Mind Stone
-    <projecte:item.pe_mind_stone>,
-    
+    <item:projecte:mind_stone>,
+
     # Red Matter Armor
-    <projecte:item.pe_rm_armor_0>,
-    <projecte:item.pe_rm_armor_1>,
-    <projecte:item.pe_rm_armor_2>,
-    <projecte:item.pe_rm_armor_3>,
-    
+    <item:projecte:rm_boots>,
+    <item:projecte:rm_chestplate>,
+    <item:projecte:rm_helmet>,
+    <item:projecte:rm_leggings>,
+
     # Red Matter Tools
-    <projecte:item.pe_rm_axe>,
-    <projecte:item.pe_rm_hammer>,
-    <projecte:item.pe_rm_hoe>,
-    <projecte:item.pe_rm_katar>,
-    <projecte:item.pe_rm_morning_star>,
-    <projecte:item.pe_rm_pick>,
-    <projecte:item.pe_rm_shears>,
-    <projecte:item.pe_rm_shovel>,
-    <projecte:item.pe_rm_sword>,
-    
+    <item:projecte:rm_axe>,
+    <item:projecte:rm_hammer>,
+    <item:projecte:rm_hoe>,
+    <item:projecte:rm_katar>,
+    <item:projecte:rm_morning_star>,
+    <item:projecte:rm_pick>,
+    <item:projecte:rm_shears>,
+    <item:projecte:rm_shovel>,
+    <item:projecte:rm_sword>,
+
+    # Repair Talisman
+    <item:projecte:repair_talisman>,
+
     # Ring of Arcana
-    <projecte:item.pe_arcana_ring>,
-    
+    <item:projecte:arcana_ring>,
+
+    # Soul Stone
+    <item:projecte:soul_stone>,
+
     # Swiftwolf's Rending Gale
-    <projecte:item.pe_swrg>,
-    
+    <item:projecte:swiftwolf_rending_gale>,
+
+    # Tome - who needs it anyway
+    <item:projecte:tome>,
+
     # Void Ring
-    <projecte:item.pe_void_ring>,
-    
-    # Vulcanite Amulet
-    <projecte:item.pe_volcanite_amulet>,
-    
+    <item:projecte:void_ring>,
+
+    # Volcanite Amulet
+    <item:projecte:volcanite_amulet>,
+
     # Watch of Flowing Time
-    <projecte:item.pe_time_watch>
+    <item:projecte:watch_of_flowing_time>,
+    
+    # Zero Ring
+    <item:projecte:zero_ring>
 ] as IItemStack[];
 
 # remove the remove items entirely
 for item in itemsToRemove{
-    recipes.remove(item);
-    furnace.remove(item);
-    mods.jei.JEI.removeAndHide(item);
-    item.definition.creativeTab = null;
+    blastFurnace.removeRecipe(item);
+    campfire.removeRecipe(item);
+    craftingTable.removeRecipe(item);
+    furnace.removeRecipe(item);
+    smithing.removeRecipe(item);
+    smoker.removeRecipe(item);
+    stoneCutter.removeRecipe(item);
+    mods.jei.JEI.hideItem(item);
+    # no longer hide in creative tabs
 }
 
 # Items to hide, for various reasons
-val itemsToHide = [
-    # Tome - don't want players bothering me on how to get it.
-    <projecte:item.pe_tome>,
-    
-    # projectiles - I don't think they're meant to be obtainable.
-    <projecte:item.pe_water_orb>,
-    <projecte:item.pe_lava_orb>,
-    <projecte:item.pe_randomizer>,
-    <projecte:item.pe_lens_explosive>,
-    <projecte:item.pe_fire_projectile>,
-    <projecte:item.pe_wind_projectile>
+var itemsToHide = [
+    # wait, nothing here?
 ] as IItemStack[];
 
 # hide items, but don't remove them from the game
 for item in itemsToHide{
-    mods.jei.JEI.hide(item);
-    item.definition.creativeTab = null;
+    mods.jei.JEI.hideItem(item);
+    # no longer hide in creative tabs
 }

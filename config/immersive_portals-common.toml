@@ -13,11 +13,10 @@ loose_movement_check = false
 #Range: 3 ~ 20
 indirect_loading_radius_cap = 8
 #Enable Alternate Dimensions
-enable_alternate_dimensions = true
+enable_alternate_dimensions = false
 #Nether Portal Mode
 #Allowed Values: normal, vanilla, adaptive, disabled
 nether_portal_mode = "normal"
 #End Portal Mode
 #Allowed Values: normal, toObsidianPlatform, scaledView, vanilla
 end_portal_mode = "normal"
-

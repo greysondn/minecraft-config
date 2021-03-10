@@ -1,5 +1,6 @@
 *.bak
 *.swp
+*.backup
 .mixin.out
 1.16.5.json
 config/minecraft2discord.toml
@@ -16,6 +17,9 @@ ops.json
 usercache.json
 usernamecache.json
 whitelist.json
+
+# debug file
+debug
 
 # world's serverconfig is hard
 !world

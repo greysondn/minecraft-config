@@ -1,15 +1,9 @@
-# small handful of artifacts we don't like much
+# small handful of fluidsystem stuff we don't like much
 import crafttweaker.api.item.IItemStack;
 
 # list of all the items we want to remove, as an array.
 var itemsToRemove = [
-    <item:artifacts:everlasting_beef>,
-    <item:artifacts:eternal_steak>,
-    <item:artifacts:scarf_of_invisibility>,
-    <item:artifacts:whoopee_cushion>,
-    # <item:artifacts:star_cloak>,          # no longer exists?
-    # <item:artifacts:ultimate_pendant>,    # no longer exists?
-    # <item:artifacts:tiny_shirt>           # no longer exists?
+    <item:fluidsystem:infinite_water_source>
 ] as IItemStack[];
 
 # remove the remove items entirely
