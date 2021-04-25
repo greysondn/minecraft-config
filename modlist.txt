@@ -70,7 +70,6 @@ notenoughcrashes-3.1.6-forge.jar
 obfuscate-0.6.0-1.16.3.jar
 OffHandCombat-1.16.3-3.2.0.3.jar
 OptiFine_1.16.5_HD_U_G6.clientonly.disabled
-parkour_recorder-1.0.1.0-1.16.3.jar
 Patchouli-1.16.4-50.jar
 performant-1.16.2-4-3.30m.serveronly.jar
 Ping-1.16.4-1.6.9.jar
