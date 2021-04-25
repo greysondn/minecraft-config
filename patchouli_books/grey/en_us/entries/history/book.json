@@ -1,0 +1,32 @@
+{
+    "name": "Book",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:history",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This section just covers the history of this book, in some semblance of order.$(br2)Please don't forget to try turning pages to see if there's more, as some facing pages (the right hand on your screen) are deliberately blank."
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "text",
+            "title": "V0.0.1",
+            "text": "Subtitled:$(br)Placeholder Edition$(br2)Date:$(br)Unknown$(br2)Released:$(br)Part of the GDN-V5-BETA pack in for the server."
+        },
+        {
+            "type": "text",
+            "text": "In order to load a book locally, it must exist on the server. This was literally an empty book skeleton so I could work on it locally in the meantime. Nothing to see but a title, short leader text, and my own failure, I'm afraid."
+        },
+        {
+            "type": "text",
+            "title": "V0.0.2",
+            "text": "Subtitled:$(br)So it Begins Edition$(br2)Date:$(br)18 Feb 2021$(br2)Released:$(br)Unreleased"
+        },
+        {
+            "type": "text",
+            "text": "The very first few pages! And opening some categories!$(li)History$(li2)Created Category$(li2)V0.0.1 History$(li2)V0.0.2 History$(li)Vanilla$(li2)Created Category$(li2)Basics$(li3)Stub Entry(li2)Mobs$(li3)Stub Entry"
+        }
+    ]
+}

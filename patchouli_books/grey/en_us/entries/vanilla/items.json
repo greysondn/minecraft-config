@@ -1,0 +1,158 @@
+{
+    "name": "Items",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:vanilla",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This section is aligned so that new items can only start on the left hand page. I may have a lot to say about specific items, so be sure to turn the page to read the data on them.$(br2)Don't forget that bookmarks and the index both exist."
+        },
+        {
+            "type": "empty"
+        },
+        
+        {
+            "type": "text",
+            "title": "Table of Contents",
+            "anchor": "grey-vanilla-items-toc",
+            "text": "$(l:vanilla/items#grey-vanilla-items-glass)Glass$()$(br)$(l:vanilla/items#grey-vanilla-items-glass-bottle)Glass Bottle$()$(br)$(l:vanilla/items#grey-vanilla-items-iron-ingot)Iron Ingot$()$(br)$(l:vanilla/items#grey-vanilla-items-iron-ore)Iron Ore$()$(br)$(l:vanilla/items#grey-vanilla-items-sand)Sand$()"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Glass",
+            "anchor": "grey-vanilla-items-glass",
+            "item": "minecraft:glass",
+            "text": "$(o)Enough $(l:vanilla/items#grey-vanilla-items-sand)sand$()$(o) in the eyes!$(br)We turned the desert to glass!$()$(br)~Bound Together, `Da Black Market`$(br2)$(l:vanilla/items#grey-vanilla-items-toc)Back to TOC$()"
+        },
+        {
+            "type": "smelting",
+            "title": "Recipe",
+            "recipe": "minecraft:glass",
+            "text": "This isn't the only way to make glass, but is the most common."
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "Normally you'd destroy glass by breaking it, but Silk Touch can grab it without destroying it."
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Glass Bottle",
+            "anchor": "grey-vanilla-items-glass-bottle",
+            "item": "minecraft:glass_bottle",
+            "text": "I got nothing cheeky to say. I am kind of salty they didn't give me a molotov cocktail, though.$(br2)$(l:vanilla/items#grey-vanilla-items-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "minecraft:glass_bottle",
+            "text": "Actually the only way that I know of, but it means one block of glass is equal to one glass bottle."
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry."
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Iron Ingot",
+            "anchor": "grey-vanilla-items-iron-ingot",
+            "item": "minecraft:iron_ingot",
+            "text": "Nothing to say here.$(br2)$(l:vanilla/items#grey-vanilla-items-toc)Back to TOC$()"
+        },
+        {
+            "type": "smelting",
+            "title": "Recipe",
+            "recipe": "minecraft:iron_ingot",
+            "text": "There are a number of ways to make Iron Ingots. Firing $(l:vanilla/items#grey-vanilla-items-iron-ore)iron ore$() in a furnace is just the most straightforward."
+        },
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry."
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Iron Ore",
+            "anchor": "grey-vanilla-items-iron-ore",
+            "item": "minecraft:iron_ore",
+            "text": "Nothing to say here.$(br2)(l:vanilla/items#grey-vanilla-items-toc)Back to TOC$()"
+        },
+        {
+            "type": "text",
+            "title": "Recipe",
+            "text": "There is no recipe. This is a basic item.$(br2)Frequency:$(br)0.98%$(br2)Max Y:$(br)64$(br2)Min Y:$(br)0"
+        },
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry."
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Sand",
+            "anchor": "grey-vanilla-items-sand",
+            "item": "minecraft:sand",
+            "text": "Oh boy. The desert's basic premise, I suppose. Mostly useful for making glass.$(br2)$(l:vanilla/items#grey-vanilla-items-toc)Back to TOC$()"
+        },
+        {
+            "type": "text",
+            "title": "Recipe",
+            "text": "There is no recipe. This is a basic item."
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "If you knock the bottom piece of sand out of a stack and quickly replace it with a torch, you can burn an entire stack to pickup status with minimal effort."
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+
+        
+        
+        
+        {
+            "type": "empty"
+        }
+    ]
+}

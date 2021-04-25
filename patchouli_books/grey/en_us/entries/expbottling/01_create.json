@@ -1,0 +1,16 @@
+{
+    "name": "1 - Create Machine",
+    "icon": "exp_bottling:exp_bottling_machine",
+    "category": "patchouli:expbottling",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In order to build a bottling machine, you will need a $(l:vanilla/items#grey-vanilla-items-glass-bottle)glass bottle$() and some $(l:vanilla/items#grey-vanilla-items-iron-ingot)iron ingots$(). After that, it's as easy as visiting a crafting table."
+        },
+        {
+            "type": "crafting",
+            "recipe": "exp_bottling:exp_bottling_machine",
+            "text": "It should be possible to get this relatively early in your gameplay."
+        }
+    ]
+}

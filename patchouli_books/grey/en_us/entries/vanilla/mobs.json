@@ -1,0 +1,11 @@
+{
+    "name": "Mobs",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:vanilla",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I meant to write something, but didn't. Hm."
+        }
+    ]
+}

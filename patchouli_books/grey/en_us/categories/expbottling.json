@@ -1,0 +1,5 @@
+{
+    "name": "EXP Bottling",
+    "description": "Covers the EXP Bottling Mod.$(br2)This mod lets you bottle and store your experience using a simple machine. The primary alternative is losing experience if you die.",
+    "icon": "exp_bottling:exp_bottling_machine"
+}

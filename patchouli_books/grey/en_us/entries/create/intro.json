@@ -1,0 +1,11 @@
+{
+    "name": "Introduction",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:create",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Most item specific data in Create is available by holding shift or ctrl while hovering over the item, you know."
+        }
+    ]
+}
