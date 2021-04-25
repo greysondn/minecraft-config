@@ -24,7 +24,7 @@
 	#Can zombies use instruments?
 	zombiesCanUseInstruments = true
 	#Some abc file have titles but aren't set properly. This will make the list show file names instead.
-	showFileTitle = true
+	showFileTitle = false
 	#Loot tables for chests that will be disabled. EG: minecraft:chests/stronghold_corridor
 	disabledLootChests = []
 
