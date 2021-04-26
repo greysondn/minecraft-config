@@ -1,0 +1,13 @@
+
+[splatcraft]
+	#Squid Key Mode
+	#Allowed Values: HOLD, TOGGLE
+	squidKeyMode = "TOGGLE"
+	#Determines whether the any indicator that determines how much ink you have left matches vanilla durability colors instead of your ink color.
+	vanillaInkDurabilityColor = false
+	#Prevents Stage Barriers from rendering in creative mode unless the player is holding one in their hand.
+	holdBarrierToRender = false
+	#Determines how the amount of ink left in your tank is visualized.
+	#Allowed Values: CROSSHAIR, DURABILITY, BOTH, NONE
+	inkIndicator = "BOTH"
+
