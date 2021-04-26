@@ -19,6 +19,9 @@
 	#When true, allows any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
 	allowShapedSquareInPress = true
 	#
+	#When true, allows the Mechanical Press to process entire stacks at a time.
+	bulkPressing = false
+	#
 	#The amount of Light sources destroyed before Chromatic Compound turns into Refined Radiance.
 	#Range: > 1
 	lightSourceCountForRefinedRadiance = 10
@@ -34,6 +37,9 @@
 	#
 	#When true, allows any standard crafting recipes to be processed by Mechanical Crafters.
 	allowRegularCraftingInCrafter = true
+	#
+	#When true, allows any Druidcraft woodcutter recipes to be processed by a Mechanical Saw.
+	allowWoodcuttingOnSaw = true
 
 #
 #Parameters and abilities of Create's kinetic mechanisms
@@ -50,6 +56,14 @@
 	#Select what mobs should ignore Deployers when attacked by them.
 	#Allowed Values: ALL, CREEPERS, NONE
 	ignoreDeployerAttacks = "CREEPERS"
+	#
+	#Amount of sail-type blocks required for a windmill to assemble successfully.
+	#Range: > 0
+	minimumWindmillSails = 8
+	#
+	#Time in ticks until the next item launched by an ejector scans blocks for potential collisions
+	#Range: > 10
+	ejectorScanInterval = 120
 	#
 	#[in Revolutions per Minute]
 	#Maximum allowed speed of a configurable motor.
@@ -78,6 +92,10 @@
 	#Maximum allowed rotation speed for any Kinetic Tile.
 	#Range: > 64
 	maxRotationSpeed = 256
+	#
+	#Max Distance in blocks a Weighted Ejector can throw
+	#Range: > 0
+	maxEjectorDistance = 32
 	#
 	#Maximum length in blocks of mechanical belts.
 	#Range: > 5
@@ -193,9 +211,11 @@
 				crushing_wheel = 8.0
 				mechanical_arm = 8.0
 				rope_pulley = 4.0
+				rolling_mill = 8.0
 				mechanical_crafter = 2.0
 				mechanical_drill = 4.0
 				flywheel = 0.0
+				weighted_ejector = 2.0
 				hose_pulley = 4.0
 				mechanical_saw = 4.0
 				large_cogwheel = 0.0
@@ -215,6 +235,7 @@
 				clutch = 0.0
 				mechanical_press = 8.0
 				encased_fan = 2.0
+				alternator = 8.0
 				gearshift = 0.0
 				cuckoo_clock = 1.0
 				brass_encased_shaft = 0.0
@@ -332,4 +353,8 @@
 	#The Maximum Distance to an active mirror for the symmetry wand to trigger.
 	#Range: > 10
 	maxSymmetryWandRange = 50
+	#
+	#The Maximum Distance a Block placed by Create's placement assist will have to its interaction point.
+	#Range: > 3
+	placementAssistRange = 12
 
