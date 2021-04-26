@@ -3,25 +3,25 @@ import crafttweaker.api.item.IItemStack;
 
 # list of all the items we want to remove, as an array.
 var itemsToRemove = [
-    <item:doomweapon:argent_axe>,
-    <item:doomweapon:argent_bolt>,
-    <item:doomweapon:argent_hoe>,
-    <item:doomweapon:argent_paxel>,
-    <item:doomweapon:argent_pickaxe>,
-    <item:doomweapon:argent_shovel>,
-    <item:doomweapon:argent_sword>,
-    <item:doomweapon:axe_marauder_closed>,
-    <item:doomweapon:axe_marauder_open>,
-    <item:doomweapon:ballista>,
-    <item:doomweapon:bfg_eternal>,
-    <item:doomweapon:chainsaw64>,
-    <item:doomweapon:chainsaweternal>,
-    <item:doomweapon:cruciblesword>,
-    <item:doomweapon:cruciblesword_closed>,
-    <item:doomweapon:daisy>,
-    <item:doomweapon:heavycannon>,
-    <item:doomweapon:unmaykr>,
-    <item:doomweapon:unmaykr_bolt>
+    <item:doom:argent_axe>,
+    <item:doom:argent_bolt>,
+    <item:doom:argent_hoe>,
+    <item:doom:argent_paxel>,
+    <item:doom:argent_pickaxe>,
+    <item:doom:argent_shovel>,
+    <item:doom:argent_sword>,
+    <item:doom:axe_marauder_closed>,
+    <item:doom:axe_marauder_open>,
+    <item:doom:ballista>,
+    <item:doom:bfg_eternal>,
+    <item:doom:chainsaw64>,
+    <item:doom:chainsaweternal>,
+    <item:doom:cruciblesword>,
+    <item:doom:cruciblesword_closed>,
+    <item:doom:daisy>,
+    <item:doom:heavycannon>,
+    <item:doom:unmaykr>,
+    <item:doom:unmaykr_bolt>
 ] as IItemStack[];
 
 # remove the remove items entirely
