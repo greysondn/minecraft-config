@@ -34,6 +34,9 @@
 	graves_bypass_griefing_rules = true
 	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
 	pvp_mode = false
+	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
+	#Range: 0 ~ 100
+	pvp_stolen_xp = 30
 	#Only stackable items can be lost on death [false/true|default:true]
 	loss_on_death_only_for_stackable_items = true
 	#Whether to handle player death [false/true|default:true]
@@ -205,6 +208,8 @@
 	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
 	#Range: 0 ~ 1000
 	chance_soul_receptacle_on_boss = 50
+	#The magic items from Tombstone can only be found as creature loot if the player is the killer [false/true|default:true]
+	drop_only_on_player_kill = true
 	#Defines the allowed loottables having a chance to contain a magic item from Tombstone
 	treasure_loot_table = ["minecraft:chests/end_city_treasure", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/nether_bridge", "minecraft:chests/stronghold_library", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion"]
 
