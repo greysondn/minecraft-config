@@ -23,7 +23,7 @@
 		#Allowed Values: LIGHT, DARK, CONSOLE
 		cursorType = "CONSOLE"
 		#The speed which the camera turns in game
-		#Range: 0.0 ~ 50.0
+		#Range: 0.0 ~ 100.0
 		rotationSpeed = 25.0
 		#The distance you have to move the thumbstick before it's input is registered. This fixes drifting as some thumbsticks don't center to zero.
 		#Range: 0.0 ~ 1.0
