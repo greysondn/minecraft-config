@@ -1,1 +1,1 @@
-ls mods > modlist.txt
+ls -p mods | grep -v / | sort -f > modlist.txt
