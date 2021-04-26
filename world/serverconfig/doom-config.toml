@@ -20,6 +20,23 @@
 			#Range: 0 ~ 255
 			MANCUBUS_MAX_Y = 255
 
+		[spawn_weight.individual_spawning.Prowler]
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			PROWLER_MIN_Y = 0
+			#Spawn weight of Prowlers. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			PROWLER_SPAWN_WEIGHT = 15
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			PROWLER_MAX_Y = 255
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			PROWLER_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			PROWLER_MAX_GROUP = 4
+
 		[spawn_weight.individual_spawning."Hell Knight 2016"]
 			#Largest group to spawn.
 			#Range: 1 ~ 9
@@ -394,6 +411,23 @@
 			#Range: 1 ~ 9
 			ARCHVILE_MAX_GROUP = 2
 
+		[spawn_weight.individual_spawning."Stone Imp"]
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"STONE IMP_MIN_GROUP" = 1
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"STONE IMP_MAX_Y" = 255
+			#Spawn weight of Stone Imps. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"STONE IMP_SPAWN_WEIGHT" = 15
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"STONE IMP_MIN_Y" = 0
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"STONE IMP_MAX_GROUP" = 4
+
 		[spawn_weight.individual_spawning.Chaingunner]
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
@@ -528,6 +562,17 @@
 		#General (most likely walking) movement speed of Mancubuss
 		#Range: 0.0 ~ 10.0
 		MANCUBUS_GROUND_SPEED = 0.25
+
+	[attributes.Prowler]
+		#Average melee damaged caused by Prowlers when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		PROWLER_MELEE_ATTACK_DAMAGE = 4.0
+		#Health of Prowlers
+		#Range: 0.5 ~ 1.7976931348623157E308
+		PROWLER_MAX_HEALTH = 15.0
+		#General (most likely walking) movement speed of Prowlers
+		#Range: 0.0 ~ 10.0
+		PROWLER_GROUND_SPEED = 0.4
 
 	[attributes."Hell Knight 2016"]
 		#Health of Hell Knight 2016s
@@ -732,7 +777,7 @@
 		UNWILLING_MELEE_ATTACK_DAMAGE = 4.0
 		#General (most likely walking) movement speed of Unwillings
 		#Range: 0.0 ~ 10.0
-		UNWILLING_GROUND_SPEED = 0.25
+		UNWILLING_GROUND_SPEED = 0.15
 
 	[attributes."Shotgun Guy"]
 		#Average melee damaged caused by Shotgun Guys when attacking.
@@ -757,7 +802,7 @@
 		"CYBER DEMON 2016_MELEE_ATTACK_DAMAGE" = 7.0
 		#General (most likely walking) movement speed of Cyber Demon 2016s
 		#Range: 0.0 ~ 10.0
-		"CYBER DEMON 2016_GROUND_SPEED" = 0.25
+		"CYBER DEMON 2016_GROUND_SPEED" = 0.15
 		#Average RANGED damaged caused by Cyber Demon 2016s when attacking.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"CYBER DEMON 2016_RANGED_ATTACK_DAMAGE" = 18.0
@@ -800,6 +845,17 @@
 		#Health of Archviles
 		#Range: 0.5 ~ 1.7976931348623157E308
 		ARCHVILE_MAX_HEALTH = 100.0
+
+	[attributes."Stone Imp"]
+		#Health of Stone Imps
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"STONE IMP_MAX_HEALTH" = 15.0
+		#Average melee damaged caused by Stone Imps when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"STONE IMP_MELEE_ATTACK_DAMAGE" = 4.0
+		#General (most likely walking) movement speed of Stone Imps
+		#Range: 0.0 ~ 10.0
+		"STONE IMP_GROUND_SPEED" = 0.75
 
 	[attributes.Chaingunner]
 		#Health of Chaingunners
@@ -886,6 +942,8 @@
 	CRUCIBLE_MARAUDER_MAX_DAMAGE = 5
 
 [extra]
-	#You can disable disable the lockon feature here.
+	#You can disable the lockon feature here.
 	ENABLE_LOCKON = true
+	#You can enable weapons breaking blocks.
+	ENABLE_BLOCK_BREAKING = true
 
