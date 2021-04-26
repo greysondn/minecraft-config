@@ -3,7 +3,6 @@ appliedenergistics2-8.2.0.jar
 architectury-1.6.114-forge.jar
 Artifacts-1.16.5-2.7.7.jar
 AttributeFix-1.16.5-10.0.1.jar
-bagofyurting-1.16.4-1.1.0.2.jar
 behgameon-1.16.4-1.0.0.jar
 BetterAdvancements-1.16.3-0.1.0.102.jar
 Bookshelf-1.16.5-10.0.1.jar
