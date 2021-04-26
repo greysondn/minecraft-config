@@ -8,5 +8,5 @@
 	#Should the mod that owns the enchantment be displayed?
 	showOwner = true
 	#Should players be required to press a keybind in order to see the descriptions?
-	requireKeybind = true
+	requireKeybind = false
 
