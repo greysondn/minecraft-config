@@ -1,3 +1,5 @@
+#Enables logging the too large packets causing disconnects. , default = true
+displayTooLargePackets = true
 
 ["Load balancing settings"]
 
@@ -18,7 +20,7 @@
 		meanTickEvent = 55
 		#Enables debug log output for lagging event subscribers, default = false
 		eventDebugOutput = false
-		#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities on world ticks. default: true
+		#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities on world ticks. default: false
 		eventLoadBalancing = true
 
 	# Load balancing is a mechanic which profiles and throttles down lagging entities, tileentities and event subscribers.
@@ -44,6 +46,8 @@
 	spawnInterval = 10
 	#Fix leash lag from entities on a leash, default = true
 	fixLeash = true
+	#Slower updating of armor stands, default = true
+	slowArmorStands = true
 	#Enables improved entity collision and movement calculations for any non item entity, default = true
 	fastCollisions = true
 	#Enables less laggy entity item pickup, default = true
@@ -88,6 +92,9 @@
 	cacheRecipes = true
 	#Enable fast spawn radius check, this makes entity spawn mechanics lag less. default = true
 	fastSpawnRadius = true
+	#Set how many scheduled blocks are updated each tick, scheduled block updates are for example fluid flowing. default = 1000, vanilla default = 65536
+	#Range: 1 ~ 65536
+	blockTicks = 3000
 	#Enable fast chunk save, unmodified chunks are saved a lot faster and cause less lag when saving to disk. default = true
 	fastChunkSave = true
 	#Enable FPS improvements, default = true
