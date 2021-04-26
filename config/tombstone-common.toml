@@ -114,7 +114,7 @@
 	#Logs the different states of a village siege while searching for an adequate place [false/true|default:false]
 	log_siege_state = false
 	#Allows to use the positions of creative players to define the siege location [false/true|default:true]
-	allow_creative_players_for_siege = true
+	allow_creative_players_for_siege = false
 	#Delay in seconds for a second test of siege when the first failed [0..1200|default:200]
 	#Range: 0 ~ 1200
 	delay_siege_test = 600
@@ -182,7 +182,7 @@
 	recovery_familiar_enable = true
 	#Time in minutes between players' backups [10..1000|default:40]
 	#Range: 5 ~ 1000
-	recovery_player_timer = 20
+	recovery_player_timer = 180
 	#Backup players on death [false/true|default:false]
 	backup_on_death = false
 	#Maximum number of backups per player [5..100|default:15]
