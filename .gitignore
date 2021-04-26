@@ -27,6 +27,13 @@ debug
 world/*
 !world/serverconfig
 
+# clef's ABC folder and mods?
+!mods
+mods/*
+!mods/clef
+mods/clef/instruments
+mods/clef/abc/received
+
 # various files in client root?
 XaeroWaypoints*/
 XaeroWorldMap/
