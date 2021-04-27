@@ -1,0 +1,77 @@
+{
+    "name": "License and Credits",
+    "icon": "powah:magmator_basic",
+    "category": "patchouli:powah",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This section is aligned so that new items can only start on the left hand page. I may have a lot to say about specific items, so be sure to turn the page to read the data on them.$(br2)Don't forget that bookmarks and the index both exist."
+        },
+        {
+            "type": "empty"
+        },
+        
+        {
+            "type": "text",
+            "title": "Table of Contents",
+            "anchor": "grey-powah-credits-toc",
+            "text": "Oh, I didn't write a table of contents here."
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "text",
+            "title": "License",
+            "anchor": "grey-powah-license-license",
+            "text": "The original source, including documentation, of the Powah mod was licensed under the GNU LGPL. You can find the license here:$(br)https://github.com/owmii/Powah/blob/1.16/LICENSE$(br2)My own variation on the documentation for the Powah mod $(o)and only the Powah mod$() may be considered to have the same license."
+        },
+        {
+            "type": "text",
+            "text": "I have not included the license's full text here, for two reasons: First, that it refers primarily to source code and is not appropriate for documentation (nor does it make clear sense when applied to documentation); and the second that I am lazy and formatting it would take time, whereas I want a bare minimum commit to at least start to show good faith here. It is on my todo list and I should be aggressively poked if its absence upsets someone."
+        },
+
+
+
+
+        {
+            "type": "text",
+            "title": "Credits",
+            "anchor": "grey-powah-license-credits",
+            "text": "As of the current commit as I write this, 12 contributors are listed. Their names, as shown on github, are: ownmii, BlueAgent, AlpBilgin, Mikeliro, OneLemonyBoi, WuzgXY, Jeffku0107, WadeMason, EnterFor, Valeriy, JaisDK, and jordanamr. Ownership of the project is currently assigned to ownmii. (Commit e9bf8bd)."
+        },
+        {
+            "type": "empty"
+        },
+
+        
+        
+        
+        {
+            "type": "text",
+            "title": "Changes",
+            "anchor": "grey-powah-license-changes",
+            "text": "The original documentation was presented quite differently from the form it's slammed together in here, and this form should be considered a matter of consistency to my own form. Certain passages have been rewritten, shortened, lengthened, had notes added, rearranged, and otherwise changed from the original. An itemized list is lacking but a comparison of the original material and the version presented here would make it quickly and readily apparent."
+        },
+        {
+            "type": "empty",
+        },        
+        
+
+
+        {
+            "type": "text",
+            "title": "Addendum",
+            "anchor": "grey-powah-generators-furnator-addendum",
+            "text": "In the original documentation, ownmii, who seems to hold the current copyright assignment, linked their patreon if you'd like to support their work on the Powah mod. You may find that here:$(br)https://www.patreon.com/owmii$(br2)Neither ownmii nor any of the other contributors is affiliated with me. To the best of my knowledge, as of this writing, we've never spoken."
+        },
+        {
+            "type": "empty",
+        }
+    ]
+}
