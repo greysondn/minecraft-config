@@ -6,26 +6,13 @@ var itemsToRemove = [
     <item:fluidsystem:infinite_water_source>
 ] as IItemStack[];
 
-# remove the remove items entirely
-for item in itemsToRemove{
-    blastFurnace.removeRecipe(item);
-    campfire.removeRecipe(item);
-    craftingTable.removeRecipe(item);
-    furnace.removeRecipe(item);
-    smithing.removeRecipe(item);
-    smoker.removeRecipe(item);
-    stoneCutter.removeRecipe(item);
-    mods.jei.JEI.hideItem(item);
-    # no longer hide in creative tabs
-}
+# defined in grey.zs
+gRemoveAndHideList(itemsToRemove);
 
 # Items to hide, for various reasons
 var itemsToHide = [
     # wait, nothing here?
 ] as IItemStack[];
 
-# hide items, but don't remove them from the game
-for item in itemsToHide{
-    mods.jei.JEI.hideItem(item);
-    # no longer hide in creative tabs
-}
+# defined in grey.zs
+gHideList(itemsToHide);
