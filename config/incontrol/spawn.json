@@ -1,18 +1,21 @@
 [
   {
     "mob": [
-        "doomweapon:cyberdemon2016",
-        "doomweapon:gargoyle",
-        "doomweapon:gore_nest",
-        "doomweapon:hellknight2016",
-        "doomweapon:iconofsin",
-        "doomweapon:imp2016",
-        "doomweapon:marauder",
-        "doomweapon:mechazombie",
-        "doomweapon:nightmare_imp",
-        "doomweapon:possessed_scientist",
-        "doomweapon:possessed_soldier",
-        "doomweapon:unwilling"
+        "doom:cyberdemon2016",
+        "doom:cueball",
+        "doom:gargoyle",
+        "doom:gore_nest",
+        "doom:hellknight2016",
+        "doom:iconofsin",
+        "doom:imp2016",
+        "doom:marauder",
+        "doom:mechazombie",
+        "doom:nightmare_imp",
+        "doom:possessed_scientist",
+        "doom:possessed_soldier",
+        "doom:prowler",
+        "doom:stone_imp",
+        "doom:unwilling"
     ],
     "result": "deny"
   }
