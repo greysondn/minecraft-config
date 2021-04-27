@@ -41,9 +41,9 @@ command_require_creative = true
 	#Range: > 1
 	max_websockets = 4
 	#Enable the "http" API on Computers (see "rules" for more fine grained control than this).
-	enabled = true
+	enabled = false
 	#Enable use of http websockets. This requires the "http_enable" option to also be true.
-	websocket_enabled = true
+	websocket_enabled = false
 
 	#A list of rules which control behaviour of the "http" API for specific domains or IPs.
 	#Each rule is an item with a 'host' to match against, and a series of properties. The host may be a domain name ("pastebin.com"),
@@ -89,7 +89,7 @@ command_require_creative = true
 	modem_range = 64
 	#Maximum amount of notes a speaker can play at once
 	#Range: > 1
-	max_notes_per_tick = 8
+	max_notes_per_tick = 1
 
 #Various options relating to turtles.
 [turtle]
