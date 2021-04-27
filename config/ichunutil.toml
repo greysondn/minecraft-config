@@ -22,17 +22,9 @@
 [clientOnly]
 	#Override the Options button so pressing Shift when clicking it shows the Mods list.
 	buttonOptionsShiftOpensMods = true
-	
-    #The Minecraft Toast Renderer has a bug where toasts with different heights might overlap. This override fixes it if the renderer is still the default renderer.
-    #
-    # from greysondn:
-    # Because we have a mod specifically aimed at modifying toast
-    # and controlling it, I don't want to enable this for fear of conflicts.
-    # And anyway, that mod should be able to handle this issue anyway.
-    #                                                            ~ 26 April 2021
+	#The Minecraft Toast Renderer has a bug where toasts with different heights might overlap. This override fixes it if the renderer is still the default renderer.
 	overrideToastGui = false
-	
-    #Enables (most) Client-Side Easter Eggs for iChun's Mods
+	#Enables (most) Client-Side Easter Eggs for iChun's Mods
 	easterEgg = true
 
 [headTracking]
