@@ -1,0 +1,402 @@
+{
+    "name": "Generators",
+    "icon": "powah:magmator_niotic",
+    "category": "patchouli:powah",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This section is aligned so that new items can only start on the left hand page. I may have a lot to say about specific items, so be sure to turn the page to read the data on them.$(br2)Don't forget that bookmarks and the index both exist."
+        },
+        {
+            "type": "empty"
+        },
+        
+        {
+            "type": "text",
+            "title": "Table of Contents",
+            "anchor": "grey-powah-generators-toc",
+            "text": "Oh, I didn't write a table of contents here."
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Furnator (Starter)",
+            "anchor": "grey-powah-generators-furnator-starter",
+            "item": "powah:furnator_starter",
+            "text": "The furnator is an FE generator that generates energy from solid Furnace fuel like coal and wood. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/furnator_starter",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Furnator (Basic)",
+            "anchor": "grey-powah-generators-furnator-basic",
+            "item": "powah:furnator_basic",
+            "text": "The furnator is an FE generator that generates energy from solid Furnace fuel like coal and wood. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/furnator_basic",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Furnator (Hardened)",
+            "anchor": "grey-powah-generators-furnator-hardened",
+            "item": "powah:furnator_hardened",
+            "text": "The furnator is an FE generator that generates energy from solid Furnace fuel like coal and wood. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/furnator_hardened",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Furnator (Blazing)",
+            "anchor": "grey-powah-generators-furnator-blazing",
+            "item": "powah:furnator_blazing",
+            "text": "The furnator is an FE generator that generates energy from solid Furnace fuel like coal and wood. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/furnator_blazing",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Furnator (Niotic)",
+            "anchor": "grey-powah-generators-furnator-niotic",
+            "item": "powah:furnator_niotic",
+            "text": "The furnator is an FE generator that generates energy from solid Furnace fuel like coal and wood. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/furnator_niotic",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Furnator (Spirited)",
+            "anchor": "grey-powah-generators-furnator-spirited",
+            "item": "powah:furnator_spirited",
+            "text": "The furnator is an FE generator that generates energy from solid Furnace fuel like coal and wood. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/furnator_spirited",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Furnator (Nitro)",
+            "anchor": "grey-powah-generators-furnator-nitro",
+            "item": "powah:furnator_nitro",
+            "text": "The furnator is an FE generator that generates energy from solid Furnace fuel like coal and wood. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/furnator_nitro",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Magmator (Starter)",
+            "anchor": "grey-powah-generators-magmator-starter",
+            "item": "powah:magmator_starter",
+            "text": "The Magmator is an FE generator that generates energy from high temperature fluids like lava. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/magmator_starter",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Magmator (Basic)",
+            "anchor": "grey-powah-generators-magmator-basic",
+            "item": "powah:magmator_basic",
+            "text": "The Magmator is an FE generator that generates energy from high temperature fluids like lava. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/magmator_basic",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Magmator (Hardened)",
+            "anchor": "grey-powah-generators-magmator-hardened",
+            "item": "powah:magmator_hardened",
+            "text": "The Magmator is an FE generator that generates energy from high temperature fluids like lava. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/magmator_hardened",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Magmator (Blazing)",
+            "anchor": "grey-powah-generators-magmator-blazing",
+            "item": "powah:magmator_blazing",
+            "text": "The Magmator is an FE generator that generates energy from high temperature fluids like lava. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/magmator_blazing",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Magmator (Niotic)",
+            "anchor": "grey-powah-generators-magmator-niotic",
+            "item": "powah:magmator_niotic",
+            "text": "The Magmator is an FE generator that generates energy from high temperature fluids like lava. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/magmator_niotic",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Magmator (Spirited)",
+            "anchor": "grey-powah-generators-magmator-spirited",
+            "item": "powah:magmator_spirited",
+            "text": "The Magmator is an FE generator that generates energy from high temperature fluids like lava. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/magmator_spirited",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        },
+        
+        
+        
+        
+        
+        {
+            "type": "spotlight",
+            "title": "Magmator (Nitro)",
+            "anchor": "grey-powah-generators-magmator-nitro",
+            "item": "powah:magmator_nitro",
+            "text": "The Magmator is an FE generator that generates energy from high temperature fluids like lava. Higher tiers generate more FE, and generate it faster.$(br2) $(l:powah/generators#grey-powah-generators-toc)Back to TOC$()"
+        },
+        {
+            "type": "crafting",
+            "title": "Recipe",
+            "recipe": "powah:crafting/magmator_nitro",
+            "text": ""
+        },
+        
+        {
+            "type": "text",
+            "title": "Tricks",
+            "text": "I don't know any tricks, sorry"
+        },
+        {
+            "type": "empty"
+        }
+    ]
+}
