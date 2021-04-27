@@ -6,10 +6,10 @@
 	chatBoxCooldown = 10
 	#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range
 	#Range: 0 ~ 2147483646
-	playerDetMaxRange = 2147483646
+	playerDetMaxRange = 320
 	#Defines the maximum energy flow of the energy detector.
 	#Range: > 1
-	energyDetectorMaxFlow = 2147483647
+	energyDetectorMaxFlow = 2000000000
 
 #No comment
 [Features]
@@ -18,13 +18,13 @@
 	#Enable the Me Bridge or not.
 	enableMeBridge = true
 	#Enable the Rs Bridge or not.
-	enableRsBridge = true
+	enableRsBridge = false
 	#Enable the Player Detector or not.
 	enablePlayerDetector = true
 	#Enable the Environment Detector or not.
 	enableEnvironmentDetector = true
 	#Enable the Chunky Turtle or not.
-	enableChunkyTurtle = true
+	enableChunkyTurtle = false
 	#Enable the debug mode, you should only enable it, if a developer say it or something does not work.
 	enableDebugMode = false
 	#Enable the Energy Detector or not.
