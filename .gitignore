@@ -27,6 +27,7 @@ debug
 
 world/*
 !world/serverconfig
+!world/datapacks
 
 # clef's ABC folder and mods?
 !mods
