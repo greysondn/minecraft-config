@@ -6,9 +6,10 @@
 config/minecraft2discord.toml
 crash-reports
 eula.txt
-forge-1.16.5-36.0.42-installer.jar
-forge-1.16.5-36.0.42-installer.jar.log
-forge-1.16.5-36.0.42.jar
+forge.jar
+forge-1.16.5-*.jar
+forge-1.16.5-*.jar.log
+forge
 libraries
 logs
 minecraft_server.1.16.5.jar
