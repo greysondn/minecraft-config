@@ -14,6 +14,7 @@ libraries
 logs
 minecraft_server.1.16.5.jar
 mods
+mohist*.jar
 ops.json
 usercache.json
 usernamecache.json
