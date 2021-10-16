@@ -4,7 +4,7 @@
 
 
 mohist:
-  check_update: true
+  check_update: false
   lang: xx_XX
   custom_flags: aaaa bbbb
   check_libraries: true
